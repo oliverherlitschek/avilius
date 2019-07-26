@@ -1,4 +1,4 @@
-<?php
+ayo <?php
 
 require 'kirby/bootstrap.php';
 
