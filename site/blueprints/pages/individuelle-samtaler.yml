@@ -1,0 +1,22 @@
+title: Home
+icon: 🏠
+
+options:
+  status: false
+
+tabs:
+  content:
+    fields:
+      testimonials:
+        type: structure
+        fields:
+          quote:
+            label: Quote
+            type: text
+          author:
+            label: Who's it from?
+            type: textarea
+  meta:
+    type: fields
+    fields:
+      meta: fields/meta

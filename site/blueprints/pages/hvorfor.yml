@@ -1,0 +1,54 @@
+title: Hvorfor
+icon: ⁉️
+
+status:
+  draft: true
+  listed: true
+
+tabs:
+  content:
+    columns:
+      - width: 1/3
+        fields:
+          values:
+              label: Values
+              type: structure
+              max: 5
+              fields:
+                valuename:
+                  label: Name
+                  type: text
+                valuedescription:
+                  label: Description
+                  type: text
+          space:
+              label: Space
+              type: files
+          boardmembers:
+              label: Board members
+              type: structure
+              fields:
+                boardmembername:
+                  label: Name
+                  type: text
+                boardmemberdescription:
+                  label: Description
+                  type: textarea
+                  options:
+                      - link
+      - width: 1/3
+          sections:
+            staff:
+              extends: sections/personale
+              headline: Staff
+              status: listed
+              create: true
+      - width: 1/3
+          fields:
+            thankyou:
+              type: textarea
+              label: Thank you
+  meta:
+    type: fields
+    fields:
+      meta: fields/meta

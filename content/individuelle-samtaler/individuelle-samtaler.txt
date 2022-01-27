@@ -1,0 +1,59 @@
+Title: Individuelle samtaler
+
+----
+
+Testimonials:
+
+- 
+  quote: >
+    Det giver så meget god energi at tale
+    med dig 🌸 Det var rigtig givtigt og
+    skønt! Vi ses d. 7!
+  author: 'Tidligere klient om (link: ../team/esther-safir text: Esther)'
+- 
+  quote: >
+    ...simpelthen en fantastisk oplevelse.
+    Det var virkelig befriende! Tusinde tak!
+  author: 'Tidligere klient om (link: ../team/michelle-dait text: Michelle)'
+- 
+  quote: >
+    Det føltes faktisk lidt som at snakke
+    med en rigtig god veninde, som bare
+    havde mange flere kloge ting at sige.
+  author: 'Tidligere klient om (link: ../team/ragnhild-mohn text: Ragnhild)'
+- 
+  quote: >
+    Jonas var en redning for mig, i det jeg
+    stod i. Magen til behageligt, sympatisk,
+    kompetent, ærligt menneske har jeg
+    sjældent mødt. Kemien var der og
+    trygheden fulgte med, så der gik nok
+    ikke lang tid før jeg turde åbne helt
+    op
+  author: 'Tidligere klient om (link: ../team/jonas-schosler text: Jonas)'
+- 
+  quote: >
+    Jeg har været igennem et forløb hos
+    Tamara, der på mange måder har ændret
+    hele den måde jeg opfatter mig selv og
+    mine omgivelser på. Forløbet har uden
+    tvivl ændret mit liv.
+  author: 'Tidligere klient om (link: ../team/tamara-hansen text: Tamara)'
+
+----
+
+Seotitle: Individuel samtaleterapi
+
+----
+
+Seodescription: Det er så vigtigt, at du har det godt. Avilius tilbyder SU-venlige samtaler om dig og din mentale sundhed.
+
+----
+
+Seokeywords: 
+
+----
+
+Seoimage:
+
+- jonas-second.jpg
