@@ -107,9 +107,6 @@ tabs:
           quote:
             label: Quote
             type: text
-          author:
-            label: Who's it from?
-            type: textarea
       otherinfolabel:
         label: Other information
         type: headline
@@ -161,6 +158,21 @@ tabs:
               type: text
             description:
               label: Description
+              type: textarea
+      infolabel:
+        label: Practical information
+        type: headline
+      info:
+          type: structure
+          width: 1/2
+          fields:
+            infoheadline: Info headline
+              type: text
+            infoanswer:
+              label: Headline
+              type: text
+            infotext:
+              label: Text
               type: textarea
   meta:
     type: fields

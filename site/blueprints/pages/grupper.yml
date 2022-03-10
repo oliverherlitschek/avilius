@@ -23,6 +23,12 @@ tabs:
           tagline:
             label: Tagline
             type: text
+            width: 1/3
+          cover:
+            label: Cover
+            type: files
+            multiple: false
+            width: 1/3
           sessionheadline:
             label: Sessions headline
             type: text
@@ -50,13 +56,6 @@ tabs:
                 type: text
                 label: Gruppeterapi
                 width: 1/2
-          didyouknowlabel:
-            label: Did you know...
-            type: headline
-          didyouknow:
-            type: text
-            label: 
-            before: Did you know...
       - width: 1/2
         sections:
           groups: sections/grupper

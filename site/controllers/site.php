@@ -23,6 +23,9 @@ return function ($kirby)
             'rules' => ['required'],
             'message' => 'Indtast din alder',
         ],
+        'bookpronouns' => [
+            'message' => 'Indtast dine pronominer',
+        ],
         'bookpostalcode' => [
             'rules' => ['required'],
             'message' => 'Indtast dit postnummer',
@@ -98,6 +101,8 @@ return function ($kirby)
 			
 			$bookage  = get('bookage');
 
+			$bookpronouns  = get('bookpronouns');
+
 			$bookpostalcode  = get('bookpostalcode');
 
 			$bookphonenumber  = get('bookphonenumber');
@@ -114,7 +119,7 @@ return function ($kirby)
 
 			$message = '<html>
 		<body>
-            '.$bookname.', '.$bookage.' har skrevet:<br/><br/>
+            '.$bookname.', '.$bookage.' ('.$bookpronouns.') har skrevet:<br/><br/>
             '.$bookmessage.'<br/><br/>
             Kontakt:<br/>
             '.$bookphonenumber.' <br/>

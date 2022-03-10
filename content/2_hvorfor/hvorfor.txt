@@ -1,58 +1,73 @@
-Title: Hvorfor?
+Title: Om Avilius
+
+----
+
+Description: Ragnhild i vores allerførste, mikroskopiske terapilokale på Esromgade på Nørrebro i 2019.
+
+----
+
+Tagline: Vores mentale sundhed er dalende — så vi har taget sagen i egen hånd.
+
+----
+
+Cover:
+
+- team.jpg
 
 ----
 
 Values:
 
 - 
-  valuename: Empati
-  valuedescription: >
-    Vi er unge – ligesom dig. Vi ved,
-    hvilke udfordringer der kendertegner
-    vores generation og hvilken betydning
-    perfekthedskulturen,
-    præstationssamfundet og sociale medier
-    har for vores mentale trivsel.
+  valuename: Åbent
+  valuedescription: '[{"content":{"text":"<p>Test<\/p>"},"id":"6b219bea-ecc3-459f-a5e9-571cde9a109e","isHidden":false,"type":"text"},{"content":{"location":"web","image":[],"src":"https:\/\/images.unsplash.com\/photo-1603561029971-544a5e4ab55e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"626e3472-ca87-4ff5-8e42-255aa40393a5","isHidden":false,"type":"image"}]'
 - 
-  valuename: Vejledning
-  valuedescription: >
-    Det vigtigste for os er, at du selv
-    kommer frem til de beslutninger, der er
-    rigtige for dig. Med råd og vejledning
-    undersøger vi forskellige perspektiver
-    – men det er dig, der bestemmer over
-    livet og dets mange muligheder.
+  valuename: Varmt
+  valuedescription: '[{"content":{"text":"<p>Det vigtigste for os er, at du selv kommer frem til de beslutninger, der er rigtige for dig. Med r\u00e5d og vejledning unders\u00f8ger vi forskellige perspektiver \u2013 men det er dig, der bestemmer over livet og dets mange muligheder.<\/p>"},"id":"d90a8d7b-a84f-4ef9-bc35-40a17444a39f","isHidden":false,"type":"text"}]'
 - 
-  valuename: Støtte
-  valuedescription: >
-    Hos Avilius får du en partner, som kan
-    give dig en hjælpende hånd i de
-    situationer, der er svære at stå i
-    alene. Det at være i et rum, hvor man
-    kan sige alt højt og få anerkendt sine
-    tanker og følelser er en kraftfuld
-    oplevelse.
+  valuename: Eksperimenterende
+  valuedescription: '[{"content":{"text":"<p>Hos Avilius f\u00e5r du en partner, som kan give dig en hj\u00e6lpende h\u00e5nd i de situationer, der er sv\u00e6re at st\u00e5 i alene. Det at v\u00e6re i et rum, hvor man kan sige alt h\u00f8jt og f\u00e5 anerkendt sine tanker og f\u00f8lelser er en kraftfuld oplevelse.<\/p>"},"id":"fc7a2a5f-3cc7-4559-8bdc-c45006a4e577","isHidden":false,"type":"text"}]'
 - 
-  valuename: Udforskning
-  valuedescription: >
-    I psykologiens verden lærer man ved at
-    tale om sig selv. Når du indgår i et
-    terapeutisk forløb, vil du lære din
-    psyke og krop bedre at kende – og
-    lære, hvordan de to spiller sammen for
-    at opnå et stærkt og sundt mentalt
-    helbred.
+  valuename: Dannende
+  valuedescription: '[{"content":{"text":"<p>I psykologiens verden l\u00e6rer man ved at tale om sig selv. N\u00e5r du indg\u00e5r i et terapeutisk forl\u00f8b, vil du l\u00e6re din psyke og krop bedre at kende \u2013 og l\u00e6re, hvordan de to spiller sammen for at opn\u00e5 et st\u00e6rkt og sundt mentalt helbred.<\/p>"},"id":"740e8f2b-6cae-4e92-8b31-e30077a8d52d","isHidden":false,"type":"text"}]'
 - 
-  valuename: Alliance
-  valuedescription: >
-    Hjørnestenen af ethvert terapeutisk
-    forløb bygger på det, man i
-    psykologien kalder den terapeutiske
-    alliance – et fortroligt, fordomsfrit
-    og tillidsfuldt rum, hvor din terapeut
-    ikke dømmer og vurderer, men snarere
-    lytter og perspektiverer dine
-    oplevelser.
+  valuename: Fællesskabende
+  valuedescription: '[{"content":{"text":"<p>Hj\u00f8rnestenen af ethvert terapeutisk forl\u00f8b bygger p\u00e5 det, man i psykologien kalder den terapeutiske alliance \u2013 et fortroligt, fordomsfrit og tillidsfuldt rum, hvor din terapeut ikke d\u00f8mmer og vurderer, men snarere lytter og perspektiverer dine oplevelser.<\/p>"},"id":"2e416ce6-6da8-46ae-b5c1-55392dbccdd2","isHidden":false,"type":"text"}]'
+
+----
+
+Therapy:
+
+- 
+  question: Terapispørgsmål?
+  answer: '[{"content":{"text":"<p>Svar!<\/p>"},"id":"297bff4f-fe44-4f5c-a4fe-06f4cbd32570","isHidden":false,"type":"text"}]'
+
+----
+
+Business:
+
+- 
+  question: Forretnignsspørgmsål!
+  answer: '[{"content":{"text":"<p>Og her kommer svaret!<\/p>"},"id":"287a7142-83cb-441c-9a22-f2bf28f39e84","isHidden":false,"type":"text"}]'
+
+----
+
+Developmenttext:
+
+Udviklingstekst!
+
+#### Færdigt
+Her er hvad der skal ske
+
+Coming up
+
+----
+
+Development:
+
+- 
+  question: Udviklingsspørgsmål?
+  answer: '[{"content":{"text":"<p>Her er svaret!<\/p>"},"id":"e3a238a4-72c6-42e9-b103-2409cf93eee7","isHidden":false,"type":"text"},{"content":{"level":"h4","text":"FREMTIDIGE TILTAG"},"id":"1d6000c2-f5b6-4472-8cba-1c2e3219d2bc","isHidden":false,"type":"heading"},{"content":{"text":"<p>\u00b7 Ting<\/p>"},"id":"3582e0b6-3ef7-4e35-bde4-e10f4472ddf7","isHidden":false,"type":"text"}]'
 
 ----
 
@@ -68,6 +83,28 @@ Space:
 - avilius-space-5.jpg
 - avilius-space-9.jpg
 - avilius-space-10.jpg
+
+----
+
+Thankyou: til Sylvester Hindersson, Simon Størup, Lukas Morio, Yu Zhao, Martin Ejstrup, Daniel Emanuel, Elias Taxgaard, Anna-Regitze Vejby Voss, Bjarke Vejby, Jakob Eriksen, Phillip Pfeiffer, Nik Arthur, Sebastian Thorsted, Josephine Michaëlis og Mutti ❤️
+
+----
+
+Seotitle: Hvorfor Avilius?
+
+----
+
+Seodescription: Vores generation ikke, så vi har taget sagen i egen hånd. Læs mere om rejsen mod et sjovere ungdomsliv her.
+
+----
+
+Seokeywords: 
+
+----
+
+Seoimage:
+
+- avilius-mgmt.jpg
 
 ----
 
@@ -99,28 +136,6 @@ Boardmembers:
 
 ----
 
-Thankyou: til Sylvester Hindersson, Simon Størup, Lukas Morio, Yu Zhao, Martin Ejstrup, Daniel Emanuel, Elias Taxgaard, Anna-Regitze Vejby Voss, Bjarke Vejby, Jakob Eriksen, Phillip Pfeiffer, Nik Arthur, Sebastian Thorsted, Josephine Michaëlis og Mutti ❤️
-
-----
-
-Seotitle: Hvorfor Avilius?
-
-----
-
-Seodescription: Vores generation ikke, så vi har taget sagen i egen hånd. Læs mere om rejsen mod et sjovere ungdomsliv her.
-
-----
-
-Seokeywords: 
-
-----
-
-Seoimage:
-
-- avilius-mgmt.jpg
-
-----
-
 Staff:
 
 - hvorfor/jonas-schosler
@@ -132,14 +147,6 @@ Staff:
 ----
 
 Caption: Avilius arbejder med at få unge videre i teksten
-
-----
-
-Cover: - team.jpg
-
-----
-
-Description: Avilius er en reaktion på den stigende mistrivsel blandt unge. Vores mission er at gøre ungdomslivet sundere og sjovere at komme igennem, ved at tage tingene i opløbet og give støtte undervejs.
 
 ----
 

@@ -31,15 +31,17 @@
                 
                 ?>
 
-                <input type="text" class="w-half s-w-100 mb-1 s-mb-15" id="bookname" name="bookname" placeholder="Navn" value="<?= $data['bookname'] ?? '' ?>" required> 
+                <input type="text" class="w-100 m-w-100 mb-1 m-mb-15" id="bookname" name="bookname" placeholder="Navn" value="<?= $data['bookname'] ?? '' ?>" required>
 
-                <input type="number" class="w-quarter s-w-half mb-1 s-mb-15" id="bookage" name="bookage" placeholder="Alder" value="<?= $data['bookage'] ?? '' ?>" required>
+                <input type="number" class="w-half m-w-half mb-1 m-mb-15" id="bookage" name="bookage" placeholder="Alder" value="<?= $data['bookage'] ?? '' ?>" required>
 
-                <input type="number" class="w-quarter s-w-half mb-1 s-mb-15" id="bookpostalcode" name="bookpostalcode" placeholder="Postnummer" maxlength="4" minlength="4" value="<?= $data['bookpostalcode'] ?? '' ?>" required>
+                <input type="text" class="w-half m-w-half mb-1 m-mb-15" id="bookpronouns" name="bookpronouns" placeholder="Pronominer" value="<?= $data['bookpronouns'] ?? '' ?>"> 
 
-                <input type="tel" class="w-half s-w-100 mb-1 s-mb-15" id="bookphonenumber" name="bookphonenumber" placeholder="Telefonnummer" maxlength="8" minlength="8" value="<?= $data['bookphonenumber'] ?? '' ?>" required>
+                <input type="number" class="w-half m-w-100 mb-1 m-mb-15" id="bookpostalcode" name="bookpostalcode" placeholder="Postnummer" maxlength="4" minlength="4" value="<?= $data['bookpostalcode'] ?? '' ?>" required>
 
-                <input type="email" class="w-half s-w-100 mb-1 s-mb-15" id="bookemail" name="bookemail" placeholder="Email" value="<?= $data['bookemail'] ?? '' ?>" required>
+                <input type="tel" class="w-half m-w-100 mb-1 m-mb-15" id="bookphonenumber" name="bookphonenumber" placeholder="Telefonnummer" maxlength="8" minlength="8" value="<?= $data['bookphonenumber'] ?? '' ?>" required>
+
+                <input type="email" class="w-100 m-w-100 mb-1 m-mb-15" id="bookemail" name="bookemail" placeholder="Email" value="<?= $data['bookemail'] ?? '' ?>" required>
 
             <textarea id="bookmessage"  class="w-100" name="bookmessage" placeholder="Hvad skal vi tale om — og er der nogen, du helst vil tale med? Ordet er frit :)" required><?= $data['bookmessage'] ?? '' ?></textarea>
                 <label for="accept_terms" class="container mt-1"><p class="body s-small">Ja, jeg accepterer <a href="https://www.avilius.dk/blog/handelsbetingelser" title="Handelsbetingelser" target="_blank" class="underline">handelsbetingelserne</a> og <a href="https://www.avilius.dk/blog/privatlivspolitik" title="Data- og privatlivspolitik" target="_blank" class="underline">data- og privatlivspolitikken</a>.</p>

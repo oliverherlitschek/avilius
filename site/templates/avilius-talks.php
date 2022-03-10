@@ -1,7 +1,5 @@
 <?php snippet('header') ?>
 <?php snippet('nav') ?>
-
-<!-- new test -->
 <main>
 <article class="w-100 card-33 flex bg-brown">
   <div class="w-full m-c flex flex-wrap reveal">

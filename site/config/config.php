@@ -76,6 +76,9 @@ return [
                         'rules' => ['required'],
                         'message' => 'Indtast din alder',
                     ],
+                    'bookpronouns' => [
+                        'message' => 'Indtast dine pronominer',
+                    ],
                     'bookpostalcode' => [
                         'rules' => ['required'],
                         'message' => 'Indtast dit postnummer',
@@ -114,6 +117,7 @@ return [
 
                 $bookname = get('bookname');
                 $bookage  = get('bookage');
+                $bookpronouns  = get('bookpronouns');
                 $bookpostalcode  = get('bookpostalcode');
                 $bookphonenumber  = get('bookphonenumber');
                 $bookemail  = get('bookemail');
@@ -122,7 +126,7 @@ return [
 
                 $to = 'kontakt@avilius.dk';
                 $subject = 'Ny besked fra avilius.dk';
-                $message = '<html><body>'.$bookname.', '.$bookage.' har skrevet:<br/><br/>'.$bookmessage.'<br/><br/>
+                $message = '<html><body>'.$bookname.', '.$bookage.' ('.$bookpronouns.') har skrevet:<br/><br/>'.$bookmessage.'<br/><br/>
                 Kontakt:<br/>
                 '.$bookphonenumber.'<br/>
                 '.$bookemail.' <br/>

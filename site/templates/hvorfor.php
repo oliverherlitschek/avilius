@@ -1,175 +1,221 @@
 <?php snippet('header') ?>
+<?php snippet('cta') ?>
 <?php snippet('nav') ?>
 <main>
-<article class="w-100 bg-black">
-  <div class="w-66 m-c p-4 m-w-full s-w-100 s-pl-1 s-pr-1">
-  <h2 class="subheading c-white light s-body reveal">
-    Fordi vores generation ikke trives. Unges mentale sundhed er dalende — så vi har taget sagen i egen hånd.<br><br>For fremtidens skyld.
-  </h2>
-  </div>
+  <?php if ($cover = $page->cover()->toFile()): ?>
+<article class="w-100 bg-brown card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->url() ?>);">
+  <h1 class="subheadline c-white flex-end s-heading">
+    <?= $page->title() ?>
+  </h1>
+  <p class="smaller w-third ta-r mono c-white flex-end s-remove">
+    <?= $page->description() ?>
+  </p>
+</article>
+<?php endif ?>
+
+<article class="w-100 flex bg-white">
+    <div class="w-full m-c pt-4 pb-4 s-pt-1 s-pb-1">
+      <h3 class="ta-c c-purple subheading s-body light"><?= $page->tagline()->widont() ?></h3>
+    </div>
 </article>
 
-<article class="w-100 pt-2 bg-lgrey pb-2 p-1 flex flex-sb s-flex-wrap">
-  <div class="w-33 s-w-100 reveal">
-  <h3 class="subheadline c-purple light va-x m-heading s-subheading">Hvorfor Avilius?</h3>
-  </div>
-  <div class="w-66 s-w-100 reveal">
-  <p class="body light c-purple mb-1 s-small">Alt for mange unge ender i et limbo, når det handler om deres mentale sundhed. De har ikke råd til at opsøge hjælp udenom det offentlige sundhedssystem – men er heller ikke behandlingskrævende nok til at få hjælp hos lægen. Og så er de bange for at snakke om deres problemer, fordi det er tabubelagt at have rod i sindet og ondt i sjælen. Det gør vi op med i Avilius.</p>
-  <div class="tab tab-medium bb-black flex flex-sb va-c">
-    <div class="w-50 body">Fordi:</div><div class="w-50 body">Avilius tilbyder:</div>
-  </div>
-  <div class="tab tab-medium s-tab-small bb-black flex flex-sb va-c m-tab-large">
-    <div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0">Privat terapi er for dyrt</div><div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0">SU-venlige priser</div>
-  </div>
-  <div class="tab tab-medium s-tab-small bb-black flex flex-sb va-c m-tab-large">
-    <div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0">Mangel på relevant perspektiv</div><div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0">Ung-til-ung rådgivning</div>
-  </div>
-  <div class="tab tab-medium s-tab-small bb-black flex flex-sb va-c m-tab-large">
-    <div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0">Overdreven fokus på lidelser</div><div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0">Naturlig, kontinuerlig selvudvikling</div>
-  </div>
-
-  <div class="tab tab-medium s-tab-small bb-black flex flex-sb va-c m-tab-large">
-    <div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0">Systemet hjælper for sent</div><div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0">Tid og råd til at tage tingene i opløbet</div>
-  </div>
-  </div>
+<article class="w-100 flex bg-white h-90 s-h-60" id="om">
+  <section class="w-50 leaf flex va-c bg-lgrey">
+    <a href="#om" title="Om Avilius" class="mh-100 w-100 va-c c-purple s-small">Om Avilius</a>
+  </section>
+  <section class="w-50 leaf flex va-c bg-purple text-hover">
+    <a href="#faq" title="FAQ" class="mh-100 w-100 va-c c-white s-small">FAQ</a>
+  </section>
 </article>
 
-<article class="w-100 pt-2 pb-2 p-1 flex flex-sb flex-wrap">
-  <div class="w-50 m-w-33 s-w-100 reveal">
-  <h3 class="subheadline light va-x s-subheading">Vores metoder</h3>
+<article class="w-100 pt-4 bg-lgrey pb-2 p-1 s-p-15 s-pt-2">
+  <div class="w-100 w-1400 m-c flex flex-sb s-flex-wrap">
+  <section class="w-33 s-w-100">
+  <h3 class="subheadline c-purple light va-x m-heading s-subheading">Hvem står bag?</h3>
+  </section>
+  <section class="w-66 s-w-100">
+    <img src="/media/groups-test-pic.jpg" class="w-100 br-3">
+    <div class="flex flex-sb m-flex-wrap">
+    <p class="mt-1 w-half m-w-100 m-mb-1 s-small">
+      <span class="m-regular mb-15">Jonas Schøsler</span> <span class="mono uc smaller">&nbsp;CEO</span><br><span class="m-remove"><br></span>
+Jeg har længe været optaget af samfundets udvikling mod en institutionel og åndelig hyperindividualisering, hvor systemkritikken afløses af selvkritikken. Vi ser mange unge, der er optaget af performance, konkurrence, image m.m., hvilket skaber skrøbelige livsgrundlag og dermed skrøbelige mennesker, der hurtigt får det svært.
+    </p>
+    <p class="mt-1 w-half m-w-100 s-small">
+      <span class="m-regular mb-15">Oliver Herlitschek</span> <span class="mono uc smaller">&nbsp;COO</span><br><span class="m-remove"><br></span>
+Jeg interesserer mig for, hvordan design kan bruges til at kommunikere værdier. En filosof sagde engang, at “æstetik er etik”. Med andre ord — at dit kreative arbejde implicit afslører, hvad du står ret hurtigt, at det var svært at forene mine personlige værdier med reklamefilm for kæmpestore oliefirmaer. 
+    </p>
   </div>
-  <div class="w-50 mb-4 m-w-66 m-mb-2 s-w-100 reveal">
-  <p class="body light s-small">Menneskehjernen er et komplekst væsen. At løse og udforske personlige problematikker kræver næsten altid en unik metode. Alligevel møder vi i vores generation mange af de samme udfordringer. Vi har fundet frem til fem fremgangsmåder, der virker i kampen mod&nbsp;mistrivsel:</p>
-  </div>
-  <?php foreach ($page->values()->toStructure() as $value): ?>
-  <div class="tab-largest flex flex-sb w-100 va-c bb-black s-flex-wrap reveal">
-    <h3 class="subheading w-33 s-w-100 s-pt-15"><?= $value->valuename() ?></h3>
-    <p class="small w-66 m-pt-1 m-pb-1 s-w-100 s-pt-15"><?= $value->valuedescription()->widont() ?></p>
-  </div>
-  <?php endforeach ?>
+  </section>
+</div>
 </article>
 
-<article class="w-100 pt-2">
-	<div class="w-full m-c flex flex-sb s-flex-wrap">
-  <div class="w-50 s-w-100 reveal">
-  <h3 class="subheadline light va-x s-subheading">Trygge rammer</h3>
+<article class="w-100 pt-4 bg-lgrey s-pt-2">
+  <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
+  <div class="w-50 s-w-100">
+  <h3 class="subheadline c-purple light va-x m-heading s-subheading">Trygge rammer.</h3>
   </div>
-  <div class="w-50 s-w-100 reveal">
+  <div class="w-50 s-w-100">
   <p class="body light s-small">Trivsel behøver ikke at foregå på en briks. Hos Avilius er du ikke patient, men menneske. Vores lejlighed på Vesterbro er lys, hjemlig og rummelig. Sådan arbejder vi bedst.</p>
   </div>
 </div>
 </article>
 
-<article class="w-100 pb-2 pt-2 bg-white m-pb-2 s-pt-1 reveal">
-  <div class="w-100 room-slider m-room-slider pl-1 s-pl-0">
+<article class="w-100 pb-2 pt-2 bg-lgrey m-pb-2 s-pb-0 s-pt-1">
+  <section class="track flex pl-1 s-pl-15">
     <?php foreach (page('hvorfor')->space()->toFiles() as $photo): ?>
-    <div class="room-slider-img m-room-slider-img mr-1 s-mr-15">
-      <img src="<?= $photo->url() ?>" class="br-3">
+    <div class="mr-1 s-mr-15 h-full">
+      <img src="<?= $photo->url() ?>" class="br-3 h-full">
     </div>
   <?php endforeach ?>
-</div>
+</section>
 </article>
 
-<article class="w-100 pt-4 pb-4 m-c bg-brown m-pt-2 m-pb-2">
-	<section class="w-full m-c">
-        <h3 class="subheadline s-subheading">Hvem står bag?</h3>
-    </section>
-    <div class="w-full m-c flex flex-sb flex-wrap">
-    <?php foreach ($page->children()->limit(7)->shuffle() as $staff): ?>
-    <section class="w-33 mt-2 s-mt-1 s-w-half reveal">
-        <a href="<?= $staff->url() ?>" title="<?= $staff->title() ?>">
-        <div class="bg-purple br-30 br-10 bg-cc bg-c card-80 m-card-60" style="background-image: url(<?= $staff->image()->url() ?>);"> 
-        </div>
-      <div>
-        <h3 class="body ta-c mt-10 s-small"><span class="text-hover"><?= $staff->firstname() ?></span></h3>
-      </div>
-      </a>
-    </section>
-    <?php endforeach ?>
-    <?php foreach ($page->children()->offset(7)->limit(1) as $staff): ?>
-    <section class="w-66 mt-2 s-mt-1 s-w-half reveal-fade">
-        <a href="<?= $staff->url() ?>" title="<?= $staff->title() ?>">
-        <div class="bg-purple br-30 br-10 bg-cc bg-c card-80 m-card-60" style="background-image: url(<?= $staff->image()->url() ?>);"> 
-        </div>
-      <div>
-        <h3 class="body ta-c mt-10 s-small"><span class="text-hover"><?= $staff->firstname() ?></span></h3>
-      </div>
-      </a>
-    </section>
-    <?php endforeach ?>
-</div>
-</article>
-
-<article class="w-100 m-c pt-4 pb-1 p-1 flex flex-sb bg-black m-pt-2 s-flex-wrap">
-    <section class="w-50 sticky s-no-stick s-w-100">
-        <h3 class="subheadline c-white va-x s-subheading">Advisory Board</h3>
-    </section>
-    <section class="w-50 s-w-100">
-      <div class="bb-white">
-      <?php foreach ($page->boardmembers()->toStructure()->shuffle() as $boardmember): ?>
-      <input type="checkbox" id="<?= $boardmember->boardmembername()->slug() ?>" hidden />
+<article class="w-100 pt-4 bg-lgrey s-pt-2 s-pb-2">
+  <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
+  <div class="w-33 m-w-33 s-w-100">
+  <h3 class="subheadline c-purple light va-x m-heading s-subheading">Avilius er&hellip;</h3>
+  </div>
+  <div class="w-66 mb-4 m-mb-2 s-w-100">
+  <p class="body light s-small">Menneskehjernen er et komplekst væsen. At løse og udforske personlige problematikker kræver næsten altid en unik metode. Alligevel møder vi i vores generation mange af de samme udfordringer. Vi har fundet frem til fem fremgangsmåder, der virker i kampen mod&nbsp;mistrivsel:</p>
+  <div class="bb-black mt-1">
+  <?php foreach ($page->values()->toStructure() as $value): ?>
+      <input type="checkbox" id="<?= $value->valuename()->slug() ?>" hidden />
       <div class="accordion ac-large">
-    <label for="<?= $boardmember->boardmembername()->slug() ?>" class="tab tab-large bt-white va-c">
-      <h3 class="c-white body tab-button s-small">
-        <?= $boardmember->boardmembername() ?>
+    <label for="<?= $value->valuename()->slug() ?>" class="tab tab-button tab-large bt-black va-c flex flex-sb pl-15 pr-15">
+      <h3 class="c-purple body s-small">
+        <?= $value->valuename() ?>
       </h3>
+      <svg  class="tab-x" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+        <g>
+          <rect class="bar1" x="9" y="0" width="2" height="20" fill="#2E233D"/>
+          <rect class="bar2" x="0" y="9" width="20" height="2" fill="#2E233D"/>
+        </g>
+      </svg>
     </label>
-      <div class="c-white pl-1 pr-1 pb-1 s-small s-pl-0 s-pr-0">
-        <?= $boardmember->boardmemberdescription()->kirbytext() ?>
+      <div class="c-purple pl-15 pr-15 pb-1 s-small">
+        <?= $value->valuedescription()->toBlocks() ?>
       </div>
     </div>
     <?php endforeach ?>
+  </div></div>
+</div>
+</article>
+
+<article class="w-100 flex bg-lgrey h-90 s-h-60" id="faq">
+  <section class="w-50 leaf flex va-c bg-white">
+    <a href="#om" title="Om Avilius" class="mh-100 w-100 va-c c-purple s-small">Om Avilius</a>
+  </section>
+  <section class="w-50 leaf flex va-c bg-purple text-hover">
+    <a href="#faq" title="FAQ" class="mh-100 w-100 va-c c-white s-small">FAQ</a>
+  </section>
+</article>
+
+<article class="w-100 pt-4 bg-purple s-pb-2">
+  <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
+  <div class="w-33 m-w-33 s-w-100">
+  <h3 class="heading c-white light va-x s-subheading s-mb-1">Terapi og&nbsp;etik</h3>
+  </div>
+  <div class="w-66 mb-4 m-mb-2 s-w-100 bb-white">
+  <?php foreach ($page->therapy()->toStructure() as $value): ?>
+      <input type="checkbox" id="<?= $value->question()->slug() ?>" hidden />
+      <div class="accordion ac-large">
+    <label for="<?= $value->question()->slug() ?>" class="tab tab-button tab-large bt-white va-c flex flex-sb pl-15 pr-15">
+      <h3 class="c-white body s-small">
+        <?= $value->question() ?>
+      </h3>
+      <svg  class="tab-x" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+        <g>
+          <rect class="bar1" x="9" y="0" width="2" height="20" fill="#ffffff"/>
+          <rect class="bar2" x="0" y="9" width="20" height="2" fill="#ffffff"/>
+        </g>
+      </svg>
+    </label>
+      <div class="c-white pl-15 pr-15 pb-1 s-small">
+        <?= $value->answer()->toBlocks() ?>
+      </div>
     </div>
-    </section>
+    <?php endforeach ?>
+  </div>
+</div>
 </article>
 
-<article class="w-100 pt-2 pb-1 bg-black p-1 flex flex-sb s-flex-wrap">
-  <div class="w-50 sticky s-no-stick s-w-100">
-  <h3 class="subheadline c-white light va-x s-subheading">Etik&nbsp;og henvisning</h3>
+<article class="w-100 pt-4 bg-purple s-pb-2 s-pt-0">
+  <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
+  <div class="w-33 m-w-33 s-w-100">
+  <h3 class="heading c-white light va-x s-subheading s-mb-1">Økonomi og forretning</h3>
   </div>
-  <div class="w-50 s-w-100">
-  <p class="body c-white light s-small">Vi er en gruppe af studerende — ikke psykologer. Derfor kender vi vigtigheden af at kunne identificere, når en klients problematik er for alvorlig for vores kompetencer.<br><br>Ugentlig supervision med Faezeh Zand, autoriseret psykolog og post-doc. ved Institut for Psykologi på Københavns Universitet, sikrer at alle cases bliver behandlet forsvarligt — eller henvist til psykiater, psykolog eller læge efter behov.</p>
+  <div class="w-66 mb-4 m-mb-2 s-w-100 bb-white">
+  <?php foreach ($page->business()->toStructure() as $value): ?>
+      <input type="checkbox" id="<?= $value->question()->slug() ?>" hidden />
+      <div class="accordion ac-large">
+    <label for="<?= $value->question()->slug() ?>" class="tab tab-button tab-large bt-white va-c flex flex-sb pl-15 pr-15">
+      <h3 class="c-white body s-small">
+        <?= $value->question() ?>
+      </h3>
+      <svg  class="tab-x" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+        <g>
+          <rect class="bar1" x="9" y="0" width="2" height="20" fill="#ffffff"/>
+          <rect class="bar2" x="0" y="9" width="20" height="2" fill="#ffffff"/>
+        </g>
+      </svg>
+    </label>
+      <div class="c-white pl-15 pr-15 pb-1 s-small">
+        <?= $value->answer()->toBlocks() ?>
+      </div>
+    </div>
+    <?php endforeach ?>
+  </div>
   </div>
 </article>
 
-<article class="w-100 pt-2 pb-1 bg-black p-1 flex flex-sb s-flex-wrap">
-  <div class="w-50 sticky s-no-stick s-w-100">
-  <h3 class="subheadline c-white light va-x s-subheading">Finansiering</h3>
+<article class="w-100 pt-4 bg-purple s-pb-2 s-pt-0">
+  <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
+  <div class="w-33 m-w-33 s-w-100">
+  <h3 class="heading c-white light va-x s-subheading s-mb-1">Roadmap og udvikling</h3>
   </div>
-  <div class="w-50 s-w-100">
-  <p class="body c-white light s-small">Avilius startede i august 2019 som et selvfinansieret projekt, supporteret af et par SU-lån til at betale regningerne. I maj 2020 vandt vi 25.000 kr. til en fundraising-konkurrence supporteret af <a href="https://www.tuborgfondet.dk/" title="Tuborgfondet" target="_blank" class="underline">Tuborgfondet</a>.<br><br>I dag har virksomheden en sund økonomi, der er dedikeret til at udvikle Avilius til gavn for unges mentale trivsel :)</p>
+  <div class="w-66 mb-4 m-mb-2 s-w-100 bb-white">
+    <div class="mb-1 c-white s-small">
+      <?= $page->developmenttext()->kirbytext()->nl2br()->widont() ?>
+      <p class="smaller uc mono mt-1"><span class="blink">●</span>&nbsp;Sidst opdateret: <?php echo date("F Y");?> </p>
+    </div>
+  <?php foreach ($page->development()->toStructure() as $value): ?>
+      <input type="checkbox" id="<?= $value->question()->slug() ?>" hidden />
+      <div class="accordion ac-large">
+    <label for="<?= $value->question()->slug() ?>" class="tab tab-button tab-large bt-white va-c flex flex-sb pl-15 pr-15">
+      <h3 class="c-white body s-small">
+        <?= $value->question() ?>
+      </h3>
+      <svg  class="tab-x" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+        <g>
+          <rect class="bar1" x="9" y="0" width="2" height="20" fill="#ffffff"/>
+          <rect class="bar2" x="0" y="9" width="20" height="2" fill="#ffffff"/>
+        </g>
+      </svg>
+    </label>
+      <div class="c-white pl-15 pr-15 pb-1 s-small">
+        <?= $value->answer()->toBlocks() ?>
+      </div>
+    </div>
+    <?php endforeach ?>
+  </div>
   </div>
 </article>
 
-<article class="w-100 pt-2 pb-1 bg-black p-1 flex flex-sb s-flex-wrap">
-  <div class="w-50 sticky s-no-stick s-w-100">
-  <h3 class="heading c-white light va-x s-subheading">Tak</h3>
-  </div>
-  <div class="w-50 s-w-100">
-  <p class="small mono c-white light s-smaller"><?= $page->thankyou() ?></p>
-  </div>
-</article>
 
-<article class="bg-black">
-<article class="w-full m-c pt-4 pb-4 flex flex-sb va-c bg-black m-two-up m-pt-2 m-pb-2">
-  <div class="w-33 m-c image-fill reveal">
-    <a href="../individuelle-samtaler" title="Individuelle samtaler" class="text-hover">
-      <?php foreach (page('team')->children()->listed()->not('team/michelle-dait')->not('team/ragnhild-mohn')->shuffle()->limit(1) as $member): ?>
-          <?php if ($portrait = $member->portrait()->toFile()): ?>
-            <img src="<?= $portrait->url() ?>" class="m-c br-10 br-30">
-          <?php endif ?>
-      <?php endforeach ?>
-        <h3 class="body c-white ta-c mt-10 s-small"><span class="text-hover">Individuelle samtaler</span></h3>
-      </a>
+<article class="w-100 bg-brown">
+  <section class="h-66 s-card-33 w-full w-1400 m-c va-c flex flex-wrap">
+  <div class="w-100 m-c pt-4 pb-4 s-p-1 s-pt-2 s-pb-2">
+  <p class="body regular ta-c mb-15 s-small">
+    Er Avilius det rigtige for dig?
+  </p>
+    <p class="body light ta-c s-small mb-1">
+    Skriv til os og fortæl, hvordan det går <span class="s-remove"><br></span>– så finder vi ud af det&nbsp;sammen.</p>
+    <div class="w-100 m-c ta-c">
+    <button class="book-button c-purple h-60 br-10 br-30 m-c m-10 bg-lpurple ta-c mono small s-smaller pl-1 pr-1">Skriv til os</button> <button class="call-button c-purple h-60 br-10 br-30 m-c m-10 s-m-0 bg-white ta-c mono small s-smaller pl-1 pr-1">Book et opkald ☎️</button>
   </div>
-
-  <div class="w-33 m-c image-fill reveal">
-    <a href="../grupper" title="Gruppeforløb" class="text-hover">
-            <img src="<?= image('grupper/Grupper-Avilius-Hero-Resized.jpg')->url() ?>" class="br-10 br-30">
-        <h3 class="body c-white ta-c mt-10 s-small"><span class="text-hover">Gruppeforløb</span></h3>
-      </a>
   </div>
-</article>
+</section>
+  <?php snippet('call') ?>
 </article>
 
 </main>

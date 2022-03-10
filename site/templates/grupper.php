@@ -1,210 +1,131 @@
 <?php snippet('header') ?>
+<?php snippet('cta') ?>
 <?php snippet('nav') ?>
-
-
-<main>
-<article class="w-100 flex bg-black h-66 bg-cc bg-c" style="background-image: url(<?= image('Grupper-Avilius-Hero-Resized.jpg')->url() ?>);">
-  <div class="w-100 reveal flex-end">
-    <div class="w-full p-15 pb-1">
-      <h2 class="c-white headline-scale s-heading reveal-2"><?= $page->headline()->widont() ?></h2>
-    </div>
-  </div>
+<main class="bg-lgrey">
+  <?php if ($cover = $page->cover()->toFile()): ?>
+<article class="w-100 card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->url() ?>);">
+  <h1 class="subheadline c-white flex-end s-heading">
+    <?= $page->title() ?>
+  </h1>
 </article>
+<?php endif ?>
 
-<article class="w-100 flex bg-lpurple">
-    <div class="w-full m-c pt-2 pb-2 s-pt-1 s-pb-1">
-      <h3 class="ta-c c-purple subheading s-body light reveal"><?= $page->tagline()->widont() ?></h3>
+<article class="w-100 flex bg-white">
+    <div class="w-full m-c pt-4 pb-4 s-pt-1 s-pb-1">
+      <h3 class="ta-c c-purple subheading s-body light"><?= $page->tagline()->widont() ?></h3>
     </div>
 </article>
 
-<article class="w-100 m-c pt-4 pb-1 p-1 flex flex-sb m-pt-2 s-flex-wrap">
-    <section class="w-33 sticky s-no-stick s-w-100 pb-1 reveal">
-        <h3 class="heading va-x s-subheading"><?= $page->sessionheadline()->widont() ?></h3>
-        <p class="body light s-small"><?= $page->sessiontext()->widont() ?><br><br>Mangler du et forløb, der passer til&nbsp;dig?<br><br><a href="mailto:kontakt@avilius.dk?subject=Forslag til et gruppeforløb" title="Foreslå et gruppeforløb">Skriv til os</a></p>
-    </section>
-    <section class="w-50 s-w-100">
-      <div class="bb-black">
-      <?php foreach (page('grupper')->children()->listed() as $group): ?>
-        <input type="checkbox" id="<?= $group->title()->slug() ?>" hidden />
-        <a href="<?= $group->url() ?>" title="<?= $group->title() ?>">
-        <div class="tab tab-large bt-black va-c pl-1 pr-15 pb-1 pt-1 s-pl-0 s-pr-0 s-pt-15 s-pb-15 reveal">
-            <div class="mono smaller mr-1 uc s-smallest s-mr-15">
-              <?php if ($group->dates()->isEmpty()): ?>
-              Venteliste
-              <?php else: ?>
-              <?php foreach ($group->dates()->toStructure()->limit(1) as $startdate): ?>
-          <?= $startdate->introdate() ?>
-        <?php endforeach ?>
-        <?php endif ?>
-            </div>
-            <h3 class="body tab-button s-small"><?= $group->title()->widont() ?></h3>
-            <?php if ($pic = $group->cover()->toFile()): ?>
-            <img src="<?= $pic->url() ?>" title="<?= $group->title() ?>" class="tab-button blog-thumb br-3 br-30 ml-1">
-            <?php endif ?>
-          </div>
-      </a>
-      <?php endforeach ?>
+<article class="w-100 pt-4 s-pt-2 s-pb-2">
+<section class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
+    <div class="w-33 m-w-33 s-w-100">
+      <h3 class="heading c-purple light va-x m-subheading"><?= $page->comparisonheadline()->widont() ?></h3>
     </div>
-    </section>
+    <div class="w-half mb-2 s-w-100">
+      <p class="body light s-small"><?= $page->comparisontext()->widont() ?></p>
+    </div>
+  </section>
 </article>
 
-<?php foreach (page('grupper')->children()->listed()->limit(1) as $group): ?>
-<article class="w-100 bg-lgrey pt-2 pb-2 s-pb-1">
-  <div class="w-full m-c flex flex-sb reveal">
-    <div class="w-50 s-w-66">
-      <?php if ($group->dates()->isEmpty()): ?>
-        <p class="mono smaller uc s-smallest">Næste hold<span class="s-remove">start</span>: Venteliste</p>
-      <?php else: ?>
-        <p class="mono smaller uc s-smallest">Næste hold<span class="s-remove">start</span>: <?php foreach ($group->dates()->toStructure()->limit(1) as $startdate): ?>
-            <?= $startdate->introdate() ?>
-        <?php endforeach ?></p>
-      <?php endif ?>
-    </div>
-  </div>
-  <a href="<?= $group->url() ?>" title="<?= $group->title() ?>">
-    <div class="w-full m-c flex mt-10 bg-white video-portrait-container br-10 br-30 s-reverse">
-      <div class="w-66 m-1 mt-2 mr-1 s-m-15 s-mt-1 s-w-100 s-pt-15 s-pb-15">
-        <h4 class="heading light va-x m-heading s-body"><?= $group->title() ?></h4>
-        <p class="body s-small">
-          <?= $group->intro()->widont() ?><br><br>
-        <span class="dash">Læs mere &RightArrow;</span></p>
-      </div>
-      <?php if ($hero = $group->cover()->toFile()): ?>
-      <div class="w-33 bg-cc bg-c mh-100 s-h-50 s-w-100" style="
-  background-image:url(<?= $hero->resize(1000, null, 70)->url() ?>);">
-      </div>
-      <?php endif ?>
-    </div>
-  </a>
-  <div class="sticker mono uc ta-c va-c m-c spin bg-lgreen c-black smallest reveal-2">Nyt<br>forløb!</div>
-</article>
-<?php endforeach ?>
-
-<article class="w-100 bg-lgrey pt-2 pb-1 p-1 flex flex-sb s-flex-wrap s-w-100 s-pt-2 s-p-15">
-  <div class="w-33 s-w-100 reveal">
-  <h3 class="heading s-w-100 va-x m-heading s-subheading"><?= $page->comparisonheadline()->widont() ?></h3>
-  </div>
-  <div class="w-66 s-w-full reveal">
-  <p class="body light c-purple mb-1 s-small"><?= $page->comparisontext()->widont() ?></p>
-  </div>
-</article>
-
-<article class="w-100 bg-lgrey pb-2">
-  <div class="w-full m-c reveal">
+<article class="w-100 pb-2">
+  <section class="w-full w-1400 m-c">
   <div class="tab tab-medium bb-black flex flex-sb va-c">
-    <div class="w-50 body s-small">Individuel terapi er...</div><div class="w-50 body s-small">Gruppeterapi er...</div>
+    <div class="w-50 body s-small"><a href="../individuelle-samtaler" target="_blank" title="Individuel terapi" class="underline">Individuel</a> terapi er...</div><div class="w-50 body s-small">Gruppeterapi er...</div>
   </div>
   <?php foreach ($page->comparisons()->toStructure() as $comparison): ?>
   <div class="tab tab-medium s-tab-small bb-black flex flex-sb va-c m-tab-large">
     <div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0"><?= $comparison->individual() ?></div><div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0"><?= $comparison->group() ?></div>
   </div>
-  <?php endforeach ?></p>
-</article>
-
-<?php foreach (page('grupper')->children()->listed()->offset(1)->limit(1) as $group): ?>
-<article class="w-100 bg-lgrey pt-1 pb-2 s-pb-1">
-  <div class="w-full m-c flex flex-sb reveal">
-    <div class="w-50 s-w-66">
-      <?php if ($group->dates()->isEmpty()): ?>
-        <p class="mono smaller uc s-smallest">Næste hold<span class="s-remove">start</span>: Venteliste</p>
-      <?php else: ?>
-        <p class="mono smaller uc s-smallest">Næste hold<span class="s-remove">start</span>: <?php foreach ($group->dates()->toStructure()->limit(1) as $startdate): ?>
-            <?= $startdate->introdate() ?>
-        <?php endforeach ?></p>
-      <?php endif ?>
-    </div>
-    <div class="w-50 s-w-33">
-      <p class="mono smaller uc ta-r s-smallest"><span class="blink c-dgreen">●</span>&nbsp;<?= $group->spots() ?></p>
-    </div>
-  </div>
-  <a href="<?= $group->url() ?>" title="<?= $group->title() ?>">
-    <div class="w-full m-c flex mt-10 bg-white video-portrait-container br-10 br-30 s-reverse reveal">
-      <div class="w-66 m-1 mt-2 mr-1 s-m-15 s-mt-1 s-w-100 s-pt-15 s-pb-15">
-        <h4 class="heading light va-x m-heading s-body"><?= $group->title() ?></h4>
-        <p class="body s-small">
-          <?= $group->intro()->widont() ?><br><br>
-        <span class="dash">Læs mere &RightArrow;</span></p>
-      </div>
-      <?php if ($hero = $group->cover()->toFile()): ?>
-      <div class="w-33 bg-cc bg-c mh-100 s-h-50 s-w-100" style="
-  background-image:url(<?= $hero->resize(1000, null, 70)->url() ?>);">
-      </div>
-      <?php endif ?>
-    </div>
-  </a>
-</article>
-<?php endforeach ?>
-
-<article class="w-100 m-c bg-white pt-4 pb-4 flex flex-sb m-pt-2 m-pb-2 bg-lgrey">
-  <div class="w-100 m-c as-c slideshow-testimonials reveal">
-    <?php foreach ($page->children()->listed()->pluck('testimonials') as $testimonial): ?>
-    <?php foreach ($testimonial->toStructure() as $testi): ?>
-    <div class="m-c as-c ta-c mt-2 mb-2 s-m-0">
-      <h3 class="subheading light w-66 m-w-66 m-c s-body">"<?= $testi->quote()->widont() ?>"</h3>
-      <p class="smaller mono a-underline mt-1 s-smallest">
-    &mdash;&nbsp;<?= $testi->author()->kirbytextinline() ?></p>
-  </div>
   <?php endforeach ?>
-  <?php endforeach ?>
-</div>
+</section>
 </article>
 
-<?php foreach (page('grupper')->children()->listed()->offset(2)->limit(1) as $group): ?>
-<article class="w-100 bg-purple pt-1 pb-2 s-pb-1">
-  <div class="w-full m-c flex flex-sb c-white ">
-    <div class="w-50 s-w-66">
-      <?php if ($group->dates()->isEmpty()): ?>
-        <p class="mono smaller uc s-smallest">Næste hold<span class="s-remove">start</span>: Venteliste</p>
+<?php foreach (page('grupper')->children()->listed()->limit(1) as $group): ?>
+<article class="w-100 h-80 bg-blue">
+  <a href="<?= $group->url() ?>" title="<?= $group->title() ?>" class="text-hover">
+    <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
+      <div class="w-half m-w-third s-w-100 image-fill">
+          <?php if ($portrait = $group->cover()->toFile()): ?>
+            <img src="<?= $portrait->resize(1000, null, 90)->url() ?>" class="m-c br-3 br-30">
+          <?php endif ?>
+  </div>
+      <div class="w-third flex-end m-w-half s-w-100 s-mt-1">
+      <p class="mono smaller uc pb-15 s-smallest"><?php if ($group->dates()->isEmpty()): ?>
+        Næste hold<span class="s-remove">start</span>: Venteliste
       <?php else: ?>
-        <p class="mono smaller uc s-smallest">Næste hold<span class="s-remove">start</span>: <?php foreach ($group->dates()->toStructure()->limit(1) as $startdate): ?>
+        Næste hold<span class="s-remove">start</span>: <?php foreach ($group->dates()->toStructure()->limit(1) as $startdate): ?>
             <?= $startdate->introdate() ?>
-        <?php endforeach ?></p>
-      <?php endif ?>
-    </div>
-    <div class="w-50 s-w-33">
-      <p class="mono smaller uc ta-r s-smallest"><span class="blink c-dgreen">●</span>&nbsp;<?= $group->spots() ?></p>
-    </div>
-  </div>
-  <a href="<?= $group->url() ?>" title="<?= $group->title() ?>">
-    <div class="w-full m-c flex mt-10 bg-white video-portrait-container br-10 br-30 s-reverse reveal">
-      <div class="w-66 m-1 mt-2 mr-1 s-m-15 s-mt-1 s-w-100 s-pt-15 s-pb-15">
-        <h4 class="heading light va-x m-heading s-body"><?= $group->title() ?></h4>
-        <p class="body s-small">
-          <?= $group->intro()->widont() ?><br><br>
-        <span class="dash">Læs mere &RightArrow;</span></p>
-      </div>
-      <?php if ($hero = $group->cover()->toFile()): ?>
-      <div class="w-33 bg-cc bg-c mh-100 s-h-50 s-w-100" style="
-  background-image:url(<?= $hero->resize(1000, null, 70)->url() ?>);">
-      </div>
-      <?php endif ?>
-    </div>
-  </a>
-</article>
-<?php endforeach ?>
-
-<article class="w-100 bg-purple va-c flex-wrap">
-  <div class="w-33 mt-4 mb-4 m-w-66 s-w-full m-c s-mt-1 s-mb-2 reveal">
-  <h4 class="mono uc smaller c-white regular ta-c mb-15 s-smallest">
-    Vidste du...
-  </h4>
-    <h4 class="body c-white light ta-c s-small">
-      <?= $page->didyouknow()->widont() ?></h4>
-  </div>
-</article>
-
-<article class="w-100 m-c pt-4 pb-2 p-1 m-pt-2 bg-purple">
-    <section class="w-100 pb-1 c-white">
-        <h3 class="heading va-x s-subheading">Næste holdstart</h3>
+        <?php endforeach ?>
+      <?php endif ?></p>
+  <h5 class="subheadline va-x m-heading s-subheading"><?= $group->title() ?></h5>
+      <p class="body mb-1 s-small">
+      <?= $group->intro()->widont() ?></p>
+      <p class="dash mb-1 s-small">Læs mere&nbsp;&nbsp;&RightArrow;</p>
     </section>
-    <section class="w-100">
-      <div class="bb-white c-white">
+  </a>
+</article>
+<?php endforeach ?>
+
+<article class="w-100 m-c pt-4 pb-4 flex flex-sb m-pt-2 m-pb-2 s-p-0 bb-grey bg-lgrey">
+  <section class="w-100 w-1400 m-c va-c slideshow-testimonials c-purple">
+    <?php foreach ($page->children()->listed()->pluck('testimonials') as $testimonial): ?>
+      <?php foreach ($testimonial->toStructure() as $testi): ?>
+        <div class="m-c w-100 flex va-c">
+          <div class="w-50 m-w-66 m-c mt-4 mb-4">
+          <p class="uc mono smaller s-smallest mb-15">Tidligere deltager i <a href="<?= $testi->parent()->url(); ?>" target="_blank" title="<?= $testi->parent()->title(); ?>"><?= $testi->parent()->title(); ?></a>:</p>
+            <p class="body m-c s-small"><?= $testi->quote()->widont(); ?></p>
+        </div>
+        </div>
+        <?php endforeach ?>
+    <?php endforeach ?>
+  </section>
+</article>
+
+<article class="w-100 pt-4 s-pt-2 s-pb-2">
+  <section class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
+    <div class="w-33 m-w-33 s-w-100">
+      <h3 class="heading c-purple light va-x m-subheading">Vores grupper</h3>
+    </div>
+    <div class="w-half mb-2 s-w-100">
+      <p class="body light s-small">Vi udvikler gruppeforløb baseret på de temaer, vi oplever som gennemgående i individuel terapi. På den måde sikrer vi, at vi laver relevant og effektiv gruppeterapi.</p>
+    </div>
+  </section>
+</article>
+
+<article class="w-100 pb-2 pt-2 c-purple bb-grey">
+  <section class="track flex">
+    <?php foreach (page('grupper')->children()->listed()->shuffle() as $gruppe): ?>
+      <?php if ($cover = $gruppe->cover()->toFile()): ?>
+        <div class="w-third m-w-half bg-cc bg-c c-white flex br-3 br-30 ml-1 s-ml-15" style="background-image: url(<?= $cover->url() ?>)">
+          <a href="<?= $gruppe->url() ?>" class="w-100 p-1 flex flex-wrap flex-sb s-pt-15 s-pb-15 s-pl-15 s-pr-15" title="<?= $gruppe->title() ?>">
+            <h3 class="s-small"><span class="text-hover"><?= $gruppe->title() ?></span></h3>
+            <div class="w-100 flex-end">
+              <h3 class="c-white mono uc smaller ta-r s-smallest">
+                <?= $gruppe->price() ?>,-
+              </h3>
+            </div>
+          </a>
+        </div>
+      <?php endif ?>
+    <?php endforeach ?>
+  </section>
+</article>
+
+<article class="w-100 pt-4 s-pt-2 s-pb-2">
+  <section class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
+    <div class="w-33 m-w-33 s-w-100">
+      <h3 class="subheadline c-purple light va-x m-heading s-subheading"><?= $page->sessionheadline() ?></h3>
+      <p class="body light s-small"><?= $page->sessiontext()->widont() ?></p>
+    </div>
+    <div class="w-66 mb-4 m-mb-2 s-w-100">
+
+    <div class="mt-1 bb-grey">
       <?php foreach (page('grupper')->children()->listed() as $group): ?>
         <input type="checkbox" id="<?= $group->title()->slug() ?>" hidden />
         <a href="<?= $group->url() ?>" title="<?= $group->title() ?>">
-        <div class="tab tab-large bt-white va-c pl-1 pr-15 pb-1 pt-1 s-pl-0 s-pr-0 s-pt-15 s-pb-15 reveal">
-            <div class="mono smaller mr-1 uc s-smallest s-mr-15 w-quarter">
-
+        <div class="tab-button tab-large bt-grey flex flex-sb pl-15 pr-15 s-p-0">
+            <h3 class="c-purple tab-button body s-small as-c"><span class="dash"><?= $group->title() ?>&nbsp;&nbsp;&RightArrow;</span></h3>
+            <p class="c-purple mono smaller uc as-c">
               <?php if ($group->dates()->isEmpty()): ?>
               Venteliste
               <?php else: ?>
@@ -212,39 +133,45 @@
           <?= $startdate->introdate() ?>
         <?php endforeach ?>
         <?php endif ?>
-            </div>
-            <h3 class="body tab-button s-small"><?= $group->title()->widont() ?></h3>
-            <?php if ($pic = $group->cover()->toFile()): ?>
-            <img src="<?= $pic->url() ?>" title="<?= $group->title() ?>" class="tab-button blog-thumb br-3 br-30 ml-1">
-            <?php endif ?>
+            </p>
           </div>
       </a>
       <?php endforeach ?>
     </div>
-    </section>
+
+  </div>
+</section>
 </article>
 
-<article class="bg-brown pt-3 pb-4 s-pt-2 s-pb-2">
-  <a href="../individuelle-samtaler" title="Individuelle samtaler" class="text-hover">
-<div class="flex flex-sb va-c">  
-  <div class="w-50 m-c reveal-2">
-    <h4 class="heading mb-15 s-body">
-    Ikke så glad for&nbsp;holdsport?
-  </h4>
-    <h4 class="body light s-small">
-    Vi tilbyder også individuelle&nbsp;samtaler.<br><br>
-    Læs mere&nbsp;<span class="dash">&RightArrow;</span></h4>
-  </div>
-  <div class="w-25 m-c image-fill reveal">
-      <?php foreach (page('team')->children()->listed()->shuffle()->limit(1) as $member): ?>
-          <?php if ($portrait = $member->portrait()->toFile()): ?>
-            <img src="<?= $portrait->url() ?>" class="m-c br-10 br-30">
-          <?php endif ?>
-      <?php endforeach ?>
-  </div>
-</div>
-</a>
+<article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(/media/Avilius-Parterapi-Test-pic.jpg);">
+  <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pt-1 s-pb-2 c-white flex flex-wrap flex-sb">
+    <div class="w-33 m-w-half flex-end s-w-100">
+      <a href="../individuelle-samtaler" title="Individuel terapi">
+      <p class="mono smaller uc pb-15 s-smallest">Individuel terapi</p>
+      <h5 class="subheadline va-x m-heading s-subheading">Er du mere til soloviolin?</h5>
+      <p class="body mb-1 s-small">
+      Vi tror på, at vores fælles fremtid har en fælles løsning – men har også individuel terapi til dig, der vil ordne tingene selv.</p>
+      <p class="dash s-small">Individuel terapi&nbsp;&nbsp;&RightArrow;</p>
+    </a>
+  </section>
 </article>
+
+<article class="w-100 bg-brown">
+  <section class="h-66 s-card-33 w-full w-1400 m-c va-c flex flex-wrap">
+  <div class="w-100 m-c pt-4 pb-4 s-p-1 s-pt-2 s-pb-2">
+  <p class="body regular ta-c mb-15 s-small">
+    Er Avilius det rigtige for dig?
+  </p>
+    <p class="body light ta-c s-small mb-1">
+    Skriv til os og fortæl, hvordan det går <span class="s-remove"><br></span>– så finder vi ud af det&nbsp;sammen.</p>
+    <div class="w-100 m-c ta-c">
+    <button class="book-button c-purple h-60 br-10 br-30 m-c m-10 bg-lpurple ta-c mono small s-smaller pl-1 pr-1">Skriv til os</button> <button class="call-button c-purple h-60 br-10 br-30 m-c m-10 s-m-0 bg-white ta-c mono small s-smaller pl-1 pr-1">Book et opkald ☎️</button>
+  </div>
+  </div>
+</section>
+  <?php snippet('call') ?>
+</article>
+
 
 </main>
 <?php snippet('newform') ?>

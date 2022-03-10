@@ -18,14 +18,30 @@ tabs:
               label: Email
               type: email
               width: 1/4
-          lastbooked:
-              label: Last booked
-              type: number
-              width: 1/4
           capacity:
-              label: Capacity
-              type: number
-              width: 1/4
+              label: Vacant spots?
+              type: toggle
+              width: 1/2
+          price:
+              label: Price
+              type: text
+              width: 1/3
+          pricedetails:
+              label: Price details
+              type: textarea
+              width: 1/3
+          length:
+              label: Length
+              type: text
+              width: 1/3
+          course:
+              label: Course
+              type: text
+              width: 1/2
+          coursedetails:
+              label: Course details
+              type: textarea
+              width: 1/2
           video:
               label: Video
               type: files
@@ -49,11 +65,7 @@ tabs:
               multiple: false
           experience:
               label: Experience
-              type: structure
-              fields:
-                headline:
-                  label: Headline
-                  type: text
+              type: tags
           testimonials:
               label: Testimonials
               type: structure

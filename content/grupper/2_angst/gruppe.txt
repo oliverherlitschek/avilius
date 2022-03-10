@@ -193,6 +193,19 @@ Program:
 
 ----
 
+Info:
+
+- 
+  infoheadline: Pris
+  infoanswer: '333,- per gang'
+  infotext: ""
+- 
+  infoheadline: Uddybende spørgsmål
+  infoanswer: Svaret
+  infotext: Teksten til svaret
+
+----
+
 Seotitle: Angst – et gruppeforløb fra Avilius
 
 ----
