@@ -65,7 +65,29 @@ tabs:
               cover: true
               ratio: 16/9
             info: " {{ page.therapist }}"
-        
+      - width: 1/1
+        fields:
+          individuelsplash:
+            type: headline
+            label: Individuel splash
+          individuelsplashphoto:
+            label: Photo
+            type: files
+            multiple: false
+            width: 1/4
+          individuelsplashheadline:
+            type: text
+            label: Headline
+            width: 1/4
+          individuelsplashdescription:
+            type: textarea
+            label: Description
+            width: 1/4
+          individuelsplashcta:
+            type: text
+            label: CTA
+            width: 1/4
+          
 
   meta:
     type: fields

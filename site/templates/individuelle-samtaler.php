@@ -4,66 +4,16 @@
 <main class="bg-lgrey">
 <article class="w-100 bg-brown card-80 s-card-60">
   <div class="slideshow-hero">
+    <?php foreach ($page->heroslide()->toStructure() as $slide): ?>
     <div class="w-100">
-          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(/media/Avilius-Stress.jpg);">
-            <h2 class="headline-scale c-white flex-end s-heading">Stresset?</h2>
+      <?php if ($photo = $slide->herophoto()->toFile()): ?>
+          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(<?= $photo->url() ?>);">
+            <h2 class="headline-scale c-white flex-end s-heading"><?= $slide->herotitle() ?></h2>
           </div>
-        </div>
-
-        <div class="w-100">
-          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(/media/Avilius-Angst.jpg);">
-            <h2 class="headline-scale c-white flex-end s-heading">Angsttanker?</h2>
-          </div>
-        </div>
-
-        <div class="w-100">
-          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(/media/Avilius-Tvivl.jpg);">
-            <h2 class="headline-scale c-white flex-end s-heading">I tvivl?</h2>
-          </div>
-        </div>
-
-        <div class="w-100">
-          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(/media/Avilius-Tankemylder.jpg);">
-            <h2 class="headline-scale c-white flex-end s-heading">Tankemylder?</h2>
-          </div>
-        </div>
-
-        <div class="w-100">
-          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(/media/Avilius-Sex.jpg);">
-            <h2 class="headline-scale c-white flex-end s-heading">Følsom?</h2>
-          </div>
-        </div>
-
-        <div class="w-100">
-          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(/media/Avilius-Ensomhed.jpg);">
-            <h2 class="headline-scale c-white flex-end s-heading">Ensom?</h2>
-          </div>
-        </div>
-
-        <div class="w-100">
-          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(/media/Avilius-Kaerlighed.jpg);">
-            <h2 class="headline-scale c-white flex-end s-heading">Hjertesorg?</h2>
-          </div>
-        </div>
-
-        <div class="w-100">
-          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(/media/Avilius-Retningsloeshed.jpg);">
-            <h2 class="headline-scale c-white flex-end s-heading">Retningsløs?</h2>
-          </div>
-        </div>
-
-        <div class="w-100">
-          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(/media/Avilius-Relationer.jpg);">
-            <h2 class="headline-scale c-white flex-end s-heading">Svære relationer?</h2>
-          </div>
-        </div>
-
-        <div class="w-100">
-          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(/media/Avilius-Identitet.jpg);">
-            <h2 class="headline-scale c-white flex-end s-heading">Identitetskrise?</h2>
-          </div>
-        </div>
+        <?php endif ?>
       </div>
+    <?php endforeach ?>
+  </div>
 </article>
 
 <article class="w-100 flex bg-white">
@@ -103,25 +53,23 @@
 </div>
 </article>
 
+<?php if ($portrait = $page->teamsplashphoto()->toFile()): ?>
 <article class="w-100 h-80 bg-blue">
   <a href="../team" title="Team" class="text-hover">
     <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
       <div class="w-half m-w-third s-w-100 image-fill">
-      <?php foreach (page('team')->children()->listed()->shuffle()->limit(1) as $member): ?>
-          <?php if ($portrait = $member->portrait()->toFile()): ?>
-            <img src="<?= $portrait->url() ?>" class="m-c br-3 br-30">
-          <?php endif ?>
-      <?php endforeach ?>
-  </div>
+        <img src="<?= $portrait->url() ?>" class="m-c br-3 br-30">
+      </div>
       <div class="w-third flex-end m-w-half s-w-100 s-mt-1">
       <p class="mono smaller uc pb-15 s-smallest">Team</p>
-  <h5 class="subheadline va-x m-heading s-subheading">21 af de bedste.</h5>
+  <h5 class="subheadline va-x m-heading s-subheading"><?= $page->teamsplashheadline() ?></h5>
       <p class="body mb-1 s-small">
-      Vi er en gruppe psykologistuderende på én mission – at få mistrivslen blandt vores generation på ret kurs.</p>
-      <p class="dash mb-1 s-small">Mød holdet&nbsp;&nbsp;&RightArrow;</p>
+      <?= $page->teamsplashdescription()->widont() ?></p>
+      <p class="dash mb-1 s-small"><?= $page->teamsplashcta() ?>&nbsp;&nbsp;&RightArrow;</p>
     </section>
   </a>
 </article>
+<?php endif ?>
 
 <article class="w-100 m-c pt-4 pb-4 flex flex-sb m-pt-2 m-pb-2 s-p-0 bb-grey bg-lgrey">
   <section class="w-100 w-1400 m-c va-c slideshow-testimonials c-purple">
@@ -161,20 +109,23 @@
       </div>
 </article>
 
+<?php if ($portrait = $page->roomsplashphoto()->toFile()): ?>
 <article class="w-100 h-80 bg-purple">
   <a href="" title="Book et besøg" class="book-button text-hover">
-    <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-white flex flex-wrap flex-sb">
-      <div class="w-half s-w-100 flex-end image-fill">
-            <img src="../media/Avilius-Space-2.jpg" class="m-c br-3 br-30">
-  </div>
-      <div class="w-third flex-end m-w-half s-w-100 s-mt-1">
-  <h5 class="subheadline va-x m-heading s-subheading">Trygge rammer.</h5>
+    <section class="w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
+      <div class="w-half m-w-third s-w-100 image-fill">
+        <img src="<?= $portrait->url() ?>" class="m-c br-3 br-30">
+      </div>
+      <div class="w-third flex-end m-w-half s-w-100 s-mt-1 c-white">
+      <p class="mono smaller uc pb-15 s-smallest">Trygge rammer</p>
+  <h5 class="subheadline va-x m-heading s-subheading"><?= $page->roomsplashheadline() ?></h5>
       <p class="body mb-1 s-small">
-      Vores samtalehus ligger på Vesterbro og danner ramme om xyz.</p>
-      <p class="dash mb-1 s-small">Book et besøg&nbsp;&nbsp;&RightArrow;</p>
+      <?= $page->roomsplashdescription()->widont() ?></p>
+      <p class="dash mb-1 s-small"><?= $page->roomsplashcta() ?>&nbsp;&nbsp;&RightArrow;</p>
     </section>
   </a>
 </article>
+<?php endif ?>
 
 <article class="w-100 pt-4 bg-lgrey s-pt-2 s-pb-2">
   <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap s-reverse">
@@ -200,7 +151,7 @@
       </svg>
     </label>
       <div class="c-purple pl-15 pr-15 pb-1 s-small">
-        <p>Tekst</p>
+        <p><?= $page->wages()->kirbytextinline() ?></p>
       </div>
     </div>
   </div>
@@ -220,7 +171,7 @@
       </svg>
     </label>
       <div class="c-purple pl-15 pr-15 pb-1 s-small">
-        <p>Tekst</p>
+         <p><?= $page->administration()->kirbytextinline() ?></p>
       </div>
     </div>
   </div>
@@ -240,7 +191,7 @@
       </svg>
     </label>
       <div class="c-purple pl-15 pr-15 pb-1 s-small">
-        <p>Tekst</p>
+        <p><?= $page->supervision()->kirbytextinline() ?></p>
       </div>
     </div>
   </div>
@@ -260,7 +211,7 @@
       </svg>
     </label>
       <div class="c-purple pl-15 pr-15 pb-1 s-small">
-        <p>Tekst</p>
+        <p><?= $page->revenue()->kirbytextinline() ?></p>
       </div>
     </div>
   </div>
@@ -285,18 +236,21 @@
 </div>
 </article>
 
-<article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(/media/Avilius-Parterapi-Test-pic.jpg);">
+<?php if ($portrait = $page->groupsplashphoto()->toFile()): ?>
+<article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(<?= $portrait->url() ?>);">
   <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pt-1 s-pb-2 c-white flex flex-wrap flex-sb">
     <div class="w-33 m-w-half flex-end s-w-100">
-      <a href="/grupper" title="Gruppeforløb">
+      <a href="../grupper" title="Gruppeterapi">
       <p class="mono smaller uc pb-15 s-smallest">Gruppeterapi</p>
-      <h5 class="subheadline va-x m-heading s-subheading">Er du mere til holdsport?</h5>
+      <h5 class="subheadline va-x m-heading s-subheading"><?= $page->groupsplashheadline() ?></h5>
       <p class="body mb-1 s-small">
-      Vi mener, at gruppeterapi er fremtiden for vores generation, så vi har udviklet nogle forløb specifikt til os selv.</p>
-      <p class="dash s-small">Gruppeforløb&nbsp;&nbsp;&RightArrow;</p>
+      <?= $page->groupsplashdescription()->widont() ?></p>
+      <p class="dash s-small"><?= $page->groupsplashcta() ?>&nbsp;&nbsp;&RightArrow;</p>
     </a>
   </section>
 </article>
+<?php endif ?>
+
 
 <article class="w-100 bg-brown">
   <section class="h-66 s-card-33 w-full w-1400 m-c va-c flex flex-wrap">

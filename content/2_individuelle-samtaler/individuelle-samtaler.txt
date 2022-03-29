@@ -2,6 +2,35 @@ Title: Individuelle samtaler
 
 ----
 
+Heroslide:
+
+- 
+  herophoto:
+    - avilius-tvivl.jpg
+  herotitle: Tankemylder i hovedet?
+- 
+  herophoto:
+    - avilius-stress.jpg
+  herotitle: Stresset?
+- 
+  herophoto:
+    - avilius-kaerlighed.jpg
+  herotitle: Ondt i hjertet?
+- 
+  herophoto:
+    - avilius-tankemylder.jpg
+  herotitle: Ekstra sårbar?
+- 
+  herophoto:
+    - avilius-ensomhed.jpg
+  herotitle: Vred på verden?
+- 
+  herophoto:
+    - avilius-retningsloeshed.jpg
+  herotitle: Bekymret for planeten?
+
+----
+
 Tagline: Vi vi gerne hjælpe.
 
 ----
@@ -17,6 +46,24 @@ Howto:
 - 
   howtoname: 3. Vi planlægger dit forløb sammen
   howtodescription: 'Sammen aftaler vi dit videre forløb, så det passer til dig og din hverdag. Vi hjælper dig med at nå din målsætning — om det er ugentligt, månedligt eller ved behov er helt op til dig.<br><br>Vi glæder os til at møde dig!'
+
+----
+
+Teamsplashphoto:
+
+- signe-lyngholm-avilius-4-team.jpg
+
+----
+
+Teamsplashheadline: 21 af de bedste.
+
+----
+
+Teamsplashdescription: Vi er en gruppe psykologistuderende på én mission – at få mistrivslen blandt vores generation på ret kurs.
+
+----
+
+Teamsplashcta: Mød holdet
 
 ----
 
@@ -61,6 +108,58 @@ Testimonials:
 ----
 
 Foryou: Ensomhed, Tristhed, Mindreværd, Lavt selvværd, Minoritetsstress, Seksualitet, Hjertesorg, Lisvkriser, Tomhed, Skam, Tankemylder, Egenomsorg, Usikkerhed, Identitetskrise, Fremmedgørelse, Grænsesætning, Perfektioniske, Barndomstraumer, Rastløshed, Eksamensangst, Sorg
+
+----
+
+Roomsplashphoto:
+
+- avilius-space-2.jpg
+
+----
+
+Roomsplashheadline: Kom indenfor.
+
+----
+
+Roomsplashdescription: Hos Avilius er du ikke en klient, men et menneske. Vi arbejder bedst i trygge, hjemlige omgivelser.
+
+----
+
+Roomsplashcta: Book et besøg
+
+----
+
+Wages: Over halvdelen af prisen per session går til din terapeut. Som terapeut i Avilius tjener man en timeløn på 140 kr. plus 70 kr. for 30 minutters forberedelse.
+
+----
+
+Administration: Alle de (overraskende mange!) udgifter forbundet ved terapien. Det er primært husleje, forsikringer og andre kedelige praktiske ting.
+
+----
+
+Supervision: For at sikre en høj faglig standard, har vi tilknyttet de bedste psykologer og terapeuter til at supervisere os. Det betyder, at de en gang om ugen kommer og hjælper os med sværere cases, generelle problemstillinger og udvikling af vores kompetencer.
+
+----
+
+Revenue: Afhængig af de andre udgifter er der ofte en lille smule overskud i hver samtale. Overskuddet bruger vi til at tilbyde vores ydelser til f.eks. udsatte minoritetsgrupper, skoler og andre institutioner. Læs mere om det her.
+
+----
+
+Groupsplashphoto:
+
+- avilius-ensomhed.jpg
+
+----
+
+Groupsplashheadline: Er du mere til holdsport?
+
+----
+
+Groupsplashdescription: Vi mener, at gruppeterapi er fremtiden for vores generation, så vi har udviklet gruppeforløb om de ting, vi gerne vil tale om.
+
+----
+
+Groupsplashcta: Mød dit nye hold
 
 ----
 

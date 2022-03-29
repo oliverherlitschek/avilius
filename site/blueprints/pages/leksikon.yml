@@ -2,7 +2,7 @@ title: Leksikon
 icon: 📚
 
 options:
-  status: false
+  status: true
 
 tabs:
   content:

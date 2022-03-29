@@ -17,7 +17,7 @@ tabs:
         label: Cover image for Groups page
         type: files
         multiple: false
-        width: 1/2
+        width: 1/4
         layout: cards
         size: tiny
         image:
@@ -26,7 +26,7 @@ tabs:
       intro:
         label: Excerpt for Groups page
         type: textarea
-        width: 1/2
+        width: 3/4
       topelementlabel:
         label: Top element
         type: headline
@@ -40,6 +40,10 @@ tabs:
         image:
           ratio: 16/9
           cover: true
+      description:
+        label: Description
+        type: textarea
+        width: 1/4
       length:
         label: Length
         placeholder: 8 ugers forløb
@@ -51,20 +55,6 @@ tabs:
         after: ,-
         type: text
         width: 1/4
-      email:
-        label: Contact email
-        default: kontakt@avilius.dk
-        type: email
-        width: 1/4
-      conditions:
-        label: Payment conditions
-        placeholder: Kan betales i 2, 4 eller 8 rater
-        type: text
-        width: 1/2
-      description:
-        label: Description
-        type: textarea
-        width: 1/2
       tickerlabel:
         label: Ticker
         type: headline
@@ -89,14 +79,14 @@ tabs:
         image:
           ratio: 16/9
           cover: true
-      therapist:
-        label: Name of group leader(s)
-        type: text
-        width: 1/4
       therapistintro:
         label: Bio of group leader(s)
         type: textarea
         width: 1/2
+      therapist:
+        label: Name of group leader(s)
+        type: text
+        width: 1/4
       testimoniallabel:
         label: Testimonials
         type: headline
@@ -149,10 +139,7 @@ tabs:
           label: Program
           type: structure
           width: 1/2
-          info: First one should be 0
           fields:
-            number: Session number
-              type: text
             headline:
               label: Headline
               type: text

@@ -10,7 +10,7 @@
       <?php if ($portrait = $member->portrait()->toFile()): ?>
         <div class="bg-cc mb-1 s-mb-15 bg-c br-3 br-30 c-white flex team-member" style="background-image: url(<?= $portrait->url() ?>)">
           <a href="<?= $member->url() ?>" class="w-100 pb-15 flex flex-wrap flex-sb s-pt-15 s-pb-15 s-pl-15" title="<?= $member->title() ?>">
-            <div class="flex-end team-member-scroll-fix">
+            <div class="flex-end of-h">
             <h3 class="heading light s-body flex-end ml-1 mb-15 s-m-0"><?= $member->firstname() ?></h3>
             <div class="w-100 s-remove" style="overflow-x:scroll;">
               <div class="flex pl-1 mr-1 s-pl-15 s-mr-15">

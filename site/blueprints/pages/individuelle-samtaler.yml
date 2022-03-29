@@ -2,24 +2,62 @@ title: Individuel terapi
 icon: 🏠
 
 options:
-  status: false
+  status: true
 
 tabs:
   content:
     fields:
+      heroslideshow:
+        type: headline
+        label: Intro and how to-element
+      heroslide:
+        type: structure
+        label: Hero slides
+        fields:
+          herophoto:
+            type: files
+            multiple: false
+            label: Photo
+          herotitle:
+            type: text
+            label: Headline
       tagline:
           label: Tagline
           type: text
       howto:
-          label: How to get started
-          type: structure
-          fields:
-            howtoname:
-              label: Name
-              type: text
-            howtodescription:
-              label: Description
-              type: textarea
+        label: How to get started
+        type: structure
+        fields:
+          howtoname:
+            label: Name
+            type: text
+          howtodescription:
+            label: Description
+            type: textarea
+      line-a:
+        type: line
+      teamsplash:
+        type: headline
+        label: Team splash
+      teamsplashphoto:
+        label: Photo
+        type: files
+        multiple: false
+        width: 1/4
+      teamsplashheadline:
+        type: text
+        label: Headline
+        width: 1/4
+      teamsplashdescription:
+        type: textarea
+        label: Description
+        width: 1/4
+      teamsplashcta:
+        type: text
+        label: CTA
+        width: 1/4
+      line-b:
+        type: line
       testimonials:
         type: structure
         fields:
@@ -29,9 +67,76 @@ tabs:
           author:
             label: Who's it from?
             type: textarea
+      line-c:
+        type: line
       foryou:
         label: Reasons to start therapy
         type: tags
+      line-d:
+        type: line
+      roomsplash:
+        type: headline
+        label: Room splash
+      roomsplashphoto:
+        label: Photo
+        type: files
+        multiple: false
+        width: 1/4
+      roomsplashheadline:
+        type: text
+        label: Headline
+        width: 1/4
+      roomsplashdescription:
+        type: textarea
+        label: Description
+        width: 1/4
+      roomsplashcta:
+        type: text
+        label: CTA
+        width: 1/4
+      line-d:
+        type: line
+      transparency:
+        type: headline
+        label: Transparency element
+      wages:
+        type: textarea
+        label: Løn til din terapeut
+        width: 1/4
+      administration:
+        type: textarea
+        label: Administration
+        width: 1/4
+      supervision:
+        type: textarea
+        label: Supervision
+        width: 1/4
+      revenue:
+        type: textarea
+        label: Overskud
+        width: 1/4
+      line-e:
+        type: line
+      groupsplash:
+        type: headline
+        label: Group splash
+      groupsplashphoto:
+        label: Photo
+        type: files
+        multiple: false
+        width: 1/4
+      groupsplashheadline:
+        type: text
+        label: Headline
+        width: 1/4
+      groupsplashdescription:
+        type: textarea
+        label: Description
+        width: 1/4
+      groupsplashcta:
+        type: text
+        label: CTA
+        width: 1/4
   meta:
     type: fields
     fields:

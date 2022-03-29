@@ -143,18 +143,20 @@
 </section>
 </article>
 
-<article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(/media/Avilius-Parterapi-Test-pic.jpg);">
+<?php if ($portrait = $page->individuelsplashphoto()->toFile()): ?>
+<article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(<?= $portrait->url() ?>);">
   <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pt-1 s-pb-2 c-white flex flex-wrap flex-sb">
     <div class="w-33 m-w-half flex-end s-w-100">
       <a href="../individuelle-samtaler" title="Individuel terapi">
       <p class="mono smaller uc pb-15 s-smallest">Individuel terapi</p>
-      <h5 class="subheadline va-x m-heading s-subheading">Er du mere til soloviolin?</h5>
+      <h5 class="subheadline va-x m-heading s-subheading"><?= $page->individuelsplashheadline() ?></h5>
       <p class="body mb-1 s-small">
-      Vi tror på, at vores fælles fremtid har en fælles løsning – men har også individuel terapi til dig, der vil ordne tingene selv.</p>
-      <p class="dash s-small">Individuel terapi&nbsp;&nbsp;&RightArrow;</p>
+      <?= $page->individuelsplashdescription()->widont() ?></p>
+      <p class="dash s-small"><?= $page->individuelsplashcta() ?>&nbsp;&nbsp;&RightArrow;</p>
     </a>
   </section>
 </article>
+<?php endif ?>
 
 <article class="w-100 bg-brown">
   <section class="h-66 s-card-33 w-full w-1400 m-c va-c flex flex-wrap">

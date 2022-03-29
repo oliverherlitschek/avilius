@@ -1,4 +1,99 @@
-Title: Samtaleterapi til unge
+Title: Avilius
+
+----
+
+Individuelphoto:
+
+- >
+  rachad-koleilat-avilius-samtaleterapi.jpg
+
+----
+
+Individuelprice: 399
+
+----
+
+Individueldescription: Én time, der kun handler om dig – i selskab med en kommende psykolog.
+
+----
+
+Gruppephoto: 
+
+----
+
+Gruppeprice: 299
+
+----
+
+Gruppedescription: Vi er mere ens, end vi lige går og tror. Gruppeterapi om fx. selvværd og angsttanker.
+
+----
+
+Kaerestephoto: 
+
+----
+
+Kaeresteprice: 899
+
+----
+
+Kaerestedescription: Parterapi lyder for kedeligt. Til jer med et godt forhold, I gerne vil gøre endnu bedre!
+
+----
+
+Individuelsplashheadline: Det hele handler om dig.
+
+----
+
+Individuelsplashdescription: Vi startede med en simpel idé: 1 times samtaleterapi til en god pris. Det synes vi stadig er en god idé.
+
+----
+
+Individuelsplashcta: Udforsk individuel terapi
+
+----
+
+Teamsplashphoto: - juliane-hemmingsen-avilius-1-team.jpg
+
+----
+
+Teamsplashheadline: De bedste af de bedste.
+
+----
+
+Teamsplashdescription: Vi er 21 unge psykologistuderende – så vi er cirka samme sted i livet, som du selv er.
+
+----
+
+Teamsplashcta: Sig hej
+
+----
+
+Gruppesplashheadline: Livet er en holdsport.
+
+----
+
+Gruppesplashdescription: Vi lever i et ekstremt individualiseret samfund – men oplever tit de samme udfordringer i livet. Vores grupper tager udgangspunkt i vores generations problematikker.
+
+----
+
+Gruppesplashcta: Alle grupper
+
+----
+
+Kaerestesplashphoto: - avilius-kaeresteterapi-1.jpg
+
+----
+
+Kaerestesplashheadline: Det handler om jer.
+
+----
+
+Kaerestesplashdescription: Beskrivelse af kæresteterapi
+
+----
+
+Kaerestesplashcta: Find tosomheden
 
 ----
 
@@ -14,9 +109,7 @@ Seokeywords: terapi, psykolog københavn, ung terapi, skoletræt, præstationsan
 
 ----
 
-Seoimage:
-
-- sedsel-main-portrait.jpg
+Seoimage: - sedsel-main-portrait.jpg
 
 ----
 

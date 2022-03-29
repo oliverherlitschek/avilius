@@ -10,6 +10,10 @@ Tagline: Vi laver gruppeterapi målrettet det gode ungdomsliv.
 
 ----
 
+Cover: 
+
+----
+
 Sessionheadline: Næste holdstart
 
 ----
@@ -46,7 +50,21 @@ Comparisons:
 
 ----
 
-Didyouknow: At de fleste studier viser, at gruppeterapi har en langt større terapeutisk effekt end individuel terapi?
+Individuelsplashphoto:
+
+- oscar-lui-bjerre-avilius-4.jpg
+
+----
+
+Individuelsplashheadline: 1v1?
+
+----
+
+Individuelsplashdescription: Vi tror på, at vores fælles fremtid har en fælles løsning – men tilbyder også individuel terapi til dig, der vil ordne tingene selv.
+
+----
+
+Individuelsplashcta: Kom i gang
 
 ----
 
@@ -65,6 +83,10 @@ Seokeywords: kærlighed, gruppeforløb, kulturclash, præstationspres, præstati
 Seoimage:
 
 - Grupper-Avilius-Hero-Resized.jpg
+
+----
+
+Didyouknow: At de fleste studier viser, at gruppeterapi har en langt større terapeutisk effekt end individuel terapi?
 
 ----
 
@@ -207,7 +229,3 @@ Introduction:
         "type": "paragraph"
     }
 ]
-
-----
-
-Cover: - boger.jpg

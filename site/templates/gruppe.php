@@ -57,7 +57,7 @@
         </div>
 </article>
 
-<article class="w-100 pt-4 s-pt-2 s-pb-2">
+<article class="w-100 pt-4 s-pt-2 s-pb-2 bt-grey">
   <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
   <div class="w-33 s-w-100">
   <h3 class="subheadline c-purple light va-x m-heading s-subheading">Program</h3>

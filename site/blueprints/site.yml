@@ -23,10 +23,6 @@ tabs:
                 type: number
                 default: 12
                 width: 1/4
-              toggle:
-                type: toggle
-                label: Sold out?
-                width: 1/4
           quotes:
             type: structure
             label: Quotes
@@ -44,34 +40,11 @@ tabs:
               author:
                 label: Who's it from?
                 type: textarea
-          eventphoto:
-            label: Photo for Talks section
-            type: files
-            multiple: false
-          guest:
-            label: Guest name
-            type: text
-            size: small
-          eventdescription:
-            label: Short description
-            type: textarea
-          eventdate:
-            label: Date
-            type: date
-          toggle:
-            label: Podcast or ticket link?
-            type: toggle
-            text:
-              - Podcast
-              - Ticket
-          eventlink:
-            label: Podcast/ticket url
-            type: url
       - width: 1/2
         sections:
           pages:
             type: pages
-            sortable: false
+            sortable: true
             delete: false
           team: sections/team
 

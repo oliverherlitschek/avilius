@@ -2,17 +2,147 @@ title: Home
 icon: 🏠
 
 options:
-  status: false
+  status: true
+  url: true
 
 tabs:
   content:
-    fields:
-      info:
-        label: Info
-        type: info
-        text: |
-          Alle forside-felter styres fra forsiden af /panel
-  
+    columns:
+      - width: 1/3
+        fields:
+          individuelterapi:
+            type: headline
+            label: Individuel terapi
+          individuelphoto:
+            type: files
+            multiple: false
+            label: Photo
+            width: 1/3
+          individuelprice:
+            type: number
+            label: Price
+            width: 1/3
+          individueldescription:
+            type: textarea
+            label: Description
+            width: 1/3
+      - width: 1/3
+        fields:
+          gruppeterapi:
+            type: headline
+            label: Gruppeterapi
+          gruppephoto:
+            type: files
+            multiple: false
+            label: Photo
+            width: 1/3
+          gruppeprice:
+            type: number
+            label: Price
+            width: 1/3
+          gruppedescription:
+            type: textarea
+            label: Description
+            width: 1/3
+      - width: 1/3
+        fields:
+          kaeresteterapi:
+            type: headline
+            label: Kæresteterapi
+          kaerestephoto:
+            type: files
+            multiple: false
+            label: Photo
+            width: 1/3
+          kaeresteprice:
+            type: number
+            label: Price
+            width: 1/3
+          kaerestedescription:
+            type: textarea
+            label: Description
+            width: 1/3
+      - width: 1/1
+        fields:
+          line-a:
+            type: line
+          individuelsplash:
+            type: headline
+            label: Individuel terapi splash
+          individuelsplashheadline:
+            type: text
+            label: Headline
+            width: 1/4
+          individuelsplashdescription:
+            type: textarea
+            label: Description
+            width: 1/4
+          individuelsplashcta:
+            type: text
+            label: CTA
+            width: 1/4
+          line-b:
+            type: line
+          teamsplash:
+            type: headline
+            label: Team splash
+          teamsplashphoto:
+            label: Photo
+            type: files
+            multiple: false
+            width: 1/4
+          teamsplashheadline:
+            type: text
+            label: Headline
+            width: 1/4
+          teamsplashdescription:
+            type: textarea
+            label: Description
+            width: 1/4
+          teamsplashcta:
+            type: text
+            label: CTA
+            width: 1/4
+          line-c:
+            type: line
+          gruppesplash:
+            type: headline
+            label: Gruppeterapi splash
+          gruppesplashheadline:
+            type: text
+            label: Headline
+            width: 1/4
+          gruppesplashdescription:
+            type: textarea
+            label: Description
+            width: 1/4
+          gruppesplashcta:
+            type: text
+            label: CTA
+            width: 1/4
+          line-d:
+            type: line
+          kaerestesplash:
+            type: headline
+            label: Kæresteterapi splash
+          kaerestesplashphoto:
+            label: Photo
+            type: files
+            multiple: false
+            width: 1/4
+          kaerestesplashheadline:
+            type: text
+            label: Headline
+            width: 1/4
+          kaerestesplashdescription:
+            type: textarea
+            label: Description
+            width: 1/4
+          kaerestesplashcta:
+            type: text
+            label: CTA
+            width: 1/4
+
   meta:
     type: fields
     fields:

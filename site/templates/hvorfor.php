@@ -201,6 +201,17 @@ Jeg interesserer mig for, hvordan design kan bruges til at kommunikere værdier.
   </div>
 </article>
 
+<article class="w-100 pt-4 bg-purple s-pb-2 s-pt-0">
+  <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
+    <div class="w-33 m-w-33 s-w-100">
+      <h3 class="heading c-white light va-x s-subheading s-mb-1">Tak</h3>
+    </div>
+    <div class="w-66 mb-4 m-mb-2 s-w-100 c-white small">
+        <?= $page->thankyou()->kirbytext()->nl2br()->widont() ?>
+    </div>
+  </div>
+</article>
+
 
 <article class="w-100 bg-brown">
   <section class="h-66 s-card-33 w-full w-1400 m-c va-c flex flex-wrap">
