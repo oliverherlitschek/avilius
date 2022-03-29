@@ -8,7 +8,7 @@ Icon
 # Temporary files
 # ---------------
 
-/media/*
+/media/pages/*
 !/media/index.html
 
 # -------------SECURITY-------------
