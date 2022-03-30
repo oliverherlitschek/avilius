@@ -1004,7 +1004,7 @@ nav #menu {
 	position:  absolute;
 	left: 0;
 	transition: top 0.75s cubic-bezier(0.76,0,0.24,1);
-	max-height: calc(100vh - 90px);
+	max-height: calc(90vh - 90px);
 	overflow-y: scroll;
 }
 .dropdown {

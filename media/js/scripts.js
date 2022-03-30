@@ -16,7 +16,7 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   console.log(currentScrollPos);
-  if(currentScrollPos > 100) {
+  if(currentScrollPos > 100 && !$(".dropdown").hasClass( "drawn")) {
     if (prevScrollpos > currentScrollPos) {
       document.getElementById("nav").style.top = "0";
     } else {

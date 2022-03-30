@@ -162,7 +162,7 @@
 <article class="w-100 pb-2 pt-2 m-pb-2 s-pt-1 bg-purple">
   <section class="track flex pl-1 s-pl-15">
     <?php foreach (page('hvorfor')->space()->toFiles() as $photo): ?>
-    <div class="mr-1 s-pr-15 h-full">
+    <div class="pr-1 s-pr-15 h-full">
       <?php echo $photo->webp('br-3 h-full', $photo->alt(), [1920, 1140, 640, 320]); ?>
     </div>
   <?php endforeach ?>

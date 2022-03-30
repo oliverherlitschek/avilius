@@ -82,7 +82,7 @@
 <article class="w-100 pb-2 pt-2 m-pb-2 s-pt-1">
   <section class="track flex pl-1 s-pl-15">
     <?php foreach (page('hvorfor')->space()->toFiles() as $photo): ?>
-    <div class="mr-1 s-pr-15 h-full">
+    <div class="pr-1 s-pr-15 h-full">
       <img src="<?= $photo->url() ?>" class="br-3 h-full">
     </div>
   <?php endforeach ?>
