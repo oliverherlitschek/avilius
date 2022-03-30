@@ -92,7 +92,7 @@
     <a href="../individuelle-samtaler" title="Individuelle samtaler" class="text-hover">
       <?php foreach (page('team')->children()->listed()->not('team/jonas-schosler')->shuffle()->limit(1) as $member): ?>
           <?php if ($portrait = $member->portrait()->toFile()): ?>
-            <img src="<?= $portrait->resize(1200, null, 70)->url() ?>" class="m-c br-10 br-30">
+            <?php echo $portrait->webp('m-c br-10 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
       <?php endforeach ?>
       

@@ -8,7 +8,7 @@
     </div>
     <?php foreach ($page->children()->listed()->shuffle() as $member): ?>
       <?php if ($portrait = $member->portrait()->toFile()): ?>
-        <div class="bg-cc mb-1 s-mb-15 bg-c br-3 br-30 c-white flex team-member" style="background-image: url(<?= $portrait->url() ?>)">
+        <div class="bg-cc mb-1 s-mb-15 bg-c br-3 br-30 c-white flex team-member" style="background-image: url(<?= $portrait->backgroundImage() ?>)">
           <a href="<?= $member->url() ?>" class="w-100 pb-15 flex flex-wrap flex-sb s-pt-15 s-pb-15 s-pl-15" title="<?= $member->title() ?>">
             <div class="flex-end of-h">
             <h3 class="heading light s-body flex-end ml-1 mb-15 s-m-0"><?= $member->firstname() ?></h3>

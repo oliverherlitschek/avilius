@@ -6,6 +6,12 @@
   <meta name="viewport" content="initial-scale=1" />
   <meta name="format-detection" content="telephone=no">
 
+  <link rel="preload" href="/media/fonts/light.woff" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="/media/fonts/regular.woff" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="/media/fonts/mono.woff" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="/media/fonts/thin.woff" as="font" crossorigin="anonymous" />
+
+
 <!-- META/OPEN GRAPH -->
 <?= snippet('metadata') ?>
 

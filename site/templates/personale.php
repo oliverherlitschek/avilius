@@ -6,7 +6,7 @@
     		<?= $page->description()->nl2br()->kirbytext() ?>
   </div>
   <?php if ($portrait = $page->image()): ?>
-  	<div class="w-50 h-100 fixed bg-cc bg-c" style="background-image: url(<?= $portrait->url() ?>);">
+  	<div class="w-50 h-100 fixed bg-cc bg-c" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
   	</div>
   <?php endif ?>
 </article>

@@ -53,7 +53,10 @@ Individuelsplashcta: Udforsk individuel terapi
 
 ----
 
-Teamsplashphoto: - juliane-hemmingsen-avilius-1-team.jpg
+Teamsplashphoto:
+
+- >
+  juliane-hemmingsen-avilius-1-team_webp.jpg
 
 ----
 
@@ -81,7 +84,9 @@ Gruppesplashcta: Alle grupper
 
 ----
 
-Kaerestesplashphoto: - avilius-kaeresteterapi-1.jpg
+Kaerestesplashphoto:
+
+- avilius-kaeresteterapi-1.jpg
 
 ----
 
@@ -109,7 +114,9 @@ Seokeywords: terapi, psykolog københavn, ung terapi, skoletræt, præstationsan
 
 ----
 
-Seoimage: - sedsel-main-portrait.jpg
+Seoimage:
+
+- sedsel-main-portrait.jpg
 
 ----
 

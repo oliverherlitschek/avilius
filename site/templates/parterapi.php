@@ -3,7 +3,7 @@
 <?php snippet('nav') ?>
 <main class="bg-lgrey">
   <?php if ($cover = $page->cover()->toFile()): ?>
-<article class="w-100 card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->url() ?>);">
+<article class="w-100 card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->backgroundImage() ?>);">
   <h1 class="subheadline-scale c-white flex-end s-heading">
     <?= $page->headline() ?>
   </h1>
@@ -56,7 +56,7 @@
     <section class="w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-white flex flex-wrap flex-sb s-reverse">
       <div class="w-33 s-w-100 image-fill as-c">
           <?php if ($cover = $page->cover()->toFile()): ?>
-            <img src="<?= $cover->url() ?>" class="m-c br-3">
+            <?php echo $cover->webp('m-c br-3', $cover->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
       </div>
       <div class="w-half flex-end m-w-66 s-w-100 s-mt-1 s-mb-2 as-c">
@@ -82,7 +82,7 @@
 <article class="w-100 pb-2 pt-2 m-pb-2 s-pt-1">
   <section class="track flex pl-1 s-pl-15">
     <?php foreach (page('hvorfor')->space()->toFiles() as $photo): ?>
-    <div class="mr-1 s-mr-15 h-full">
+    <div class="mr-1 s-pr-15 h-full">
       <img src="<?= $photo->url() ?>" class="br-3 h-full">
     </div>
   <?php endforeach ?>

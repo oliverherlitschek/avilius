@@ -3,7 +3,7 @@
 <?php snippet('nav') ?>
 <main>
   <?php if ($cover = $page->cover()->toFile()): ?>
-<article class="w-100 bg-brown card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->url() ?>);">
+<article class="w-100 bg-brown card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->backgroundImage() ?>);">
   <h1 class="subheadline c-white flex-end s-heading">
     <?= $page->title() ?>
   </h1>
@@ -63,8 +63,8 @@ Jeg interesserer mig for, hvordan design kan bruges til at kommunikere værdier.
 <article class="w-100 pb-2 pt-2 bg-lgrey m-pb-2 s-pb-0 s-pt-1">
   <section class="track flex pl-1 s-pl-15">
     <?php foreach (page('hvorfor')->space()->toFiles() as $photo): ?>
-    <div class="mr-1 s-mr-15 h-full">
-      <img src="<?= $photo->url() ?>" class="br-3 h-full">
+    <div class="mr-1 s-pr-15 h-full">
+      <?php echo $photo->webp('br-3 h-full', $photo->alt(), [1920, 1140, 640, 320]); ?>
     </div>
   <?php endforeach ?>
 </section>

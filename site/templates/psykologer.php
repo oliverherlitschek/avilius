@@ -3,7 +3,7 @@
 <?php snippet('nav') ?>
 <main class="bg-lgrey">
   <?php if ($cover = $page->cover()->toFile()): ?>
-<article class="w-100 card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->url() ?>);">
+<article class="w-100 card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->backgroundImage() ?>);">
   <h1 class="subheadline-scale c-white flex-end s-heading">
     <?= $page->headline() ?>
   </h1>
@@ -53,7 +53,7 @@
   <section class="track flex">
     <?php foreach ($page->children()->listed()->shuffle() as $psychologist): ?>
       <?php if ($cover = $psychologist->thirdportrait()->toFile()): ?>
-        <div class="w-third m-w-half bg-cc bg-c c-white flex br-3 br-30 ml-1 s-ml-15" style="background-image: url(<?= $cover->url() ?>)">
+        <div class="w-third m-w-half bg-cc bg-c c-white flex br-3 br-30 ml-1 s-ml-15" style="background-image: url(<?= $cover->backgroundImage() ?>)">
           <a href="<?= $psychologist->url() ?>" class="w-100 p-1 flex flex-wrap flex-sb s-pt-15 s-pb-15 s-pl-15 s-pr-15" title="<?= $psychologist->firstname() ?>">
             <h3 class="subheading m-body"><span class="text-hover"><?= $psychologist->firstname() ?></span></h3>
             <div class="w-100 flex-end">

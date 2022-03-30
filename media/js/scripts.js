@@ -1,25 +1,31 @@
-$( "#menu" ).click(function() {
-    $( this ).toggleClass( "opened");
-});
+$( "#menu, .nav-overlay" ).click(function() {
+  $(".dropdown").toggleClass( "drawn");
+  $("#menu").toggleClass( "opened");
 
-$( "#menu" ).click(function() {
-    $(".dropdown").toggleClass( "drawn");
-});
-$( ".book-button" ).click(function() {
-    $(".dropdown").removeClass( "drawn");
-    $("#menu").removeClass( "opened");
+  if($(".dropdown").hasClass( "drawn")) {
+    $('body').css('overflow', 'hidden');
+    $('.nav-overlay').addClass('active');
+  } else {
+    $('body').css('overflow', 'visible');
+    $('.nav-overlay').removeClass('active');
+  }
 });
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("nav").style.top = "0";
+  console.log(currentScrollPos);
+  if(currentScrollPos > 100) {
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("nav").style.top = "0";
+    } else {
+      document.getElementById("nav").style.top = "-90px";
+      // $(".dropdown").removeClass( "drawn");
+      // $("#menu").removeClass( "opened");
+    }
   } else {
-    document.getElementById("nav").style.top = "-90px";
-    $(".dropdown").removeClass( "drawn");
-    $("#menu").removeClass( "opened");
+    document.getElementById("nav").style.top = "0";
   }
   prevScrollpos = currentScrollPos;
   }
@@ -156,19 +162,33 @@ $(document).ready(function(){
     });
   });
 
-  //
-  $(".book-button").on("click", function(e) {
+  
+
+  $(".book-button, .close-btn, .book-form-overlay").on("click", function(e) {
     e.preventDefault();
     var $bookParent = $("article#book-form");
-    $bookParent.addClass('slideIn');
+    $bookParent.toggleClass('slideIn');
 
-    $(".close-btn").on("click", function(e) {
-      if ($bookParent.hasClass('slideIn')) {
-        $bookParent.removeClass('slideIn');
-      }
-    });
+    if($bookParent.hasClass( "slideIn")) {
+      $('body').css('overflow', 'hidden');
+      $('.book-form-overlay').addClass('active');
+    } else {
+      $('body').css('overflow', 'visible');
+      $('.book-form-overlay').removeClass('active');
+    }
+  })
 
-  });
+  // $(".book-button").on("click", function(e) {
+  //   e.preventDefault();
+  //   var $bookParent = $("article#book-form");
+  //   $bookParent.addClass('slideIn');
+
+  //   $(".close-btn").on("click", function(e) {
+  //     if ($bookParent.hasClass('slideIn')) {
+  //       $bookParent.removeClass('slideIn');
+  //     }
+  //   });
+  // });
 
   // Submit that other form.
   $("#bookform").on("submit", function(e) {
@@ -202,7 +222,20 @@ $(document).ready(function(){
       data: $form.serialize(),
     }).done(function( msg ) {
        // $parent.removeClass('slideIn');
-      $form.html("<div class='close-btn'><a href='/' class='underline'>Hjem</a></div><h6 class='subheading va-c lh-15 h-100 m-body'>Tusind tak for din henvendelse! Vi glæder os til at læse din besked og vender tilbage til dig inden for tre&nbsp;dage.</h6>");
+      $form.html("<div class='close-btn'><svg class='tab-x' xmlns='http://www.w3.org/2000/svg' width='20' height='20'><g><rect class='bar1' x='9' y='0' width='2' height='20' fill='#2E233D'/><rect class='bar2' x='0' y='9' width='20' height='2' fill='#2E233D'/></g></svg></div><h6 class='subheading va-c lh-15 h-100 m-body'>Tusind tak for din henvendelse! Vi glæder os til at læse din besked og vender tilbage til dig inden for tre&nbsp;dage.</h6>");
+      $(".close-btn").on("click", function(e) {
+        e.preventDefault();
+        var $bookParent = $("article#book-form");
+        $bookParent.toggleClass('slideIn');
+    
+        if($bookParent.hasClass( "slideIn")) {
+          $('body').css('overflow', 'hidden');
+          $('.book-form-overlay').addClass('active');
+        } else {
+          $('body').css('overflow', 'visible');
+          $('.book-form-overlay').removeClass('active');
+        }
+      })
     });
   });
 

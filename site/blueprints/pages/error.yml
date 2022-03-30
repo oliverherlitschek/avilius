@@ -1,4 +1,7 @@
 title: Error
-
-options:
-  read: false
+pages: false
+files: false
+fields:
+  errortitle:
+    label: Title
+    type:  text

@@ -1,3 +1,10 @@
+<IfModule mod_headers.c>
+  Header append Vary Accept env=REDIRECT_accept
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+</IfModule>
 # Kirby .htaccess
 
 # rewrite rules
@@ -20,6 +27,15 @@ RewriteEngine on
 # set the RewriteBase to:
 #
 # RewriteBase /
+
+# Checking for WebP browser support ..
+RewriteCond %{HTTP_ACCEPT} image/webp
+
+# .. and if there's a WebP version for the requested image
+RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
+
+# Well, then go for it & serve WebP instead
+RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
 
 # block files and folders beginning with a dot, such as .git
 # except for the .well-known folder, which is used for Let's Encrypt and security.txt
@@ -56,4 +72,3 @@ AddOutputFilterByType DEFLATE application/json
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 </IfModule>
-

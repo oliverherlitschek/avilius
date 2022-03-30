@@ -6,7 +6,7 @@
 <?php if ($cover = $page->secondportrait()->toFile()): ?>
 <article class="w-full m-c flex flex-sb s-flex-wrap mt-1 pb-2 s-pb-1">
   <section class="w-half s-w-100 card-80 m-card-60 s-card-80">
-    <div class="w-100 br-3 bg-cc bg-c card-80 m-card-60 s-card-80" style="background-image: url(<?= $cover->url() ?>);"></div>
+    <div class="w-100 br-3 bg-cc bg-c card-80 m-card-60 s-card-80" style="background-image: url(<?= $cover->backgroundImage() ?>);"></div>
   </section>
   <section class="w-half s-w-100 card-80 m-card-60 s-h-0 flex flex-wrap flex-sb s-mt-1"><div class="flex-end">
     <h1 class="subheadline-scale s-heading">
@@ -40,9 +40,9 @@
 <article class="w-100 p-1 pt-4 pb-4 m-pt-2 m-pb-2 s-p-0 bt-grey bb-grey">
   <section class="w-100 w-1400 m-w-full s-w-100 m-c">
     <?php if ($film = $page->video()->toFile()): ?>
-    <div class="mute-video underline mb-15 ta-r mr-15 c-white s-remove">&nbsp;<?= $page->firstname() ?></div>
-        <video class="video-portrait w-100" id="vid" height="100%" width="100%" autoplay loop>
-          <source src="<?= $film->url() ?>" type="video/mp4">
+      <div class="mute-video underline mb-15 ta-r mr-15 c-white s-small">&nbsp;<?= $page->firstname() ?></div>
+      <video class="video-portrait w-100" id="vid" height="100%" width="100%" autoplay loop playsinline>
+        <source src="<?= $film->url() ?>" type="video/mp4">
       </video>
     <?php endif ?>
 </section>
@@ -104,7 +104,7 @@ $(".mute-video").click(function () {
     </div>
       <div class="w-half m-w-third s-w-100 image-fill">
           <?php if ($portrait = $page->thirdportrait()->toFile()): ?>
-            <img src="<?= $portrait->url() ?>" class="m-c br-3">
+            <?php echo $portrait->webp('m-c br-3', $portrait->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
       </div>
     </section>
@@ -139,8 +139,8 @@ $(".mute-video").click(function () {
 <article class="w-100 pb-2 pt-2 m-pb-2 s-pt-1 bb-grey">
   <section class="track flex pl-1 s-pl-15">
     <?php foreach (page('hvorfor')->space()->toFiles() as $photo): ?>
-    <div class="mr-1 s-mr-15 h-full">
-      <img src="<?= $photo->url() ?>" class="br-3 h-full">
+    <div class="mr-1 s-pr-15 h-full">
+      <?php echo $photo->webp('br-3 h-full', $photo->alt(), [1920, 1140, 640, 320]); ?>
     </div>
   <?php endforeach ?>
 </section>
@@ -233,7 +233,7 @@ $(".mute-video").click(function () {
   </div>
   <div class="w-33 as-c s-w-100 mb-2 image-fill">
           <?php if ($portrait = $page->thirdportrait()->toFile()): ?>
-            <img src="<?= $portrait->url() ?>" class="m-c br-3">
+            <?php echo $portrait->webp('m-c br-3', $portrait->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
       </div>
 </section>

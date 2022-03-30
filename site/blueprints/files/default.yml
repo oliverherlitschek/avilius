@@ -1,0 +1,15 @@
+title: Image
+
+columns:
+  - width: 1/2
+    sections:
+      content:
+        type: fields
+  - width: 1/2
+    sections:
+      meta:
+        type: fields
+        fields:
+          alt:
+            label: Alternative Text
+            type: text

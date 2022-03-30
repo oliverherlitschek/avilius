@@ -3,7 +3,7 @@
 <?php snippet('cta') ?>
 <main class="bg-brown c-purple mt-3">
 <article class="w-full pt-1 m-c">
-  <img class="w-100" src="/media/Avilius-Logo.svg" alt="Avilius">
+  <img class="w-100 logo" src="/media/Avilius-Logo.svg" alt="Avilius">
 </article>
 
 <article class="w-full m-c flex flex-sb s-flex-wrap mt-1 pb-2">
@@ -67,7 +67,7 @@
     <section class="w-third s-w-100 br-3 br-30 of-h bg-white">
       <a href="/individuelle-samtaler" title="Individuel terapi">
           <?php if ($portrait = $page->individuelphoto()->toFile()): ?>
-        <div class="bg-brown w-100 card-60 m-card-33 bg-cc bg-c p-1" style="background-image: url(<?= $portrait->url() ?>);">
+        <div class="bg-brown w-100 card-60 m-card-33 bg-cc bg-c p-1" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
           <h3 class="c-white m-body"><span class="text-hover">Individuel terapi</span></h3>
         </div>
         <?php endif ?>
@@ -83,7 +83,7 @@
     <section class="w-third s-w-100 br-3 br-30 of-h bg-white">
       <a href="/grupper" title="Gruppeterapi">
           <?php if ($portrait = $page->gruppephoto()->toFile()): ?>
-        <div class="bg-brown w-100 card-60 m-card-33 bg-cc bg-c p-1" style="background-image: url(<?= $portrait->url() ?>);">
+        <div class="bg-brown w-100 card-60 m-card-33 bg-cc bg-c p-1" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
           <h3 class="c-white m-body"><span class="text-hover">Gruppeterapi</span></h3>
         </div>
         <?php endif ?>
@@ -99,7 +99,7 @@
     <section class="w-third s-w-100 br-3 br-30 of-h bg-white">
       <a href="/kaeresteterapi" title="Kæresteterapi">
           <?php if ($portrait = $page->kaerestephoto()->toFile()): ?>
-        <div class="bg-brown w-100 card-60 m-card-33 bg-cc bg-c p-1" style="background-image: url(<?= $portrait->url() ?>);">
+        <div class="bg-brown w-100 card-60 m-card-33 bg-cc bg-c p-1" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
           <h3 class="c-white m-body"><span class="text-hover">Kæresteterapi</span></h3>
         </div>
         <?php endif ?>
@@ -119,11 +119,11 @@
   <?php endif ?>
 <?php endforeach ?>
 
-<article class="w-100 h-80 bg-purple of-h m-remove">
-  <video class="" id="vid" autoplay muted loop style="position: absolute;left:0px;top:0px;min-width:100vw;min-height:100vh;">
-          <source src="<?= $film->url() ?>" type="video/mp4">
-        </video>
-  <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 c-white flex flex-wrap flex-sb">
+<article class="w-100 m-h-80 bg-purple of-h">
+  <video class="fp-vid" id="vid" autoplay muted playsinline loop>
+    <source src="<?= $film->url() ?>" type="video/mp4">
+  </video>
+  <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 c-white flex flex-wrap flex-sb m-remove">
     <div class="w-half flex-end">
       <a href="/individuelle-samtaler" title="Individuel terapi">
       <p class="mono smaller uc pb-15">Individuel terapi</p>
@@ -134,18 +134,32 @@
     </a>
     <div class="mute-video underline small mb-3 ta-r mr-15 c-white">&nbsp;<?= $profile->firstname() ?></div>
   </section>
+  <div class="mute-video underline small mb-15 mr-15 ta-r c-white l-remove">&nbsp;<?= $profile->firstname() ?></div>
 </article>
 
-<article class="w-100 video-portrait-container l-remove">
+<article class="bg-white l-remove">
+  <section class=" w-full w-1400 m-c pt-1 pb-2 flex flex-wrap flex-sb c-purple">
+    <div class="w-100 flex-end">
+      <a href="/individuelle-samtaler" title="Individuel terapi">
+      <p class="mono smallest uc pb-15">Individuel terapi</p>
+      <h5 class="va-x s-subheading"><?= $page->individuelsplashheadline() ?></h5>
+      <p class="small mb-1">
+      <?= $page->individuelsplashdescription()->widont() ?></p>
+      <p class="dash small"><?= $page->individuelsplashcta() ?>&nbsp;&nbsp;&RightArrow;</p>
+    </a>
+  </section>
+</article>
+
+<!-- <article class="w-100 video-portrait-container l-remove">
   <div id="playBtn">
   <svg height="26" width="26">
     <polygon points="0,0 26,13 0,26" fill="white" />
   </svg>
   </div>
   <?php if ($cover = $profile->secondportrait()->toFile()): ?>
-  <video class="w-100" id="vid" preload="none" style="background: transparent url('<?= $cover->url() ?>') 50% 50% / cover no-repeat;">
-          <source src="<?= $film->url() ?>" type="video/mp4">
-        </video>
+      <video class="w-100" id="vid" preload="none" style="background: transparent url('<?= $cover->backgroundImage() ?>') 50% 50% / cover no-repeat;">
+        <source src="<?= $film->url() ?>" type="video/mp4">
+      </video>
     <?php endif ?>
 </article>
 <article class="bg-white l-remove">
@@ -159,7 +173,7 @@
       <p class="dash small"><?= $page->individuelsplashcta() ?>&nbsp;&nbsp;&RightArrow;</p>
     </a>
   </section>
-</article>
+</article> -->
 
 <script>
   document.getElementById("playBtn").addEventListener("click", function(){
@@ -190,7 +204,7 @@
   <a href="../team" title="Team" class="text-hover">
     <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
       <div class="w-half m-w-third s-w-100 image-fill">
-        <img src="<?= $portrait->url() ?>" class="m-c br-3 br-30">
+        <?php echo $portrait->webp('m-c br-3 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
       </div>
       <div class="w-third flex-end m-w-half s-w-100 s-mt-1">
       <p class="mono smaller uc pb-15 s-smallest">Team</p>
@@ -218,7 +232,7 @@
   <section class="track flex">
     <?php foreach (page('grupper')->children()->listed()->shuffle() as $gruppe): ?>
       <?php if ($cover = $gruppe->cover()->toFile()): ?>
-        <div class="w-third m-w-half bg-cc bg-c c-white flex br-3 br-30 ml-1 s-ml-15" style="background-image: url(<?= $cover->url() ?>)">
+        <div class="w-third m-w-half bg-cc bg-c c-white flex br-3 br-30 ml-1 s-ml-15" style="background-image: url(<?= $cover->backgroundImage() ?>)">
           <a href="<?= $gruppe->url() ?>" class="w-100 p-1 flex flex-wrap flex-sb s-pt-15 s-pb-15 s-pl-15 s-pr-15" title="<?= $gruppe->title() ?>">
             <h3 class="s-small"><span class="text-hover"><?= $gruppe->title() ?></span></h3>
             <div class="w-100 flex-end">

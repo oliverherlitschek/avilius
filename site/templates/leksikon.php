@@ -57,7 +57,7 @@ foreach($letter as $name => $itemsPerName): ?>
     <a href="../individuelle-samtaler" title="Individuelle samtaler" class="text-hover">
       <?php foreach (page('team')->children()->listed()->not('team/michelle-dait')->not('team/ragnhild-mohn')->shuffle()->limit(1) as $member): ?>
           <?php if ($portrait = $member->portrait()->toFile()): ?>
-            <img src="<?= $portrait->url() ?>" class="m-c br-10 br-30">
+            <?php echo $portrait->webp('m-c br-10 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
       <?php endforeach ?>
         <h3 class="body ta-c mt-10 s-small"><span class="text-hover">Individuelle samtaler</span></h3>

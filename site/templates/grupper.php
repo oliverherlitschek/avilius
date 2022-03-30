@@ -3,7 +3,7 @@
 <?php snippet('nav') ?>
 <main class="bg-lgrey">
   <?php if ($cover = $page->cover()->toFile()): ?>
-<article class="w-100 card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->url() ?>);">
+<article class="w-100 card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->backgroundImage() ?>);">
   <h1 class="subheadline c-white flex-end s-heading">
     <?= $page->title() ?>
   </h1>
@@ -46,7 +46,7 @@
     <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
       <div class="w-half m-w-third s-w-100 image-fill">
           <?php if ($portrait = $group->cover()->toFile()): ?>
-            <img src="<?= $portrait->resize(1000, null, 90)->url() ?>" class="m-c br-3 br-30">
+            <?php echo $portrait->webp('m-c br-3 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
   </div>
       <div class="w-third flex-end m-w-half s-w-100 s-mt-1">
@@ -96,7 +96,7 @@
   <section class="track flex">
     <?php foreach (page('grupper')->children()->listed()->shuffle() as $gruppe): ?>
       <?php if ($cover = $gruppe->cover()->toFile()): ?>
-        <div class="w-third m-w-half bg-cc bg-c c-white flex br-3 br-30 ml-1 s-ml-15" style="background-image: url(<?= $cover->url() ?>)">
+        <div class="w-third m-w-half bg-cc bg-c c-white flex br-3 br-30 ml-1 s-ml-15" style="background-image: url(<?= $cover->backgroundImage() ?>)">
           <a href="<?= $gruppe->url() ?>" class="w-100 p-1 flex flex-wrap flex-sb s-pt-15 s-pb-15 s-pl-15 s-pr-15" title="<?= $gruppe->title() ?>">
             <h3 class="s-small"><span class="text-hover"><?= $gruppe->title() ?></span></h3>
             <div class="w-100 flex-end">
@@ -144,7 +144,7 @@
 </article>
 
 <?php if ($portrait = $page->individuelsplashphoto()->toFile()): ?>
-<article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(<?= $portrait->url() ?>);">
+<article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
   <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pt-1 s-pb-2 c-white flex flex-wrap flex-sb">
     <div class="w-33 m-w-half flex-end s-w-100">
       <a href="../individuelle-samtaler" title="Individuel terapi">

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite75dd71623baa0bafc37ab0f4ea53383
+class ComposerStaticInitacc6b15f3c23738a905ac70a3027e17a
 {
     public static $files = array (
         'e862d9fce5eaa28c798b151ac7fc8bc6' => __DIR__ . '/..' . '/mzur/kirby-flash/src/helpers.php',
@@ -36,11 +36,16 @@ class ComposerStaticInite75dd71623baa0bafc37ab0f4ea53383
         ),
     );
 
+    public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite75dd71623baa0bafc37ab0f4ea53383::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite75dd71623baa0bafc37ab0f4ea53383::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitacc6b15f3c23738a905ac70a3027e17a::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitacc6b15f3c23738a905ac70a3027e17a::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitacc6b15f3c23738a905ac70a3027e17a::$classMap;
 
         }, null, ClassLoader::class);
     }

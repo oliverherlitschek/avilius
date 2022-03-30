@@ -41,7 +41,7 @@ if ($page->theme() == "baddfc") {
   <?php if ($page->cover()->isNotEmpty()): ?>
     <div class="w-half s-w-full m-c flex-end pl-2 pr-2 pt-4 s-p-1 image-fill">
       <?php if ($cover = $page->cover()->toFile()): ?>
-        <img src="<?= $cover->url() ?>" class="m-c br-3 reveal-2">
+        <?php echo $cover->webp('m-c br-3 reveal-2', $cover->alt(), [1920, 1140, 640, 320]); ?>
       <?php endif ?>
   </div>
     <?php else: ?>
@@ -86,7 +86,7 @@ if ($page->theme() == "baddfc") {
   <?php if ($post->cover()->isNotEmpty()): ?>
     <div class="w-25 m-c image-fill reveal-2">
       <?php if ($cover = $post->cover()->toFile()): ?>
-        <img src="<?= $cover->url() ?>" class="m-c br-3 br-30 reveal-2">
+        <?php echo $cover->webp('m-c br-3 br-30 reveal-2', $cover->alt(), [1920, 1140, 640, 320]); ?>
       <?php endif ?>
     </div>
     <?php else: ?>

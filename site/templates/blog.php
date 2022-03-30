@@ -36,7 +36,7 @@ if ($post->theme() == "baddfc") {
   <div class="w-half s-w-66 m-c flex-end pl-2 pr-2 pt-4 s-p-1 image-fill">
       <?php if ($cover = $post->cover()->toFile()): ?>
       <a href="<?= $post->url() ?>" title="<?= $post->title() ?>">
-        <img src="<?= $cover->url() ?>" class="m-c br-3 br-30 reveal-2">
+        <?php echo $cover->webp('m-c br-3 br-30 reveal-2', $cover->alt(), [1920, 1140, 640, 320]); ?>
       </a>
       <?php endif ?>
   </div>
@@ -78,7 +78,7 @@ if ($post->theme() == "baddfc") {
         <?php else : ?>
           <a href="<?= $post->url() ?>" title="<?= $post->title() ?>" class="w-33 s-w-100">
             <?php if ($hero = $post->cover()->toFile()): ?>
-        <div class="w-100 br-3 card-80 flex flex-wrap flex-sb va-c mb-1 s-mb-15 br-30 reveal-2 bg-cc bg-c video-portrait-container" style="background-image:url(<?= $hero->resize(1000, null, 70)->url() ?>);">
+        <div class="w-100 br-3 card-80 flex flex-wrap flex-sb va-c mb-1 s-mb-15 br-30 reveal-2 bg-cc bg-c video-portrait-container" style="background-image:url(<?= $hero->backgroundImage() ?>);">
           <?php endif ?>
           <div class="bg-white flex-end w-100 p-1">
           <h3 class="flex smallest mono"><?= $post->date()->toDate('%d/%m/%y') ?></h3>
@@ -127,14 +127,14 @@ if ($post->theme() == "baddfc") {
         <div class="w-100 br-3 card-80 s-card-60 ta-c flex flex-wrap flex-sb va-c pt-15 pb-15 pl-1 pr-1 mb-1 br-30 reveal" style="background-color:#<?= $post->theme() ?>;color:<?= $secondarycolor ?>;">
           <h3 class="flex-start smallest mono"><?= $post->date()->toDate('%d/%m/%y') ?></h3>
 
-          <h3 class="body"><?= $post->title() ?></h3>
+          <h3 class="body w-100"><?= $post->title() ?></h3>
           <h3 class="flex-end smallest mono">af&nbsp;<?= $post->author() ?></h3>
         </div>
         </a>
         <?php else : ?>
           <a href="<?= $post->url() ?>" title="<?= $post->title() ?>" class="w-33 s-w-100">
             <?php if ($hero = $post->cover()->toFile()): ?>
-        <div class="w-100 br-3 card-80 flex flex-wrap flex-sb va-c mb-1 br-30 reveal-2 bg-cc bg-c video-portrait-container" style="background-image:url(<?= $hero->resize(1000, null, 70)->url() ?>);">
+        <div class="w-100 br-3 card-80 flex flex-wrap flex-sb va-c mb-1 br-30 reveal-2 bg-cc bg-c video-portrait-container" style="background-image:url(<?= $hero->backgroundImage() ?>);">
           <?php endif ?>
           <div class="bg-white flex-end w-100 p-1">
           <h3 class="flex smallest mono"><?= $post->date()->toDate('%d/%m/%y') ?></h3>
@@ -156,7 +156,7 @@ if ($post->theme() == "baddfc") {
     <a href="../individuelle-samtaler" title="Individuelle samtaler" class="text-hover">
       <?php foreach (page('team')->children()->listed()->not('team/jonas-schosler')->shuffle()->limit(1) as $member): ?>
           <?php if ($portrait = $member->portrait()->toFile()): ?>
-            <img src="<?= $portrait->url() ?>" class="m-c br-10 br-30">
+            <?php echo $portrait->webp('m-c br-10 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
       <?php endforeach ?>
       

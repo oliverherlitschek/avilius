@@ -1,6 +1,14 @@
-<article class="form bg-lpurple pl-1 pr-1 pt-1 c-purple" id="book-form">
+<div class="book-form-overlay"></div>
+<article class="form bg-lpurple pl-1 pr-1 pb-2 pt-1 c-purple" id="book-form">
         <form action="/bookform" method="POST" id="bookform" class="flex flex-wrap flex-sb">
-            <div class="close-btn">&times;</div>
+            <div class="close-btn">
+                <svg class="tab-x" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                    <g>
+                    <rect class="bar1" x="9" y="0" width="2" height="20" fill="#2E233D"/>
+                    <rect class="bar2" x="0" y="9" width="20" height="2" fill="#2E233D"/>
+                    </g>
+                </svg>
+            </div>
           <h3 class="heading w-100 mb-10 s-body">Skriv til os</h3>
   <p class="body w-100 mb-1 s-small">Nu er det din tur! Uanset om du er klar til at starte i et forløb, har spørgsmål eller bare gerne vil vide mere — send os en besked, så vender vi tilbage i løbet af et par dage.</p>
   

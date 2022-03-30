@@ -11,7 +11,9 @@ pages:
     - Guards:
         - Guards: guards/guards.md
         - Honeypot: guards/honeypot.md
+        - SimpleCaptcha: guards/simple-captcha.md
         - Calc: guards/calc.md
+        - reCAPTCHA: guards/recaptcha.md
     - Actions:
         - Actions: actions/actions.md
         - Email: actions/email.md

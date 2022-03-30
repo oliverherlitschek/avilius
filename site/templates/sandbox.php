@@ -5,7 +5,7 @@
 <main>
 <article class="w-100 card-80 flex bg-white s-group-hero">
   <?php if ($portrait = $page->portrait()->toFile()): ?>
-    <div class="bg-white w-50 flex va-c bg-cc bg-c portrait" style="background-image:url(<?= $portrait->url() ?>);">
+    <div class="bg-white w-50 flex va-c bg-cc bg-c portrait" style="background-image:url(<?= $portrait->backgroundImage() ?>);">
       <div class="flex-end w-100 body mb-15 ta-r mr-15 c-white m-small s-ta-l s-ml-15 reveal-2"><p class="body ta-c mt-10 a-underline"><?= $page->portraitcaption()->kt() ?></p></div>
     </div>
   <?php endif ?>
@@ -40,7 +40,7 @@
             <div class="mono smaller mr-1 uc s-smallest s-mr-15"><?= $group->dates() ?></div>
             <h3 class="body tab-button s-small"><?= $group->title()->widont() ?></h3>
             <?php if ($pic = $group->cover()->toFile()): ?>
-            <img src="<?= $pic->url() ?>" title="<?= $group->title() ?>" class="tab-button blog-thumb br-3 br-30 ml-1">
+              <?php echo $pic->webp('tab-button blog-thumb br-3 br-30 ml-1', $pic->alt(), [1920, 1140, 640, 320]); ?>
             <?php endif ?>
           </div>
       </a>
@@ -66,7 +66,7 @@
       </div>
       <?php if ($hero = $group->cover()->toFile()): ?>
       <div class="w-33 bg-cc bg-c mh-100 s-h-50 s-w-100" style="
-  background-image:url(<?= $hero->resize(1000, null, 70)->url() ?>);">
+  background-image:url(<?= $hero->backgroundImage() ?>);">
       </div>
       <?php endif ?>
     </div>
@@ -120,7 +120,7 @@
       </div>
       <?php if ($hero = $group->cover()->toFile()): ?>
       <div class="w-33 bg-cc bg-c mh-100 s-h-50 s-w-100" style="
-  background-image:url(<?= $hero->resize(1000, null, 70)->url() ?>);">
+  background-image:url(<?= $hero->backgroundImage() ?>);">
       </div>
       <?php endif ?>
     </div>
@@ -160,7 +160,7 @@
       </div>
       <?php if ($hero = $group->cover()->toFile()): ?>
       <div class="w-33 bg-cc bg-c mh-100 s-h-50 s-w-100" style="
-  background-image:url(<?= $hero->resize(1000, null, 70)->url() ?>);">
+  background-image:url(<?= $hero->backgroundImage() ?>);">
       </div>
       <?php endif ?>
     </div>
@@ -191,7 +191,7 @@
             <div class="mono smaller mr-1 uc s-smallest s-mr-15"><?= $group->dates() ?></div>
             <h3 class="body tab-button s-small"><?= $group->title()->widont() ?></h3>
             <?php if ($pic = $group->cover()->toFile()): ?>
-            <img src="<?= $pic->url() ?>" title="<?= $group->title() ?>" class="tab-button blog-thumb br-3 br-30 ml-1">
+              <?php echo $pic->webp('tab-button blog-thumb br-3 br-30 ml-1', $pic->alt(), [1920, 1140, 640, 320]); ?>
             <?php endif ?>
           </div>
       </a>
@@ -214,7 +214,7 @@
   <div class="w-25 m-c image-fill reveal">
       <?php foreach (page('team')->children()->listed()->shuffle()->limit(1) as $member): ?>
           <?php if ($portrait = $member->portrait()->toFile()): ?>
-            <img src="<?= $portrait->url() ?>" class="m-c br-10 br-30">
+            <?php echo $portrait->webp('m-c br-10 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
       <?php endforeach ?>
   </div>

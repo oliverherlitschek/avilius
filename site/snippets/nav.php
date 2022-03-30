@@ -1,6 +1,6 @@
 <nav id="nav" class="w-100">
-
-  <div id="navWrapper" class="w-100 bg-white h-90 flex flex-sb bb-lgrey">
+  <div class="nav-overlay"></div>
+  <div id="navWrapper" class="w-100 bg-white  flex flex-sb bb-lgrey">
     <div class="p-1">
       <a href="/">
         <img src="/media/Avilius-Logo.svg" class="logo" alt="Avilius">
@@ -18,7 +18,7 @@
     </div>
   </div>
 <div id="dropdown" class="w-100 bg-white dropdown">
-  <div class="body bg-white w-100 h-90 p-1 bb-lgrey">
+  <div class="body bg-white w-100  p-1 bb-lgrey">
     <a href="/individuelle-samtaler" title="Individuel terapi">
     <div class="w-100 flex flex-sb">
         <div class="dash">
@@ -31,7 +31,7 @@
     </a>
   </div>
 
-  <div class="body bg-white w-100 h-90 p-1 bb-lgrey">
+  <div class="body bg-white w-100  p-1 bb-lgrey">
     <a href="/grupper" title="Gruppeforløb">
     <div class="w-100 flex flex-sb">
         <div class="dash">
@@ -44,10 +44,10 @@
     </a>
   </div>
 
-  <div class="body bg-white w-100 h-90 p-1 bb-grey">
+  <div class="body bg-white w-100  p-1 bb-grey">
     <div class="w-100 flex flex-sb">
         <div class="c-grey">
-          Kæresteterapi<span class="br-3 mono smaller uc ta-c bg-blue ml-1 c-black p-10 s-smallest">Kommer snart!</span>
+          Kæresteterapi<span class="br-3 mono smaller badge uc ta-c bg-blue ml-1 c-black p-10 s-smallest">Kommer snart!</span>
         </div>
         <div>
           <span class="c-grey">&RightArrow;</span>
@@ -55,7 +55,7 @@
     </div>
   </div>
 
-  <div class="body bg-white w-100 h-90 p-1 bb-grey">
+  <div class="body bg-white w-100  p-1 bb-grey">
     <a href="/team" title="Team">
     <div class="w-100 flex flex-sb">
         <div class="dash">
@@ -68,7 +68,7 @@
     </a>
   </div>
 
-  <div class="body bg-white w-100 h-90 p-1 bb-grey">
+  <div class="body bg-white w-100  p-1 bb-grey">
     <a href="/hvorfor" title="Om">
     <div class="w-100 flex flex-sb">
         <div class="dash">
@@ -81,7 +81,7 @@
     </a>
   </div>
 
-  <div class="body bg-white w-100 h-90 p-1 bb-grey">
+  <div class="body bg-white w-100  p-1 bb-grey">
     <a href="/blog" title="Blog">
     <div class="w-100 flex flex-sb">
         <div class="dash">
@@ -94,7 +94,7 @@
     </a>
   </div>
 
-  <div class="body bg-white w-100 h-90 p-1 bb-grey">
+  <div class="body bg-white w-100  p-1 bb-grey">
     <a href="/faq" title="FAQ">
     <div class="w-100 flex flex-sb">
         <div class="dash">
@@ -107,7 +107,7 @@
     </a>
   </div>
 
-  <div class="body bg-white w-100 h-90 p-1">
+  <div class="body bg-white w-100  p-1">
     <a href="/henvisningsliste" title="Henvisningsliste">
     <div class="w-100 flex flex-sb">
         <div class="dash">
@@ -120,7 +120,7 @@
     </a>
   </div>
 
-  <div class="body bg-white w-100 h-90 p-1 bg-lpurple tab-button book-button">
+  <div class="body bg-white w-100  p-1 bg-lpurple tab-button book-button">
     <div class="w-100 flex flex-sb">
         <div>
           <span class="blink">●</span>&nbsp; Skriv til os

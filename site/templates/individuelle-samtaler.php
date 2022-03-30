@@ -7,7 +7,7 @@
     <?php foreach ($page->heroslide()->toStructure() as $slide): ?>
     <div class="w-100">
       <?php if ($photo = $slide->herophoto()->toFile()): ?>
-          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(<?= $photo->url() ?>);">
+          <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(<?= $photo->backgroundImage() ?>);">
             <h2 class="headline-scale c-white flex-end s-heading"><?= $slide->herotitle() ?></h2>
           </div>
         <?php endif ?>
@@ -58,7 +58,7 @@
   <a href="../team" title="Team" class="text-hover">
     <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
       <div class="w-half m-w-third s-w-100 image-fill">
-        <img src="<?= $portrait->url() ?>" class="m-c br-3 br-30">
+        <?php echo $portrait->webp('m-c br-3 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
       </div>
       <div class="w-third flex-end m-w-half s-w-100 s-mt-1">
       <p class="mono smaller uc pb-15 s-smallest">Team</p>
@@ -114,7 +114,7 @@
   <a href="" title="Book et besøg" class="book-button text-hover">
     <section class="w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
       <div class="w-half m-w-third s-w-100 image-fill">
-        <img src="<?= $portrait->url() ?>" class="m-c br-3 br-30">
+        <?php echo $portrait->webp('m-c br-3 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
       </div>
       <div class="w-third flex-end m-w-half s-w-100 s-mt-1 c-white">
       <p class="mono smaller uc pb-15 s-smallest">Trygge rammer</p>
@@ -237,7 +237,7 @@
 </article>
 
 <?php if ($portrait = $page->groupsplashphoto()->toFile()): ?>
-<article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(<?= $portrait->url() ?>);">
+<article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
   <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pt-1 s-pb-2 c-white flex flex-wrap flex-sb">
     <div class="w-33 m-w-half flex-end s-w-100">
       <a href="../grupper" title="Gruppeterapi">
