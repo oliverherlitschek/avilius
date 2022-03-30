@@ -120,7 +120,7 @@
 <?php endforeach ?>
 
 <article class="w-100 m-h-80 bg-purple of-h">
-  <video class="fp-vid" id="vid" autoplay muted playsinline loop>
+  <video class="fp-vid w-100" id="vid" autoplay muted playsinline loop>
     <source src="<?= $film->url() ?>" type="video/mp4">
   </video>
   <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 c-white flex flex-wrap flex-sb m-remove">
