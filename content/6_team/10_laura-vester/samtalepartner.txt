@@ -1,0 +1,140 @@
+Title: Laura Vester
+
+----
+
+Firstname: Laura
+
+----
+
+Email: laura@avilius.dk
+
+----
+
+Capacity: false
+
+----
+
+Price: 399 kr. – inkl. gratis forsamtale
+
+----
+
+Pricedetails: En individuel session i Avilius koster 399 kr. per session. Den første samtale er gratis, så du helt uforpligtende kan mærke efter, om du har lyst til at starte i et forløb.
+
+----
+
+Length: 60 minutter
+
+----
+
+Course: Så længe du vil!
+
+----
+
+Coursedetails: Alle forløb er forskellige. Nogle har behov for 5-10 opklarende samtaler, mens andre bruger deres terapeutiske rum ligesom et fitnesscenter – et sted, man kan tage hen en gang i mellem og styrke sit mentale helbred.
+
+----
+
+Video:
+
+- laura.mp4
+
+----
+
+Portrait:
+
+- laura-vester-avilius-2.jpg
+
+----
+
+Secondportrait:
+
+- laura-vester-avilius-3.jpg
+
+----
+
+Thirdportrait:
+
+- laura-vester-avilius-1.jpg
+
+----
+
+Experience: Forventninger, Tankemønstre, Ensomhed, Eksamensangst, Stress, Mindreværd, Selvværd, Utilstrækkelighed
+
+----
+
+Testimonials:
+
+- 
+  quote: |
+    Det er enormt svært at skulle sætte 'et par ord’ om mit forløb hos Laura - hun fortjener mere end bare ’et par ord’. At have Laura som min terapeut har været noget af det bedste og vigtigste, jeg har gjort for mig selv i lang tid. Hun har fra dag ét mødt mig i det, jeg er med kommet, og hun har løbende udfordret mig.
+    
+    Hendes brug af metaforer og billedsprog i arbejdet med de værktøjer, hun så generøst har givet fra sig, er trygt gemt i min rygsæk til de dage, hvor jeg har brug for dem. Hun har ageret mit spejl i situationer, hvor hun har skulle understrege en pointe. Og hun har været min konstante cheerleader gennem hele forløbet: ”Jeg hepper på dig” er blevet en fast sætning, der kører på repeat i min øregang.
+  author: Tidligere klient
+- 
+  quote: >
+    Jeg har altid følt mig grebet,
+    forstået og lyttet til. Laura formåede
+    at skabe et meget trygt og kærligt rum,
+    hvor jeg blev udfordret, men også rost
+    og anerkendt.
+  author: Tidligere klient
+- 
+  quote: |
+    Jeg gik ind til første samtale i det håb om, at Laura kunne hjælpe mig med at få kontrol over de stærke følelser, som fra tid til anden stak helt af med mig. Det har hun formået. Dét og meget mere. For jeg kommer ud på den anden side med en ro i kroppen, en forståelse for hvordan jeg er min egen bedste ven, samt en glæde og en stolthed over, hvem jeg er, og det jeg kan.
+    
+    Laura er smadderdygtig i det hun gør. Hun læser den person, som sidder overfor sig og tilpasser sig vedkommende i hendes måde at arbejde på, for at kunne imødekomme denne på bedste vis.
+    
+    Det føles underligt, men godt, at skulle afslutte forløbet med Laura. Jeg håber, at vores veje mødes en gang i fremtiden.
+  author: Tidligere klient
+- 
+  quote: |
+    Jeg havde et sindssygt godt forløb med Laura! Jeg har været så glad for at gå hos hende og de redskaber vi sammen har fundet frem til, vores samtaler og refleksioner er i høj grad nogle som jeg kan og vil bruge fremover.
+    
+    Jeg ville til hver en tid anbefale Laura og generelt Avilius, da jeg synes det er et mega godt koncept med unge studerende som kan lære en masse til deres fremtidige uddannelse/jobs samtidig med, at de giver en masse til dem som kommer hos dem. Alt i alt har jeg bare været rigtig glad for at være der og synes næsten det var trist ikke at skulle komme mere.
+    
+    For mig har det været en kæmpe investering i mig selv og mit mentale helbred og Laura har haft kæmpe indflydelse på at det har været en så positiv oplevelse at gøre det for mig selv! Så KÆMPE TAK til hende!
+  author: Tidligere klient
+- 
+  quote: |
+    Det har uden tvivl været den bedste beslutning at starte i et forløb hos Avilius! Laura er en fantastisk samtalepartner, og det har hun været igennem hele mit forløb. Jeg havde aldrig nået hertil uden hende! Ord er utrolig fattige i den her sammenhæng, men jeg har simpelthen været så glad for at gå til samtaleterapi hos Laura. Jeg har altid følt mig mødt og forstået, og det har altid været trygt at tale om lige præcis det, jeg havde på hjertet - intet har været for stort eller for småt.
+    
+    Derudover har jeg fået en masse værktøjer og gode ord/råd med på vejen, som har hjulpet mig enormt meget i min udvikling. Det har også været virkelig rart, at der har været en god forståelse for og fleksibilitet ift. at booke en ekstra tid, hvis jeg har haft brug for det.
+    
+    Jeg vil til enhver tid anbefale Avilius og Laura til andre, som har brug for at tale med nogen om livets op- og nedture - eller bare tale om det, der går og trykker.
+  author: Tidligere klient
+- 
+  quote: |
+    Det har uden tvivl været den bedste beslutning at starte i et forløb hos Avilius! Laura er en fantastisk samtalepartner, og det har hun været igennem hele mit forløb. Jeg havde aldrig nået hertil uden hende! Ord er utrolig fattige i den her sammenhæng, men jeg har simpelthen været så glad for at gå til samtaleterapi hos Laura. Jeg har altid følt mig mødt og forstået, og det har altid været trygt at tale om lige præcis det, jeg havde på hjertet - intet har været for stort eller for småt.
+    
+    Derudover har jeg fået en masse værktøjer og gode ord/råd med på vejen, som har hjulpet mig enormt meget i min udvikling. Det har også været virkelig rart, at der har været en god forståelse for og fleksibilitet ift. at booke en ekstra tid, hvis jeg har haft brug for det.
+    
+    Jeg vil til enhver tid anbefale Avilius og Laura til andre, som har brug for at tale med nogen om livets op- og nedture - eller bare tale om det, der går og trykker.
+  author: Tidligere klient
+
+----
+
+Description:
+
+Jeg interesserer mig specielt for, hvordan forholdet til os selv påvirker os og vores valg i livet. Det er min opfattelse, at vi kan skabe store forandringer i eget liv ved at styrke venskabet til os selv.
+Jeg plejer at arbejde med, at dit indre er som et hus, hvor murene er dit selvværd og forhold til dig selv. Hvis huset skal kunne holde til alt slags vejr, skal murene være stærke. Det er ikke alt, man skal lukke ind i sit hus. Sådan er det også med vores indre. Lukker vi alle bekymringer, andres holdninger og forventninger ind, kan vi blive helt fyldt op og miste kontakt til vores egne ønsker, behov og drømme. Jeg vil med en nysgerrig og empatisk tilgang hjælpe dig med at rydde op i dit hus og styrke murene, således at det kun er mennesker, drømme og planer som er vigtige for dig og dit liv, som bliver lukket ind.
+Jeg ønsker at skabe et kærligt og ærligt rum, hvor vi sammen kan blive klogere på dig og dine behov. Jeg vil altid møde dig med den største empati og beundring for det store mod du udviser, ved at dele ud af dine tanker og følelser.
+
+----
+
+Seotitle: Mød Laura - en af vores nye terapeuter
+
+----
+
+Seodescription: Jeg plejer at arbejde med, at dit indre er som et hus, hvor murene er dit selvværd og forhold til dig selv.
+
+----
+
+Seokeywords: behov, drømme, tanker, følelser
+
+----
+
+Seoimage: 
+
+----
+
+Lastbooked: 4

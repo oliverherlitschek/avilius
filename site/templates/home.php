@@ -3,30 +3,30 @@
 <?php snippet('cta') ?>
 <main class="bg-brown c-purple mt-3">
 <article class="w-full pt-1 m-c">
-  <img class="w-100 logo" src="/media/Avilius-Logo.svg" alt="Avilius">
+  <img class="w-100 logo reveal" src="/media/Avilius-Logo.svg" alt="Avilius">
 </article>
 
 <article class="w-full m-c flex flex-sb s-flex-wrap mt-1 pb-2">
   <section class="w-half s-w-100 card-80 m-card-60 s-card-80">
-    <div class="w-100 br-3 bg-cc bg-c card-80 m-card-60 s-card-80" style="background-image: url(/media/Oscar-Lui-Bjerre-Avilius-Hero.jpg);"></div>
+    <div class="w-100 br-3 bg-cc bg-c card-80 m-card-60 s-card-80 reveal-2" style="background-image: url(/media/Oscar-Lui-Bjerre-Avilius-Hero.jpg);"></div>
   </section>
   <section class="w-half s-w-100 card-80 m-card-60 s-card-80 flex flex-wrap flex-sb s-mt-1">
-    <h1 class="subheadline m-heading">I Avilius laver vi SU-venlig terapi til unge som os&nbsp;selv.</h1>
+    <h1 class="subheadline m-heading reveal-3">I Avilius laver vi SU-venlig terapi til unge som os&nbsp;selv.</h1>
     <div class="w-100 flex flex-wrap flex-end s-mt-4">
       <a href="/individuelle-samtaler" title="Individuel terapi" class="w-100">
-        <div class="bg-white br-10 br-30 c-purple flex flex-sb h-60 w-100 p-10 pl-1 s-pl-15 mt-15">
+        <div class="bg-white br-10 br-30 c-purple flex flex-sb h-60 w-100 p-10 pl-1 s-pl-15 mt-15 reveal">
           <h3 class="s-body"><span class="dash">Individuel terapi&nbsp;&nbsp;&RightArrow;</span></h3>
         </div>
       </a>
 
-      <a href="/grupper" title="Gruppeforløb" class="w-100">
-        <div class="bg-white br-10 br-30 c-purple flex flex-sb h-60 w-100 p-10 pl-1 s-pl-15 mt-15">
-          <h3 class="s-body"><span class="dash">Gruppeforløb&nbsp;&nbsp;&RightArrow;</span></h3>
+      <a href="/grupper" title="Gruppeterapi" class="w-100">
+        <div class="bg-white br-10 br-30 c-purple flex flex-sb h-60 w-100 p-10 pl-1 s-pl-15 mt-15 reveal-2">
+          <h3 class="s-body"><span class="dash">Gruppeterapi&nbsp;&nbsp;&RightArrow;</span></h3>
         </div>
       </a>
 
       <a href="/kaeresteterapi" title="Kæresteterapi" class="w-100">
-        <div class="bg-white br-10 br-30 c-purple flex flex-sb h-60 w-100 p-10 pl-1 s-pl-15 mt-15">
+        <div class="bg-white br-10 br-30 c-purple flex flex-sb h-60 w-100 p-10 pl-1 s-pl-15 mt-15 reveal-3">
           <h3 class="s-body"><span class="dash">Kæresteterapi&nbsp;&nbsp;&RightArrow;</span><span class="sold-out br-3 mono smallest uc ta-c bg-blue ml-15 c-black spin p-5">NYT!</span></h3>
         </div>
       </a>
@@ -45,26 +45,26 @@
 <article class="w-100 va-c flex-wrap">
   <div class="w-full w-1400 mt-4 mb-4 s-w-full m-c s-mt-2 s-mb-2">
   <h4 class="subheading ta-c mb-3 s-mt-2">
-    Hvordan fungerer det?
+    Hvordan fungerer&nbsp;det?
   </h4>
   <div class="w-100 flex flex-wrap flex-sa">
-    <h5 class="body w-third p-15 s-w-100 s-p-0 s-mb-1 s-small">
+    <h5 class="body w-third p-15 s-w-100 s-p-0 s-mb-1 s-small reveal">
       <span class="mono smaller s-smallest">01</span><br>
-      Mærk efter indeni. Hvad har du brug for? Klik lidt rundt her på siden og bliv inspireret.
+      Mærk efter indeni. Hvad har du brug for? Klik lidt rundt her på siden og læs om vores tilbud.
     </h5>
-    <h5 class="body w-third p-15 s-w-100 s-p-0 s-mb-1 s-small">
+    <h5 class="body w-third p-15 s-w-100 s-p-0 s-mb-1 s-small reveal-2">
       <span class="mono smaller s-smallest">02</span><br>
-      <span class="underline book-button">Skriv til os</span>! Man kan ikke automatisere omsorg, så vi læser din besked omhyggeligt.
+      Stadig lidt i tvivl? Det forstår vi godt. <a href=""class="underline book-button" title="Skriv til os">Skriv til os</a> her, så læser vi din besked omhyggeligt.
     </h5>
-    <h5 class="body w-third p-15 s-w-100 s-p-0 s-mb-1 s-small">
+    <h5 class="body w-third p-15 s-w-100 s-p-0 s-mb-1 s-small reveal-3">
       <span class="mono smaller s-smallest">03</span><br>
-      Vi kontakter dig efter 2-3 dage, når vi har fundet et forløb, der er perfekt til dig.
+      Vi vender tilbage indenfor 1-2 hverdage med den løsning, vi tror ville være allerbedst til dig.
     </h5>
     </div>
 </article>
 
 <article class="w-full mt-2 m-c flex flex-sb pb-4 s-remove">
-    <section class="w-third s-w-100 br-3 br-30 of-h bg-white">
+    <section class="w-third s-w-100 br-3 br-30 of-h bg-white reveal">
       <a href="/individuelle-samtaler" title="Individuel terapi">
           <?php if ($portrait = $page->individuelphoto()->toFile()): ?>
         <div class="bg-brown w-100 card-60 m-card-33 bg-cc bg-c p-1" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
@@ -80,7 +80,7 @@
       </a>
     </section>
     
-    <section class="w-third s-w-100 br-3 br-30 of-h bg-white">
+    <section class="w-third s-w-100 br-3 br-30 of-h bg-white reveal-2">
       <a href="/grupper" title="Gruppeterapi">
           <?php if ($portrait = $page->gruppephoto()->toFile()): ?>
         <div class="bg-brown w-100 card-60 m-card-33 bg-cc bg-c p-1" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
@@ -96,7 +96,7 @@
       </a>
     </section>
 
-    <section class="w-third s-w-100 br-3 br-30 of-h bg-white">
+    <section class="w-third s-w-100 br-3 br-30 of-h bg-white reveal-3">
       <a href="/kaeresteterapi" title="Kæresteterapi">
           <?php if ($portrait = $page->kaerestephoto()->toFile()): ?>
         <div class="bg-brown w-100 card-60 m-card-33 bg-cc bg-c p-1" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
@@ -114,27 +114,22 @@
 
 </article>
 
-<?php foreach (page('team')->children()->listed()->shuffle()->limit('1') as $profile): ?>
-  <?php if ($film = $profile->video()->toFile()): ?>
-  <?php endif ?>
-<?php endforeach ?>
-
 <article class="w-100 m-h-80 bg-purple of-h">
   <video class="fp-vid w-100" id="vid" autoplay muted playsinline loop>
-    <source src="<?= $film->url() ?>" type="video/mp4">
+    <source src="/media/Avilius-Eskild-Bibow.mp4" type="video/mp4">
   </video>
   <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 c-white flex flex-wrap flex-sb m-remove">
     <div class="w-half flex-end">
       <a href="/individuelle-samtaler" title="Individuel terapi">
-      <p class="mono smaller uc pb-15">Individuel terapi</p>
-      <h5 class="subheadline va-x m-heading"><?= $page->individuelsplashheadline() ?></h5>
-      <p class="body mb-1">
+      <p class="mono smaller uc pb-15 reveal">Individuel terapi</p>
+      <h5 class="subheadline va-x m-heading reveal"><?= $page->individuelsplashheadline() ?></h5>
+      <p class="body mb-1 reveal">
       <?= $page->individuelsplashdescription()->widont() ?></p>
-      <p class="dash"><?= $page->individuelsplashcta() ?>&nbsp;&nbsp;&RightArrow;</p>
+      <p class="dash reveal-2"><?= $page->individuelsplashcta() ?>&nbsp;&nbsp;&RightArrow;</p>
     </a>
-    <div class="mute-video underline small mb-3 ta-r mr-15 c-white">&nbsp;<?= $profile->firstname() ?></div>
+    <div class="mute-video underline small mb-3 ta-r mr-15 c-white">&nbsp;Eskild</div>
   </section>
-  <div class="mute-video underline small mb-15 mr-15 ta-r c-white l-remove">&nbsp;<?= $profile->firstname() ?></div>
+  <div class="mute-video underline small mb-15 mr-15 ta-r c-white l-remove">&nbsp;Eskild</div>
 </article>
 
 <article class="bg-white l-remove">
@@ -150,30 +145,6 @@
   </section>
 </article>
 
-<!-- <article class="w-100 video-portrait-container l-remove">
-  <div id="playBtn">
-  <svg height="26" width="26">
-    <polygon points="0,0 26,13 0,26" fill="white" />
-  </svg>
-  </div>
-  <?php if ($cover = $profile->secondportrait()->toFile()): ?>
-      <video class="w-100" id="vid" preload="none" style="background: transparent url('<?= $cover->backgroundImage() ?>') 50% 50% / cover no-repeat;">
-        <source src="<?= $film->url() ?>" type="video/mp4">
-      </video>
-    <?php endif ?>
-</article>
-<article class="bg-white l-remove">
-  <section class=" w-full w-1400 m-c pt-1 pb-2 flex flex-wrap flex-sb c-purple">
-    <div class="w-100 flex-end">
-      <a href="/individuelle-samtaler" title="Individuel terapi">
-      <p class="mono smallest uc pb-15">Individuel terapi</p>
-      <h5 class="va-x s-subheading"><?= $page->individuelsplashheadline() ?></h5>
-      <p class="small mb-1">
-      <?= $page->individuelsplashdescription()->widont() ?></p>
-      <p class="dash small"><?= $page->individuelsplashcta() ?>&nbsp;&nbsp;&RightArrow;</p>
-    </a>
-  </section>
-</article> -->
 
 <script>
   document.getElementById("playBtn").addEventListener("click", function(){
@@ -203,10 +174,10 @@
 <article class="w-100 h-80 bg-blue">
   <a href="../team" title="Team" class="text-hover">
     <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
-      <div class="w-half m-w-third s-w-100 image-fill">
+      <div class="w-half m-w-third s-w-100 image-fill reveal">
         <?php echo $portrait->webp('m-c br-3 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
       </div>
-      <div class="w-third flex-end m-w-half s-w-100 s-mt-1">
+      <div class="w-third flex-end m-w-half s-w-100 s-mt-1 reveal-2">
       <p class="mono smaller uc pb-15 s-smallest">Team</p>
   <h5 class="subheadline va-x m-heading s-subheading"><?= $page->teamsplashheadline() ?></h5>
       <p class="body mb-1 s-small">
@@ -219,11 +190,11 @@
 
 <article class="w-100 pt-4 m-pt-2 bg-brown c-purple">
   <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
-  <div class="w-33 m-w-50 s-w-100">
+  <div class="w-33 m-w-50 s-w-100 reveal">
     <p class="mono smaller uc pb-15 s-smallest">Gruppeforløb</p>
   <h5 class="subheadline va-x m-heading s-subheading"><?= $page->gruppesplashheadline() ?></h5>
   </div>
-  <div class="w-50 s-w-100 mt-40 m-mt-1 s-m-0">
+  <div class="w-50 s-w-100 mt-40 m-mt-1 s-m-0 reveal-2">
   <p class="body s-small"><?= $page->gruppesplashdescription()->widont() ?></p>
   </div>
 </div>
@@ -236,13 +207,11 @@
           <a href="<?= $gruppe->url() ?>" class="w-100 p-1 flex flex-wrap flex-sb s-pt-15 s-pb-15 s-pl-15 s-pr-15" title="<?= $gruppe->title() ?>">
             <h3 class="s-small"><span class="text-hover"><?= $gruppe->title() ?></span></h3>
             <div class="w-100 flex-end">
-              <h3 class="c-white mono uc smaller ta-r s-smallest"><span class="blink">●</span>&nbsp;<?php if ($gruppe->dates()->isEmpty()): ?>
-              Venteliste
-              <?php else: ?>
-              <?php foreach ($gruppe->dates()->toStructure()->limit(1) as $startdate): ?>
-                <?= $startdate->introdate() ?>
-              <?php endforeach ?>
-              <?php endif ?></span>
+              <h3 class="c-white mono uc smaller ta-r s-smallest"><span class="blink">●</span>&nbsp;<?php if ($gruppe->startdate()->isNotEmpty()): ?>
+        <?= $gruppe->startdate() ?>
+      <?php else: ?>
+        Venteliste
+      <?php endif ?></span>
               </h3>
             </div>
           </a>

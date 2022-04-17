@@ -1,6 +1,7 @@
 <?php snippet('header') ?>
+<?php snippet('cta') ?>
 <?php snippet('nav') ?>
-<main>
+<main class="bg-lgrey">
 
 <?php
 
@@ -71,6 +72,7 @@ if ($page->theme() == "baddfc") {
 <?php foreach ($page->siblings(false)->listed()->shuffle()->limit(1) as $post): ?>
 <hr class="bg-black o-50 w-66 m-c m-w-full">
 <article class="pt-4 pb-4 s-pt-2 s-pb-2">
+  <section class="w-1400 m-c">
   <a href="<?= $post->url() ?>" title="<?= $post->title() ?>" class="text-hover">
 <div class="flex flex-sb va-c">  
   <div class="w-50 m-c reveal-2">
@@ -93,20 +95,26 @@ if ($page->theme() == "baddfc") {
     <?php endif ?>
 </div>
 </a>
+</section>
 </article>
 <?php endforeach ?>
 
-<article class="w-100 bg-brown va-c flex-wrap">
-  <div class="w-33 mt-4 mb-4 m-w-66 s-w-full s-mb-2 s-mt-2">
-  <h4 class="body regular ta-c mb-15 s-small reveal">
-    Er Avilius det rigtige for&nbsp;dig?
-  </h4>
-    <h4 class="body light ta-c s-small reveal">
-    Vi sidder klar ved telefonerne til at svare på alle spørgsmål. Vælg en ledig tid nedenfor, så ringer vi til&nbsp;dig.</h4>
-    <button class="call-button btn m-c mt-2 bg-lgreen ta-c mono small pl-1 pr-1 c-black s-mt-1 reveal-2">📞&nbsp;Se ledige tider</button>
+<article class="w-100 bt-grey">
+  <section class="h-66 s-card-33 w-full w-1400 m-c va-c flex flex-wrap">
+  <div class="w-100 m-c pt-4 pb-4 s-p-1 s-pt-2 s-pb-2">
+  <p class="body regular ta-c mb-15 s-small">
+    Er Avilius det rigtige for dig?
+  </p>
+    <p class="body light ta-c s-small mb-1">
+    Skriv til os og fortæl, hvordan det går <span class="s-remove"><br></span>– så finder vi ud af det&nbsp;sammen.</p>
+    <div class="w-100 m-c ta-c">
+    <button class="book-button c-purple h-60 br-10 br-30 m-c m-10 bg-lpurple ta-c mono small s-smaller pl-1 pr-1">Skriv til os</button> <button class="call-button c-purple h-60 br-10 br-30 m-c m-10 s-m-0 bg-white ta-c mono small s-smaller pl-1 pr-1">Book et opkald ☎️</button>
   </div>
+  </div>
+</section>
   <?php snippet('call') ?>
 </article>
+
 </main>
 <?php snippet('newform') ?>
 <?php snippet('footer-content') ?>

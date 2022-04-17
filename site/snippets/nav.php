@@ -44,15 +44,44 @@
     </a>
   </div>
 
-  <div class="body bg-white w-100  p-1 bb-grey">
+  <div class="body bg-white w-100  p-1 bb-lgrey">
+    <a href="/kaeresteterapi" title="Kæresteterapi">
     <div class="w-100 flex flex-sb">
-        <div class="c-grey">
-          Kæresteterapi<span class="br-3 mono smaller badge uc ta-c bg-blue ml-1 c-black p-10 s-smallest">Kommer snart!</span>
+        <div class="dash">
+          Kæresteterapi<span class="sold-out br-3 mono smallest uc ta-c bg-blue ml-15 c-black spin p-5">NYT!</span>
         </div>
         <div>
-          <span class="c-grey">&RightArrow;</span>
+          <span class="dash">&RightArrow;</span>
         </div>
     </div>
+    </a>
+  </div>
+
+    <div class="body bg-white w-100  p-1">
+    <a href="/psykologer" title="Psykologhjælp">
+    <div class="w-100 flex flex-sb">
+        <div class="dash">
+          Psykologhjælp
+        </div>
+        <div>
+          <span class="dash">&RightArrow;</span>
+        </div>
+    </div>
+    </a>
+  </div>
+
+
+  <div class="body bg-white w-100  p-1 bb-grey bt-grey">
+    <a href="/hvorfor" title="Om Avilius">
+    <div class="w-100 flex flex-sb">
+        <div class="dash">
+          Om Avilius
+        </div>
+        <div>
+          <span class="dash">&RightArrow;</span>
+        </div>
+    </div>
+    </a>
   </div>
 
   <div class="body bg-white w-100  p-1 bb-grey">
@@ -68,50 +97,11 @@
     </a>
   </div>
 
-  <div class="body bg-white w-100  p-1 bb-grey">
-    <a href="/hvorfor" title="Om">
-    <div class="w-100 flex flex-sb">
-        <div class="dash">
-          Om
-        </div>
-        <div>
-          <span class="dash">&RightArrow;</span>
-        </div>
-    </div>
-    </a>
-  </div>
-
-  <div class="body bg-white w-100  p-1 bb-grey">
+  <div class="body bg-white w-100  p-1">
     <a href="/blog" title="Blog">
     <div class="w-100 flex flex-sb">
         <div class="dash">
           Blog
-        </div>
-        <div>
-          <span class="dash">&RightArrow;</span>
-        </div>
-    </div>
-    </a>
-  </div>
-
-  <div class="body bg-white w-100  p-1 bb-grey">
-    <a href="/faq" title="FAQ">
-    <div class="w-100 flex flex-sb">
-        <div class="dash">
-          FAQ
-        </div>
-        <div>
-          <span class="dash">&RightArrow;</span>
-        </div>
-    </div>
-    </a>
-  </div>
-
-  <div class="body bg-white w-100  p-1">
-    <a href="/henvisningsliste" title="Henvisningsliste">
-    <div class="w-100 flex flex-sb">
-        <div class="dash">
-          Henvisningsliste
         </div>
         <div>
           <span class="dash">&RightArrow;</span>

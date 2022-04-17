@@ -2,17 +2,29 @@ Title: Om Avilius
 
 ----
 
-Description: Ragnhild i vores allerførste, mikroskopiske terapilokale på Esromgade på Nørrebro i 2019.
+Description: Det hele startede her. Vores allerførste, mikroskopiske praksis på Nørrebro i 2019.
 
 ----
 
-Tagline: Vores mentale sundhed er dalende — så vi har taget sagen i egen hånd.
+Tagline: Vores generation trives ikke — så vi har taget sagen i egen hånd.
 
 ----
 
 Cover:
 
-- team.jpg
+- avilius-hvorfor-2.jpg
+
+----
+
+Intro:
+
+I 2019 fik vi en simpel idé.
+
+Vi ville skabe det terapitilbud, vi selv havde brug for.
+
+Det skulle være til at betale på et SU-budget. Man skulle komme i gang uden venteliste. Og vigtigst af alt skulle det bestå af terapeuter, vi kunne spejle os i. Mange af vores medstuderende på psykologistudiet efterlyste mere praktisk erfaring. Samtidig oplevede vi vores generations mentale helbred i frit fald. 
+
+I dag beskæftiger vi over 20 psykologistuderende og har hjulpet over 300 af vores generationsfæller med mental trivsel.
 
 ----
 
@@ -20,54 +32,116 @@ Values:
 
 - 
   valuename: Åbent
-  valuedescription: '[{"content":{"text":"<p>Test<\/p>"},"id":"6b219bea-ecc3-459f-a5e9-571cde9a109e","isHidden":false,"type":"text"},{"content":{"location":"web","image":[],"src":"https:\/\/images.unsplash.com\/photo-1603561029971-544a5e4ab55e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"626e3472-ca87-4ff5-8e42-255aa40393a5","isHidden":false,"type":"image"}]'
-- 
-  valuename: Varmt
-  valuedescription: '[{"content":{"text":"<p>Det vigtigste for os er, at du selv kommer frem til de beslutninger, der er rigtige for dig. Med r\u00e5d og vejledning unders\u00f8ger vi forskellige perspektiver \u2013 men det er dig, der bestemmer over livet og dets mange muligheder.<\/p>"},"id":"d90a8d7b-a84f-4ef9-bc35-40a17444a39f","isHidden":false,"type":"text"}]'
-- 
-  valuename: Eksperimenterende
-  valuedescription: '[{"content":{"text":"<p>Hos Avilius f\u00e5r du en partner, som kan give dig en hj\u00e6lpende h\u00e5nd i de situationer, der er sv\u00e6re at st\u00e5 i alene. Det at v\u00e6re i et rum, hvor man kan sige alt h\u00f8jt og f\u00e5 anerkendt sine tanker og f\u00f8lelser er en kraftfuld oplevelse.<\/p>"},"id":"fc7a2a5f-3cc7-4559-8bdc-c45006a4e577","isHidden":false,"type":"text"}]'
-- 
-  valuename: Dannende
-  valuedescription: '[{"content":{"text":"<p>I psykologiens verden l\u00e6rer man ved at tale om sig selv. N\u00e5r du indg\u00e5r i et terapeutisk forl\u00f8b, vil du l\u00e6re din psyke og krop bedre at kende \u2013 og l\u00e6re, hvordan de to spiller sammen for at opn\u00e5 et st\u00e6rkt og sundt mentalt helbred.<\/p>"},"id":"740e8f2b-6cae-4e92-8b31-e30077a8d52d","isHidden":false,"type":"text"}]'
+  valuedescription: '[{"content":{"text":"<p>Vi skal v\u00e6re et aktivt frirum. Det betyder, at det ikke er nok at danne rammerne til \u00e5benhed \u2013 vi skal selv kunne facilitere og udvikle den. \u00a0<\/p><p><\/p>"},"id":"6b219bea-ecc3-459f-a5e9-571cde9a109e","isHidden":false,"type":"text"},{"content":{"text":"<p><\/p><p>Igennem hele organisationen \u2013og is\u00e6r p\u00e5 ledelsesniveau\u2013 er det derfor vigtigt, at vi er inkluderende og im\u00f8dekommende overfor det, der s\u00e6tter sp\u00f8rgsm\u00e5lstegn ved vores egen forst\u00e5else. I strategi og forretningsudvikling skal vi v\u00e6re \u00e5bne for nye muligheder. I design og markedsf\u00f8ring skal vi fors\u00f8ge at forst\u00e5 mennesker frem for at afsl\u00e5 dem.<\/p><p><\/p>"},"id":"a9d1d53e-0d02-411e-9401-9b4ca864fa86","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["avilius-lokale-lukas-morio.jpg"],"src":"","alt":"Det bl\u00e5 terapirum i Avilius p\u00e5 Vesterbrogade","caption":"Den terapeutiske alliance i Avilius skal v\u00e6re \u00e5ben for nye muligheder, metoder og perspektiver.","link":"","ratio":"","crop":"false"},"id":"6bbb8a08-87d0-43a4-8375-2b2480a0762c","isHidden":false,"type":"image"},{"content":{"text":"<p><\/p><p>I vores daglige praksis betyder det, at vores klienter i stolen skal v\u00e6re trygge ved at \u00e5bne sig op, vise s\u00e5rbarhed og opn\u00e5 selvransagelse. Ovre hos os i den anden stol betyder det, at vi har metodefrihed. Med metodefriheden skal vi kunne im\u00f8dekomme forskellige behov, udfordringer og menneskeliv under \u00e9t tag og hele tiden udveksle og udfordre hinandens overbevisninger.\u00a0<\/p><p><\/p>"},"id":"89a7d2b7-1f82-4769-ad0d-a4a639c43acd","isHidden":false,"type":"text"},{"content":{"text":"<p><\/p><p>Med \u00e5benhed kommer ogs\u00e5 \u00e5ndsfrihed. Uanset baggrund, identitet og overbevisning skal vi kunne inspirere og motivere hinanden til vores f\u00e6lles mission: et bedre og sjovere ungdomsliv.<\/p><p><\/p><p><\/p><p><\/p>"},"id":"dc259577-1e93-4d99-8528-050823ca0177","isHidden":false,"type":"text"}]'
 - 
   valuename: Fællesskabende
-  valuedescription: '[{"content":{"text":"<p>Hj\u00f8rnestenen af ethvert terapeutisk forl\u00f8b bygger p\u00e5 det, man i psykologien kalder den terapeutiske alliance \u2013 et fortroligt, fordomsfrit og tillidsfuldt rum, hvor din terapeut ikke d\u00f8mmer og vurderer, men snarere lytter og perspektiverer dine oplevelser.<\/p>"},"id":"2e416ce6-6da8-46ae-b5c1-55392dbccdd2","isHidden":false,"type":"text"}]'
+  valuedescription: '[{"content":{"text":"<p>Avilius skal skabe f\u00e6lles meningshorisonter, hvor den kollektive selvudvikling er motiveret af de almenmenneskelige oplevelser.<\/p><p><\/p>"},"id":"2e416ce6-6da8-46ae-b5c1-55392dbccdd2","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["avilius-faellesskab.jpg"],"src":"","alt":"Avilius-teamet i en skov i Sverige","caption":"Cirka halvdelen af holdet p\u00e5 tur til Sverige i april 2022.","link":"","ratio":"","crop":"false"},"id":"5a3997d4-5974-4ce8-8cc0-1fd29c15ca0c","isHidden":false,"type":"image"},{"content":{"text":"<p><\/p><p>Lidelse, k\u00e6rlighed, sorg, vrede, h\u00e5b og angst er oplevelser, vi alle kommer igennem i l\u00f8bet af et liv. S\u00e5 hvorfor ikke danne f\u00e6llesskaber omkring netop disse oplevelser i en tid, hvor vi er enormt individualiserede?<\/p><p><\/p><p><\/p><p><\/p>"},"id":"84cfd8dc-19fa-47ea-b442-883806ede31f","isHidden":false,"type":"text"},{"content":{"text":"<p>P\u00e5 organisatorisk niveau skal vi danne et fagligt funderet f\u00e6llesskab, hvor f\u00f8lelsesm\u00e6ssig intelligens bliver anset som en personlig og professionel styrke. P\u00e5 individuelt terapeutisk niveau skal vi inspirere til at vores klienter deler deres oplevelser i terapirummet med deres omgivelser. At tage det f\u00f8rste skridt ud i er den bedste m\u00e5de at begynde normaliseringen af selvomsorg.<\/p><p><\/p><p><\/p>"},"id":"7d0add74-8a1c-401f-aa88-30754cef19df","isHidden":false,"type":"text"},{"content":{"text":"<p><\/p><p>Det er i vores m\u00f8de med andre mennesker, at det ensomme <em>jeg<\/em> bliver til det samh\u00f8rige <em>vi<\/em>.<\/p><p><\/p>"},"id":"f745d7f8-e27a-4ae5-b778-5d423ca65aec","isHidden":false,"type":"text"}]'
+- 
+  valuename: Dannende
+  valuedescription: '[{"content":{"text":"<p>Vi skal hj\u00e6lpe det enkelte menneske med at opn\u00e5 bedre selvforst\u00e5else og b\u00e6redygtighed.<\/p><p><\/p>"},"id":"740e8f2b-6cae-4e92-8b31-e30077a8d52d","isHidden":false,"type":"text"},{"content":{"text":"<p><\/p><p>Der hersker en sn\u00e6ver og undertrykkelse forst\u00e5else af selvet i vores generation. I jagten p\u00e5 ber\u00f8mmelse, materiel rigdom og anerkendelse glemmer vi at st\u00e5 til ansvar for det levede liv i den illusion om, at vi alle har lige muligheder. Vi skal bidrage til en almen dannelse af det hele og b\u00e6redygtige menneske, som har en h\u00f8j identitetskompleksitet, alts\u00e5 en mangesidet forst\u00e5else af sig selv og andre.<\/p><p><\/p><p><\/p>"},"id":"588df7c3-c438-49bd-8093-c3b5b5bbf077","isHidden":false,"type":"text"},{"content":{"text":"<p><\/p><p>Dannelse er et koncept, vi i sin oprindelige betydning har implementeret i hele organisationen. Derfor informerer det blandt andet ogs\u00e5 vores videnskabelige tilgang til de f\u00e6nomener, vi besk\u00e6ftiger os med.<\/p><p><\/p>"},"id":"015e5f8c-08f8-457a-b386-15e3bc251a1b","isHidden":false,"type":"text"}]'
+- 
+  valuename: Eksperimenterende
+  valuedescription: '[{"content":{"text":"<p>Vi skal fejle. Vi skal tilg\u00e5 vores arbejde med en barnlig nysgerrighed, der fordrer innovation og l\u00e6ring.<\/p>"},"id":"fc7a2a5f-3cc7-4559-8bdc-c45006a4e577","isHidden":false,"type":"text"},{"content":{"text":"<p>Gatekeeping og bureaukrati er ambitionernes holdeplads. L\u00f8sningerne p\u00e5 vores generations fremtidige udfordringer kr\u00e6ver en livlig fantasi og risikovillighed. De opst\u00e5r kun i en kultur, hvor modet og ydmygheden \u2013 der er n\u00f8dvendige for at kunne fejle \u2013 kan f\u00e5 lov at blomstre. Derfor skal fiaskoer hyldes som ambiti\u00f8se l\u00e6ringsmuligheder.<\/p>"},"id":"736a3488-6220-4f79-887d-bcb0948ff69b","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["avilius-vaerdi.jpg"],"src":"","alt":"En stak b\u00f8ger fra den f\u00f8rste Avilius-praksis","caption":"Nysgerrigheden driver v\u00e6rket, n\u00e5r vi skal udvikle i Avilius \u2013 uanset om det drejer sig om terapi, indretning eller podcasts.","link":"","ratio":"","crop":"false"},"id":"feac7e35-3926-4348-a022-bc259e213932","isHidden":false,"type":"image"},{"content":{"text":"<p>Modet til at turde fejle skal skinne igennem i det terapeutiske arbejde s\u00e5vel som det organisatoriske. Ordet \"Hvorfor?\" skal v\u00e6re vores st\u00e6rkeste v\u00e5ben til at udfordre status quo.<\/p>"},"id":"dd09768b-9ed5-4cc7-a1b9-77baf1ab7096","isHidden":false,"type":"text"}]'
+- 
+  valuename: Varmt
+  valuedescription: '[{"content":{"text":"<p>Vi skal v\u00e6re en intim, men principfast figur i kampen for bedre mental sundhed.<\/p><p><\/p>"},"id":"d90a8d7b-a84f-4ef9-bc35-40a17444a39f","isHidden":false,"type":"text"},{"content":{"text":"<p><\/p><p>De fleste af vores tilbagev\u00e6rende f\u00e6llesskaber er blevet digitale. Derfor er det i dag n\u00e6sten radikalt og ukonventionelt at m\u00f8des ansigt til ansigt. I terapien og det daglige betyder det, at samtaler, m\u00f8der og workshops som udgangspunkt er med et afs\u00e6t i det fysiske m\u00f8de. Digitale oplevelser skal bygge bro til de analoge. Vi skal bevare og v\u00e6rne om alle de vigtige aspekter af tilv\u00e6relsen, der kun kan opleves i et m\u00f8de i \u00f8jenh\u00f8jde.<\/p><p><\/p>"},"id":"e9299fd1-3225-4ead-9558-f050326c031a","isHidden":false,"type":"text"},{"content":{"text":"<p><\/p><p>Varmt og trygt som et lejrb\u00e5l. Men insisterende som en steppebrand.<\/p><p><\/p><p><\/p>"},"id":"9c99f4a3-6e60-4a36-8a4a-06c4bd80dabc","isHidden":false,"type":"text"}]'
 
 ----
 
 Therapy:
 
 - 
-  question: Terapispørgsmål?
-  answer: '[{"content":{"text":"<p>Svar!<\/p>"},"id":"297bff4f-fe44-4f5c-a4fe-06f4cbd32570","isHidden":false,"type":"text"}]'
+  question: >
+    Er det farligt at gå i terapi hos en
+    studerende?
+  answer: '[{"content":{"text":"<p>Nej.<\/p>"},"id":"4c122e43-2261-4d46-89c9-109b1d630eca","isHidden":false,"type":"text"},{"content":{"text":"<p>I Avilius v\u00e6gter vi fagligheden enormt h\u00f8jt. Vi benytter os af fem foranstaltninger for at sikre, at vores arbejde udf\u00f8res professionelt og forsvarligt.<\/p>"},"id":"9f89f5f2-d1cc-4bbe-8e95-1b7f207bed1a","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Akademisk erfaring<\/strong><br>For at blive samtalepartner i Avilius skal du som minimum v\u00e6re p\u00e5 6. semester af psykologiuddannelsen p\u00e5 K\u00f8benhavns Universitet eller Syddansk Universitet. Tidligere erfaring i et lignende akademisk milj\u00f8 kan give \"merit\" fra et semesters akademisk erfaring i enkelte tilf\u00e6lde, herunder fx. en halv bacheloruddannelse p\u00e5 eksempelvis medicinstudiet.<\/p>"},"id":"ceffaaf4-653d-486d-93ae-e752d01a7a38","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Ugentlig intern supervision<\/strong><br>En hj\u00f8rnesten i den terapeutiske v\u00e6rkt\u00f8jskasse. Supervision best\u00e5r i, at samtalepartnerne ugentligt m\u00f8des i mindre grupper og udveksler cases, erfaringer og problemstillinger, de oplever i deres arbejde. Gennemg\u00e5ende peer-to-peer monitorering af individuelle cases sikrer samtidig en forsvarlig udvikling af den enkelte samtalepartneres arbejde.<\/p>"},"id":"d04ce45d-2769-4ddc-8e51-2e4103c5c91d","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Ugentlig ekstern supervision<\/strong><br>Et hold af erfarne psykologer og psykoterapeuter fast tilknyttet supervisionsgrupperne bidrager til yderligere monitorering af samtalepartnerne, reduceret risiko for ekkokammereffekt og nye redskaber i terapien.<\/p>"},"id":"d9d12939-f9b8-417c-b6a8-45ad68d64cfa","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Kontinuerlig feedbackproces<\/strong><br>Efter endt forl\u00f8b opfordres du til at udfylde et fortroligt og anonymt sp\u00f8rgeskema om din oplevelse. Ti selvst\u00e6ndige terapeutiske parametre bruges til at kvantificere effekten af terapien, mens enkelte \u00e5bne sp\u00f8rgsm\u00e5l om din oplevelse i terapirummet og din samtalepartner bidrager til en st\u00f8rre kvalitativ forst\u00e5else af vores arbejde.<\/p>"},"id":"d759bcd6-d916-4e86-bed6-8a35db09a254","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Kvartalsvise udviklingssamtaler<\/strong><br>At lave terapi kan v\u00e6re h\u00e5rdt for psyken. Fire gange om \u00e5ret gennemf\u00f8rer hver samtalepartner et \"check-in\" med ledelsen, der tager udgangspunkt i den enkeltes personlige trivsel og udvikling. Baseret p\u00e5 ledelsens observationer og klienternes feedback vurderes det i f\u00e6llesskab, hvad samtalepartneren har behov for.<\/p>"},"id":"8a9d97e4-5225-4353-894c-b5627b38006d","isHidden":false,"type":"text"}]'
+- 
+  question: Hvilke etiske principper følger I?
+  answer: '[{"content":{"text":"<p>Vi arbejder under de etiske principper for psykologer i Norden, som best\u00e5r af fire hovedprincipper.<br><\/p>"},"id":"542b956b-e3d6-4fc6-84c1-997cf941aa44","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Respekt for klientens rettigheder og v\u00e6rdighed<br><\/strong>Samtalepartneren i Avilius viser respekt for ethvert menneskes rettigheder, v\u00e6rdighed og integritet og arbejder for at fremme udviklingen heraf. Samtalepartneren respekterer individets ret til privatliv, fortrolighed, selvbestemmelse og autonomi \u2013 i overensstemmelse med \u00f8vrige arbejdsm\u00e6ssige forpligtelser og i henhold til g\u00e6ldende lovgivning.<br><\/p>"},"id":"38bd04c9-5e5b-4c8c-8783-b0eead9decf7","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Kompetence<br><\/strong>Samtalepartneren i Avilius bestr\u00e6ber sig p\u00e5 at udvikle og opretholde h\u00f8jt fagligt kvalifikationsniveau i sit arbejde. Samtalepartneren tilstr\u00e6ber bevidsthed om sine faglige og menneskelige st\u00e6rke og svage sider, s\u00e5ledes at samtalepartneren realistisk kan vurdere, med hvilken kompetence samtalepartneren kan p\u00e5tage sig opgaver. Samtalepartneren p\u00e5tager sig kun de opgaver, tilbyder kun de ydelser og bruger kun de metoder, der kan im\u00f8dekommes i kraft af kvalifikationer i uddannelse, tr\u00e6ning og erfaring.<br><\/p>"},"id":"19ebcf6f-8e37-4dfe-a82e-2a476eb00fc1","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Ansvar<br><\/strong>Samtalepartneren er opm\u00e6rksom p\u00e5 det professionelle og videnskabelige ansvar, samtalepartneren har for sine klienter og den organisation og det samfund, som samtalepartneren lever og arbejder i. Samtalepartneren undg\u00e5r at forvolde skade og er ansvarlig for sine handlinger. Samtalepartneren sikrer sig, s\u00e5 vidt det er muligt, at deres ydelse ikke misbruges.<br><\/p><p><\/p>"},"id":"ba644455-2304-4c68-a1c5-e9d6de4bb922","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Integritet<br><\/strong>Samtalepartneren tilstr\u00e6ber at fremme sin personlige faglige integritet inden for forskning, undervisning og anvendt psykologi. Dette indeb\u00e6rer, at samtalepartneren optr\u00e6der \u00e6rligt, upartisk og respektfuldt over for relevante involverede parter. samtalepartneren fors\u00f8ger at synligg\u00f8re og klarg\u00f8re sin egen rolle i de forskellige sammenh\u00e6nge, samtalepartneren arbejder i.<\/p><p><\/p><p><\/p><p><\/p>"},"id":"7ff51de4-0f23-40ae-8d71-5de1bb3fea60","isHidden":false,"type":"text"}]'
+- 
+  question: Har I tavshedspligt?
+  answer: '[{"content":{"text":"<p>Ja.<\/p>"},"id":"fd9b66e1-824b-4442-bd7b-562981f9f695","isHidden":false,"type":"text"},{"content":{"text":"<p>Udover tavshedspligt er vi ogs\u00e5\u00a0underlagt underretningspligt.<\/p>"},"id":"0cacf8c4-26d3-4f01-ac52-6bd769e055cf","isHidden":false,"type":"text"},{"content":{"text":"<p>Avilius har tavshedspligt vedr\u00f8rende alle personlige forhold erfaret i forbindelse med et terapiforl\u00f8b. S\u00e5ledes vil eksistensen af klient\/terapeutforholdet, diskussioner mellem terapeut og klient samt alle informationer og dokumenter vedr\u00f8rende klienten v\u00e6re fortrolige.<\/p>"},"id":"99d2220e-e10a-4725-a3c2-ce5340b9fefd","isHidden":false,"type":"text"},{"content":{"text":"<p>Det er kun underretningspligten, der kan oph\u00e6ve tavshedspligten. Underretningspligten er en personlig pligt, der g\u00e6lder b\u00e5de for fagpersoner og den almindelige borger, n\u00e5r man f\u00e5r kendskab til eller grund til at antage, at en klient under 18 \u00e5r har brug for s\u00e6rlig st\u00f8tte, eller giver udtryk for at blive udsat for vanr\u00f8gt, nedv\u00e6rdigende behandling eller livsforhold, der skader barnets sundhed eller udvikling.<\/p>"},"id":"3cb362e4-f6e3-4e90-ad87-7084041e1c85","isHidden":false,"type":"text"},{"content":{"text":"<p>Hvis Avilius har grund til at v\u00e6re mere end almindeligt bekymret for en klients trivsel og udvikling, skal vi som udgangspunkt underrette dennes kommune om vores bekymring, kun s\u00e5fremt klienten er under 18 \u00e5r.<\/p><p><\/p><p><\/p>"},"id":"a45ac257-0eb9-4d10-8dfe-8d79d79331ef","isHidden":false,"type":"text"}]'
+- 
+  question: Kan jeg bruge min henvisning fra lægen?
+  answer: '[{"content":{"text":"<p>Nej.<\/p>"},"id":"f09ff91e-74fc-49d0-ae9a-49741a8191b1","isHidden":false,"type":"text"},{"content":{"text":"<p>Avilius er indtil videre ikke i stand til at tage imod klienter, der har f\u00e5et en henvisning fra deres l\u00e6ge. Vi arbejder p\u00e5 en dag at f\u00e5 et ydernummer. En psykolog med ydernummer er af Danske Regioner anerkendt som at kunne yde behandling for den offentlige sektor, s\u00e5 du som klient kan f\u00e5 tilskud til terapi gennem den offentlige sygesikring.<\/p>"},"id":"1a28dc1a-9820-4b64-b83f-26b311ebe113","isHidden":false,"type":"text"},{"content":{"text":"<p>Er du i tvivl om, hvor du kan g\u00e5 hen med din henvisning, er du velkommen til at skrive til os for r\u00e5d og vejledning.<\/p>"},"id":"568b5438-5c93-45d5-92c0-48b2a3d97a79","isHidden":false,"type":"text"}]'
+- 
+  question: Hvor kan jeg få gratis hjælp?
+  answer: '[{"content":{"text":"<p>Der er et hav af forskellige tilbud derude, og det kan v\u00e6re enormt sv\u00e6rt at finde rundt i dem alle. Vi har samlet de mest popul\u00e6re og relevante tilbud i en liste her.<\/p>"},"id":"3e7c59c7-2a94-4fff-baaa-7b83cac84431","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/www.livslinien.dk\/\" target=\"_blank\" title=\"Livslinien\" rel=\"noopener noreferrer\">Livslinien<\/a><\/strong><br>R\u00e5dgivning for selvmordstruede<br><em>Har du tanker om selvmord, s\u00e5 ring til Livslinien p\u00e5 70 201 201<\/em> <\/p>"},"id":"7570c9b1-851f-4c2e-a4d4-209fd4234ec7","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/www.headspace.dk\/\" target=\"_blank\" title=\"Headspace\" rel=\"noopener noreferrer\">Headspace<\/a><\/strong><br>Chatr\u00e5dgivning og samtaler<\/p>"},"id":"802f02d1-b898-43af-88de-8afa6e7cb4fb","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/www.sundhed.dk\/borger\/min-side\/min-sundhedsjournal\/min-laege\/\" target=\"_blank\" title=\"Egen l\u00e6ge p\u00e5 sundhed.dk\" rel=\"noopener noreferrer\">Egen l\u00e6ge<\/a><\/strong><a href=\"https:\/\/www.sundhed.dk\/borger\/min-side\/min-sundhedsjournal\/min-laege\/\" target=\"_blank\" title=\"Egen l\u00e6ge p\u00e5 sundhed.dk\" rel=\"noopener noreferrer\"><br><\/a>Udredning, r\u00e5d og henvisning<\/p>"},"id":"6556b279-e026-4bc0-af10-4ae868e79ae5","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/www.girltalk.dk\/\" target=\"_blank\" title=\"Girl Talk\" rel=\"noopener noreferrer\">Girl Talk<\/a><\/strong><br>Anonym chatr\u00e5dgivning til piger mellem 12-24 \u00e5r<\/p>"},"id":"da642ac0-62b6-43f3-a6eb-c5332381d295","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/psykologisksamtalecenter.dk\/\" target=\"_blank\" title=\"Psykologisk Samtalecenter\" rel=\"noopener noreferrer\">Psykologisk Samtalecenter<\/a><\/strong><br>Korttidsr\u00e5dgivning<\/p>"},"id":"f1074c07-ec03-4369-b921-b2450e36afd1","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/srg.dk\/\" target=\"_blank\" title=\"Studenterr\u00e5dgivningen\" rel=\"noopener noreferrer\">Studenterr\u00e5dgivningen<\/a><\/strong><br>Korttidsr\u00e5dgivning for studerende<\/p>"},"id":"4cb90a1d-fc62-4077-b992-8da5883b055a","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/sind.dk\/faa-hjaelp\" target=\"_blank\" title=\"SIND\" rel=\"noopener noreferrer\">SIND<\/a><\/strong><br>Telefonr\u00e5dgivning<\/p>"},"id":"9c7862bc-959a-455b-a787-df7d91623a76","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/www.urk.dk\/ung-pa-linje-og-ung-online\" target=\"_blank\" title=\"Ung p\u00e5 Linje\" rel=\"noopener noreferrer\">Ung p\u00e5 Linje<\/a><\/strong><br>Telefonr\u00e5dgivning<\/p>"},"id":"bcf15f94-f262-4feb-a0bc-222fd76857dc","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/ventilen.dk\/\" target=\"_blank\" title=\"Ventilen\" rel=\"noopener noreferrer\">Ventilen<\/a><\/strong><br>F\u00e6llesskaber mod ensomhed<\/p>"},"id":"ecbef05c-4b51-4af9-9a02-e0d6714b4139","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/www.ungekompasset.dk\/\" target=\"_blank\" title=\"Ungekompasset\" rel=\"noopener noreferrer\">Ungekompasset<\/a><\/strong><br>Overblik over psykologiske tilbud<\/p>"},"id":"4fe1e1ac-efcf-4812-8ec7-4f9e6d090e9b","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/www.kvistene.dk\/\" target=\"_blank\" title=\"Kvisten\" rel=\"noopener noreferrer\">Kvisten<\/a><\/strong><br>Terapi til ofre for seksuelle overgreb<\/p>"},"id":"0e29fee6-191b-485e-8a79-1751508e89e5","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"http:\/\/www.joan-soestrene.dk\/raadgivning\/\" target=\"_blank\" title=\"Joan-S\u00f8strene\" rel=\"noopener noreferrer\">Joan-S\u00f8strene<\/a><\/strong><br>R\u00e5dgivning for kvinder udsat for vold, voldt\u00e6gt, incest eller seksuel chikane<\/p>"},"id":"9d930017-e5b6-4364-aa78-cd2d0b4269ef","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/tuba.dk\/\" target=\"_blank\" title=\"TUBA\" rel=\"noopener noreferrer\">TUBA<\/a><\/strong><br>Terapi til b\u00f8rn og unge, der er vokset op med alkohol- eller stofmisbrug<\/p>"},"id":"773eec9c-0cce-452e-93f0-062f7ce38ebc","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/sorgcenter.dk\/psykologhjaelp\/\" target=\"_blank\" title=\"B\u00f8rn, Unge og Sorg\" rel=\"noopener noreferrer\">B\u00f8rn, Unge og Sorg<\/a><\/strong><br>Hj\u00e6lp til b\u00f8rn og unge, der har mistet et familiemedlem<\/p>"},"id":"aea7214a-adaa-4889-8e03-4cf537390160","isHidden":false,"type":"text"},{"content":{"text":"<p>Er du i tvivl om det rigtige tilbud til dig, er du altid velkommen til at kontakte os p\u00e5 <a href=\"mailto:kontakt@avilius.dk\" title=\"Skriv til os\">kontakt@avilius.dk<\/a>.<\/p>"},"id":"962afedf-3174-4bad-ae35-49a4afe6d00d","isHidden":false,"type":"text"}]'
+- 
+  question: Hvad koster det at gå i terapi?
+  answer: '[{"content":{"text":"<p><strong><a href=\"https:\/\/www.avilius.dk\/individuelle-samtaler\" target=\"_blank\" title=\"Individuel terapi\" rel=\"noopener noreferrer\">Individuel terapi<\/a><\/strong> koster 399 kr. per samtale. F\u00f8rste samtale er gratis og uforpligtende. P\u00e5 den m\u00e5de kan du f\u00e5 en fornemmelse for, om Avilius er det rigtige tilbud til dig.<\/p>"},"id":"297bff4f-fe44-4f5c-a4fe-06f4cbd32570","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/www.avilius.dk\/grupper\" target=\"_blank\" title=\"Gruppeterapi\" rel=\"noopener noreferrer\">Gruppeterapi<\/a><\/strong> koster fra 300 kr. per session og varierer afh\u00e6ngigt af forl\u00f8bet.<\/p>"},"id":"fc03f6ae-260e-4a79-bb88-1f3126ba9255","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/www.avilius.dk\/kaeresteterapi\" target=\"_blank\" title=\"K\u00e6resteterapi\" rel=\"noopener noreferrer\">K\u00e6resteterapi<\/a><\/strong> koster 899 kr. per samtale.<\/p>"},"id":"9a6e9847-ec35-4371-a40f-7011a988439f","isHidden":false,"type":"text"},{"content":{"text":"<p><strong><a href=\"https:\/\/www.avilius.dk\/psykologer\" target=\"_blank\" title=\"Psykologhj\u00e6lp\" rel=\"noopener noreferrer\">Psykologhj\u00e6lp<\/a><\/strong> koster fra 800 kr. per samtale. Nogle af vores psykologer tilbyder studierabat ved fremvisning af studiekort.<\/p>"},"id":"13f78db0-312f-4fd0-9e2e-b9e069d4db33","isHidden":false,"type":"text"},{"content":{"text":"<p>Er du \u00f8konomisk d\u00e5rligt stillet grundet k\u00f8n, seksualitet, race, etnicitet, kropskapabilitet, klasse eller anden identitetsmark\u00f8r, tilbyder vi rabat afh\u00e6ngig af vores ressourcer. <a href=\"mailto:oliver@avilius.dk\" title=\"Oliver Herlitschek\">Skriv til os direkte<\/a> for at starte en dialog om dine muligheder.<\/p>"},"id":"c32682af-b7bc-4f06-950f-e8760e62e2e4","isHidden":false,"type":"text"}]'
+- 
+  question: Kan jeg gå i terapi online?
+  answer: '[{"content":{"text":"<p>Det kan v\u00e6re intimiderende at skulle st\u00e5 ansigt til ansigt med en terapeut og fort\u00e6lle om sine udfordringer. Men i Avilius v\u00e6gter vi det fysiske m\u00f8de h\u00f8jt.<\/p>"},"id":"def7c877-841a-4570-9293-33ff8987516f","isHidden":false,"type":"text"},{"content":{"text":"<p> Der kan dog v\u00e6re omst\u00e6ndigheder, der forhindrer dig i at m\u00f8de op til en samtale. Har du ikke mulighed for at have fysiske samtaler, tilbyder vi ogs\u00e5 online videosamtaler gennem en fortrolig krypteret forbindelse eller direkte gennem telefonen.<\/p><p><\/p>"},"id":"7bebd0e8-25f8-4125-9d31-e155832badb0","isHidden":false,"type":"text"}]'
+- 
+  question: >
+    Hvor gammel skal jeg være for at gå i
+    terapi?
+  answer: '[{"content":{"text":"<p>Avilius er m\u00e5lrettet unge mellem 15-40 \u00e5r. Men det betyder ikke, at vi ikke vil hj\u00e6lpe dig, hvis du falder uden for aldersgruppen.<\/p>"},"id":"1832c146-7f40-4d82-b08d-90e3ef1b9ad8","isHidden":false,"type":"text"},{"content":{"text":"<p>Er du under 15 \u00e5r, skal du medbringe en for\u00e6lder eller v\u00e6rge til din samtale.<\/p><p><\/p>"},"id":"69211bc9-0048-46cc-bf64-f4cdb7cd3e9b","isHidden":false,"type":"text"},{"content":{"text":""},"id":"bf11ec78-ca42-4879-8d25-b90370b90398","isHidden":false,"type":"text"}]'
+- 
+  question: Hvem skal gå i terapi?
+  answer: '[{"content":{"text":"<p>Vi mener, at terapi er gavnligt for alle. Den bedste m\u00e5de at teste, om terapi er noget for dig, er ved at pr\u00f8ve det. V\u00e6lger du <a href=\"https:\/\/www.avilius.dk\/individuelle-samtaler\" target=\"_blank\" title=\"Individuel terapi\" rel=\"noopener noreferrer\">individuel terapi<\/a>, er f\u00f8rste samtale gratis og uforpligtende.<\/p>"},"id":"db55dd93-14d2-4f87-a0ca-fc7e99ced3f4","isHidden":false,"type":"text"}]'
+- 
+  question: Hvor lang tid varer en samtale?
+  answer: '[{"content":{"text":"<p><a href=\"https:\/\/www.avilius.dk\/individuelle-samtaler\" target=\"_blank\" title=\"Individuel terapi\" rel=\"noopener noreferrer\">Individuel terapi<\/a> og <a href=\"https:\/\/www.avilius.dk\/psykologer\" target=\"_blank\" title=\"Psykologhj\u00e6lp\" rel=\"noopener noreferrer\">psykologhj\u00e6lp<\/a> varer 60 minutter.<\/p>"},"id":"4f87127e-9649-4c62-b0fc-5158ebf40616","isHidden":false,"type":"text"},{"content":{"text":"<p> I <a href=\"https:\/\/www.avilius.dk\/grupper\" target=\"_blank\" title=\"Gruppeterapi\" rel=\"noopener noreferrer\">gruppeterapi<\/a> varer sessionerne oftest to timer, mens enkelte gruppeforl\u00f8bs sessioner str\u00e6kker sig over en halv dag i weekenden.<\/p>"},"id":"4367d9d3-e758-4db1-927c-900418bc89a8","isHidden":false,"type":"text"},{"content":{"text":"<p> <a href=\"https:\/\/www.avilius.dk\/kaeresteterapi\" target=\"_blank\" title=\"K\u00e6resteterapi\" rel=\"noopener noreferrer\">K\u00e6resteterapi<\/a> varer 90 minutter.<\/p>"},"id":"399720ac-c76e-4aa9-b1c8-e5725e0a300a","isHidden":false,"type":"text"}]'
+- 
+  question: Hvordan aflyser jeg en samtale?
+  answer: '[{"content":{"text":"<p>N\u00e5r du starter i et forl\u00f8b hos Avilius, accepterer du et aflysningsgebyr p\u00e5 399,- (f\u00f8rste samtale er undtaget), hvis aflysningen finder sted 24 timer inden den planlagte aftale. Du skal alts\u00e5 aflyse din aftale mere end et d\u00f8gn f\u00f8r aftalen finder sted.<\/p>"},"id":"f2ef02f5-b1dc-4280-aa26-f4812a2606b1","isHidden":false,"type":"text"},{"content":{"text":"<p>Deltager du i et <a href=\"https:\/\/www.avilius.dk\/grupper\" target=\"_blank\" title=\"Gruppeterapi\" rel=\"noopener noreferrer\">gruppeforl\u00f8b<\/a> er du underlagt en bindingsperiode p\u00e5 hele forl\u00f8bets l\u00e6ngde.<\/p>"},"id":"c7446dc4-fe26-4bb9-ad2a-a201e42f065b","isHidden":false,"type":"text"}]'
+- 
+  question: Hvordan opbevarer Avilius min data?
+  answer: '[{"content":{"text":"<p>Du kan finde vores <a href=\"https:\/\/www.avilius.dk\/blog\/privatlivspolitik\" target=\"_blank\" title=\"Data og privatlivspolitik\" rel=\"noopener noreferrer\">data- og privatlivspolitik<\/a> her.<\/p>"},"id":"171c9526-51fc-4cd4-9486-ab00446adf00","isHidden":false,"type":"text"}]'
+- 
+  question: Hvor mange unge mistrives?
+  answer: '[{"content":{"text":"<p>Tal fra Sundhedsstyrelsens Nationale Sundhedsprofil (2022) viser, at 34% af kvinder i alderen 16\u201324 \u00e5r har en lav score p\u00e5 den mentale helbredsskala, mens tallen er lige knap 22% for m\u00e6nd i samme aldersgruppe.<\/p>"},"id":"51d833d5-02b5-47c7-ab0c-fa730f537a33","isHidden":false,"type":"text"},{"content":{"text":"<p>Der udgives j\u00e6vnligt rapporter om trivsel fra forskellige offentlige og private instanser. Vi har <a href=\"https:\/\/drive.google.com\/drive\/folders\/1UeXNAmMNGi1ydogwpo1vdAY4ZQVlWvaJ?usp=sharing\" target=\"_blank\" title=\"Rapporter om unges trivsel\" rel=\"noopener noreferrer\">samlet nogle af dem her<\/a>.<\/p>"},"id":"da677bed-e56c-4f0a-9395-208ce5046967","isHidden":false,"type":"text"}]'
+- 
+  question: Hvad mangler du svar på?
+  answer: '[{"content":{"text":"<p>Her i vores FAQ har vi fors\u00f8gt at samle alle de sp\u00f8rgsm\u00e5l, vi oftest st\u00f8der p\u00e5. Har vi alligevel glemt et vigtigt sp\u00f8rgsm\u00e5l, s\u00e5 t\u00f8v ikke med at <a href=\"mailto:kontakt@avilius.dk\" title=\"Skriv til os\">skrive til os<\/a> \u2013 s\u00e5 f\u00e5r du et personligt svar, s\u00e5 hurtigt vi kan komme til tasterne!<\/p>"},"id":"67a45e3c-2516-4599-9df1-ae36ce519481","isHidden":false,"type":"text"}]'
 
 ----
 
 Business:
 
 - 
-  question: Forretnignsspørgmsål!
-  answer: '[{"content":{"text":"<p>Og her kommer svaret!<\/p>"},"id":"287a7142-83cb-441c-9a22-f2bf28f39e84","isHidden":false,"type":"text"}]'
+  question: Hvad tjener man i Avilius?
+  answer: '[{"content":{"text":"<p>Vi mener, at \u00f8konomisk transparens er et enormt vigtigt skridt p\u00e5 vejen mod bedre ligestilling. Nedenfor kan du se pr\u00e6cis hvor meget man tjener som hhv. samtalepartner, psykolog og leder i Avilius.<\/p>"},"id":"287a7142-83cb-441c-9a22-f2bf28f39e84","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Samtalepartnere<\/strong><\/p><p>Alle samtalepartnere tjener 140 kr. per individuel samtale. Efter seks m\u00e5neder honorerer vi ogs\u00e5 30 minutters forberedelsestid per samtale. Gruppeledere, trivselsledere og diverse ekstraopgaver er underlagt samme l\u00f8nforhold.<\/p>"},"id":"d87a066b-9b33-4d22-a850-6a0cb7975caa","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Psykologer<\/strong><\/p><p>Som psykolog i Avilius bestemmer man selv prisen p\u00e5 sine sessioner. Cirka 50% af sessionsprisen g\u00e5r direkte til psykologen selv. Resten g\u00e5r til almene administrative udgifter, prim\u00e6rt supervision, husleje og forsikringer. Derudover tjener hver psykolog et lavt fast m\u00e5nedligt bel\u00f8b for at give en grad af \u00f8konomisk forudsigelighed.<\/p>"},"id":"1f653a95-ca26-403e-a02b-d4a43a68b7ac","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Ledelse<\/strong><\/p><p>P\u00e5\u00a0nuv\u00e6rende tidspunkt arbejder ledelsen i Avilius p\u00e5 frivillig basis. M\u00e5let er, at kunne opn\u00e5 \u00f8konomisk r\u00e5derum til at udbetale en symbolsk l\u00f8n i midten af 2022.<\/p>"},"id":"8eded56c-48ab-4a8c-85ef-7f6bcef1ef48","isHidden":false,"type":"text"}]'
+- 
+  question: Hvem ejer Avilius?
+  answer: '[{"content":{"text":"<p>Stifterne Oliver Herlitschek og Jonas Sch\u00f8sler ejer st\u00f8rstedelen af Avilius. Detaljerede ejerforhold og regnskaber er offentligt tilg\u00e6ngelige p\u00e5 <a href=\"https:\/\/datacvr.virk.dk\/enhed\/virksomhed\/39743779\" target=\"_blank\" title=\"CVR p\u00e5 Virk\" rel=\"noopener noreferrer\">virk.dk<\/a>.<\/p>"},"id":"160a8f01-b3e1-43f1-aed4-e1ce3930ff27","isHidden":false,"type":"text"}]'
+- 
+  question: Hvem finansierer Avilius?
+  answer: '[{"content":{"text":"<p>Siden virksomhedens stiftelse i 2019 har Avilius v\u00e6ret et selvfinansieret projekt, supporteret af et par SU-l\u00e5n til at betale regningerne. I maj 2020 vandt vi 25.000 kr. til en fundraising-konkurrence supporteret af <a href=\"https:\/\/www.tuborgfondet.dk\/\" target=\"_blank\" title=\"Tuborgfondet\" rel=\"noopener noreferrer\">Tuborgfondet<\/a>.<\/p>"},"id":"292048d9-036c-4ee1-8ae7-bd2037769fc4","isHidden":false,"type":"text"}]'
 
 ----
 
 Developmenttext:
 
-Udviklingstekst!
+Her kan du danne dig et overblik over tidligere opgaver og fremtidens to-do-liste.
 
-#### Færdigt
-Her er hvad der skal ske
-
-Coming up
+Med vores roadmap ønsker vi at give et indblik i den komplicerede rejse, det er at bygge en nyskabende virksomhed i en traditionel branche. Vores vision er at bygge noget meningsfyldt, smukt og vigtigt.
 
 ----
 
-Development:
+Done:
 
-- 
-  question: Udviklingsspørgsmål?
-  answer: '[{"content":{"text":"<p>Her er svaret!<\/p>"},"id":"e3a238a4-72c6-42e9-b103-2409cf93eee7","isHidden":false,"type":"text"},{"content":{"level":"h4","text":"FREMTIDIGE TILTAG"},"id":"1d6000c2-f5b6-4472-8cba-1c2e3219d2bc","isHidden":false,"type":"heading"},{"content":{"text":"<p>\u00b7 Ting<\/p>"},"id":"3582e0b6-3ef7-4e35-bde4-e10f4472ddf7","isHidden":false,"type":"text"}]'
+✓ Mere ekstern supervision
+✓ Gruppeterapi
+✓ Pronominer i kontaktformular
+✓ Betalt forberedelsestid
+✓ Videoer af terapeuter
+✓ Launch kæresteterapi
+✓ Bedre intern antidiskrimination
+✓ Psykologhjælp
+✓ Donere første overskud
+✓ Terapiordning til virksomheder
+
+----
+
+Todo:
+
+○ Udvid HQ
+○ Flere samarbejder med ungeorganisationer
+○ Bedre håndtering af minoritetsklienter
+○ Mere direkte politisk indflydelse
 
 ----
 
@@ -90,21 +164,29 @@ Thankyou: Sylvester Hindersson, Simon Størup, Lukas Morio, Yu, Ejstrup, Daniel 
 
 ----
 
-Seotitle: Hvorfor Avilius?
+Seotitle: SU-venlig terapi til unge som os selv.
 
 ----
 
-Seodescription: Vores generation ikke, så vi har taget sagen i egen hånd. Læs mere om rejsen mod et sjovere ungdomsliv her.
+Seodescription: Vores generation trives ikke — så vi har taget sagen i egen hånd.
 
 ----
 
-Seokeywords: 
+Seokeywords: ung terapi, billig terapi, terapi til unge, københavn terapi, gruppeterapi til unge, depression unge, angst unge
 
 ----
 
 Seoimage:
 
-- avilius-mgmt.jpg
+- f1000008.jpg
+
+----
+
+Development:
+
+- 
+  question: Udviklingsspørgsmål?
+  answer: '[{"content":{"text":"<p>Her er svaret!<\/p>"},"id":"e3a238a4-72c6-42e9-b103-2409cf93eee7","isHidden":false,"type":"text"},{"content":{"level":"h4","text":"FREMTIDIGE TILTAG"},"id":"1d6000c2-f5b6-4472-8cba-1c2e3219d2bc","isHidden":false,"type":"heading"},{"content":{"text":"<p>\u00b7 Ting<\/p>"},"id":"3582e0b6-3ef7-4e35-bde4-e10f4472ddf7","isHidden":false,"type":"text"}]'
 
 ----
 

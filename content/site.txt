@@ -9,82 +9,32 @@ Announcement:
 Phonetimes:
 
 - 
-  day: 2021-12-31
-  from: 15
-  to: 17
-  toggle: 'false'
-- 
-  day: 2022-01-02
+  day: 2022-04-13
   from: 10
   to: 12
   toggle: 'false'
 - 
-  day: 2022-01-04
-  from: 15
-  to: 17
-  toggle: 'false'
-- 
-  day: 2022-01-06
+  day: 2022-04-14
   from: 10
   to: 12
   toggle: 'false'
 - 
-  day: 2022-01-08
-  from: 15
-  to: 17
+  day: 2022-04-15
+  from: 14
+  to: 16
   toggle: 'false'
 - 
-  day: 2021-12-10
+  day: 2022-04-25
   from: 10
   to: 12
   toggle: 'false'
 - 
-  day: 2022-01-12
-  from: 15
-  to: 17
-  toggle: 'false'
-- 
-  day: 2022-01-14
+  day: 2022-04-26
   from: 10
   to: 12
   toggle: 'false'
 - 
-  day: 2022-01-16
-  from: 15
-  to: 17
-  toggle: 'false'
-- 
-  day: 2022-01-18
-  from: 10
-  to: 12
-  toggle: 'false'
-- 
-  day: 2022-01-20
-  from: 15
-  to: 17
-  toggle: 'false'
-- 
-  day: 2022-01-22
-  from: 10
-  to: 12
-  toggle: 'false'
-- 
-  day: 2022-01-24
-  from: 15
-  to: 17
-  toggle: 'false'
-- 
-  day: 2022-01-26
-  from: 10
-  to: 12
-  toggle: 'false'
-- 
-  day: 2022-01-28
-  from: 15
-  to: 17
-  toggle: 'false'
-- 
-  day: 2022-01-30
+  day: 2022-04-27
   from: 10
   to: 12
   toggle: 'false'

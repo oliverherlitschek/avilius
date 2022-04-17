@@ -6,11 +6,17 @@ Headline: Livet er en holdsport.
 
 ----
 
-Tagline: Vi laver gruppeterapi målrettet det gode ungdomsliv.
+Tagline: Gruppeterapi målrettet det gode ungdomsliv.
 
 ----
 
-Cover: 
+Cover:
+
+- avilius-gruppeterapi-hero.jpg
+
+----
+
+Description: Eskild, Jonas, Malthe og Emil på gåtur i Sverige.
 
 ----
 
@@ -26,27 +32,25 @@ Venteliste betyder, at vi endnu ikke har fastsat en dato, men venter på, at hol
 
 ----
 
-Comparisonheadline: Solorejse eller med holdet på tur?
+Comparisonheadline: Stærkere sammen.
 
 ----
 
-Comparisontext: Vi tror ofte, at vores problemer er helt specielle og at vi står alene med dem. Men faktisk er langt de fleste af livets udfordringer almenmenneskelige oplevelser. Derfor kan gruppeterapi faktisk være mere effektivt end individuelle sessioner med en terapeut.
+Comparisontext: Vi tror ofte, at vores problemer er helt unikke. Men faktisk er de fleste af dem en helt naturlig del af den menneskelige oplevelse. Det er bare én af grundene til, at gruppeterapi er mere effektivt end individuel terapi.
 
 ----
 
 Comparisons:
 
 - 
-  individual: ét unikt udgangspunkt
+  individual: ét enkelt fokuspunkt
   group: mange forskellige perspektiver
 - 
-  individual: defineret af terapeutens værktøjskasse
-  group: >
-    en mulighed for at "crowdsource"
-    terapeutiske værktøjer
+  individual: styret af terapeutens metodik
+  group: påvirket af hele gruppens erfaringer
 - 
-  individual: 'SU-venligt (299,- per session)'
-  group: 'endnu billigere — fra 199,- per gang'
+  individual: 'SU-venligt (399,- per session)'
+  group: 'endnu billigere (fra 300,- per session)'
 
 ----
 
@@ -68,21 +72,21 @@ Individuelsplashcta: Kom i gang
 
 ----
 
-Seotitle: Sig hej til Avilius' nye gruppeforløb 👯‍♀️
+Seotitle: Gruppeforløb – livet er en holdsport
 
 ----
 
-Seodescription: Livet er en holdsport. Sammen med andre unge tackler vi de problemer, vi allesammen oplever — fra stress og præstationsangst til det knuste hjerte.
+Seodescription: Sammen med andre unge tackler vi de problemer, der er gennemgående i vores generation — fra selvværd og angst til meningsløshed og det knuste hjerte.
 
 ----
 
-Seokeywords: kærlighed, gruppeforløb, kulturclash, præstationspres, præstationskultur
+Seokeywords: kærlighed, gruppeforløb, kulturclash, præstationspres, præstationskultur, gruppeterapi, dårligt selvværd
 
 ----
 
 Seoimage:
 
-- Grupper-Avilius-Hero-Resized.jpg
+- rachad-emilie-avilius-selvvaerd-14.jpg
 
 ----
 

@@ -1,0 +1,109 @@
+Title: Emilie Stolle
+
+----
+
+Firstname: Emilie
+
+----
+
+Email: stolle@avilius.dk
+
+----
+
+Capacity: false
+
+----
+
+Price: 
+
+----
+
+Pricedetails: 
+
+----
+
+Length: 
+
+----
+
+Course: 
+
+----
+
+Coursedetails: 
+
+----
+
+Video:
+
+- stolle.mp4
+
+----
+
+Portrait:
+
+- emilie-stolle-avilius-5.jpg
+
+----
+
+Secondportrait:
+
+- emilie-stolle-avilius-6.jpg
+
+----
+
+Thirdportrait:
+
+- emilie-stolle-avilius.jpg
+
+----
+
+Experience: Bekymringer, Grænsesætning, Stress, Kærlighed, Studietvivl, Retningsløshed, Tankemønstre
+
+----
+
+Testimonials:
+
+- 
+  quote: |
+    Jeg er så glad for, at jeg i sin tid tog kontakt til jer, og at jeg så blev sat sammen med Emilie. Det var lidt ulig andre former for terapiforløb, jeg tidligere har deltaget i, og med det var min oplevelse med Emilie mere i øjenhøjde uden aldrig at blive for personlig eller dreje fokus/samtalen helt væk fra noget, jeg ikke kunne genkende.
+    
+    Det var rart at kunne spejle sig en gang imellem i hinanden, hvilket nok giver god mening taget i betragtning, at vi er to unge kvinder.
+  author: Tidligere klient
+- 
+  quote: 'Emilie skabte et dejligt rum at være i - hvor der var rart og plads til alle følelser.'
+  author: Tidligere klient
+
+----
+
+Description:
+
+I vores travle hverdag er der sjældent plads til at mærke efter. Derfor forsøger jeg at skabe et rum til netop dette. Jeg ønsker at terapilokalet skal være et sted med ro og plads til at være umiddelbar og ærlig. Det er vigtigt for mig at der er plads til alt det uperfekte, som vi alle sammen indeholder og som også er det der gør os unikke som mennesker.
+
+Jeg tror at vi unge har en tendens til at være enormt hårde ved os selv og sammenligne os med andre. Det kan gøre, at vi på forskellige måder føler os utilstrækkelige og at vi skal klare alle vores problemer selv. Den forestilling vil jeg gerne gøre op med.
+
+I vores snakke ønsker jeg, at du skal blive klogere på dig selv og de ting som er på spil i dit liv, sådan at vi sammen kan arbejde med det som fylder for dig.
+
+Jeg leder også vores gruppeforløb (link: https://avilius.dk/grupper/selvvaerd text: Selvværd).
+
+----
+
+Seotitle: Mød Emilie – samtalepartner i Avilius
+
+----
+
+Seodescription: I samtaler med mig er terapirummet et sted med ro og plads til at være umiddelbar og ærlig. Der skal være plads til alt det uperfekte, som vi alle sammen indeholder og gør os unikke.
+
+----
+
+Seokeywords: sætte grænser, mindre bekymret, bliv mere social, ung terapi, billig terapi, studietvivl
+
+----
+
+Seoimage:
+
+- emilie-stolle-avilius-6.jpg
+
+----
+
+Lastbooked: 2

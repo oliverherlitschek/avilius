@@ -2,25 +2,35 @@ Title: Kæresteterapi
 
 ----
 
+Headline: Dig og mig og vi to.
+
+----
+
+Tagline: Til jer, der skal have ladet batterierne op.
+
+----
+
 Cover:
 
-- avilius-kaeresteterapi-test.jpg
+- avilius-parterapi-kaeresteterapi.jpg
 
 ----
 
-Headline: Det handler om jer.
+Description: Foto: Klara Kulikova
 
 ----
 
-Tagline: Parterapi til jer, der har brug for nye batterier.
+Methodcover:
+
+- clara-zielinski-avilius-3.jpg
 
 ----
 
-Methodheadline: Lyt til mig.
+Methodheadline: Størst af alt er kærligheden.
 
 ----
 
-Methoddescription: Vi er rigtigt gode til at antage, hvad vores partnere vil. Men ofte glemmer vi at spørge!
+Methoddescription: Kæresteterapi er utroligt komplekst. Relationelle dynamikker, konflikthåndtering og kommunikation er nogle af nøgleordene. Vi har udviklet et pensum specifikt om de temaer, som er obligatorisk at læse, inden man kaster sig ud i disciplinen i Avilius.
 
 ----
 
@@ -31,40 +41,79 @@ Testimonials:
     Vi fandt faktisk ud af, at vi havde
     meget mere til fælles, end vi gik og
     troede. Og måske var det dét, vi
-    mistede hen ad vejen. Det genfandt vi en
-    smule af i Avilius.
+    mistede hen ad vejen. Det genfandt vi
+    lidt efter lidt i et forløb hos
+    Avilius.
+- 
+  quote: >
+    Jeg synes det var et behageligt rum,
+    Rebekka skabte for os. Det var en
+    virkelig god oplevelse, at opleve at vi
+    godt kunne finde ud af at være i det
+    rum sammen (altså min kæreste og jeg).
+- 
+  quote: 'Prisen gjorde, at vi kunne prøve det at gå i terapi af, uden at det kostede os vanvittigt meget. Det gjorde at vi fik gjort det - og på et tidspunkt der var virkelig brugbart for os.'
 
 ----
 
-Foryou: Sex, Tillidsbrud, Utroskab, Fælles udvikling, Tryghed, Fremtidsplaner, Ensomhed, Usikkerhed
+Foryou: Sex, Tillidsbrud, Utroskab, Fælles udvikling, Tryghed, Fremtidsplaner, Ensomhed, Usikkerhed, Kommunikation
 
 ----
 
-Price: 
+Price: 899,-
 
 ----
 
-Pricedetails: 
+Pricedetails: Prisen afspejler 90 minutters terapi. Fordelt på to personer er det 300 kr. i timen.
 
 ----
 
-Length: 
+Length: 90 minutter
 
 ----
 
-Seotitle: 
+Course: Så længe I vil!
 
 ----
 
-Seodescription: 
+Coursedetails: Alle par er forskellige – så det er deres forløb naturligvis også. Nogle par har behov for et par enkelte samtaler, mens andre kommer forbi en gang om måneden. Vi anbefaler som minimum fem sessioner til at starte med, så vi rigtigt kan nå at komme i dybden.
 
 ----
 
-Seokeywords: 
+Individuelsplashphoto:
+
+- >
+  avilius-kaeresteterapi-individuel-terapi.jpg
 
 ----
 
-Seoimage: 
+Individuelsplashheadline: Er din partner modvillig?
+
+----
+
+Individuelsplashdescription: Det er okay. Som par behøver man ikke altid at dele behov. Individuel terapi er også en effektiv måde at styrke og blive klogere på sit parforhold.
+
+----
+
+Individuelsplashcta: Individuel terapi
+
+----
+
+Seotitle: Tag din kæreste i hånden.
+
+----
+
+Seodescription: Hos Avilius laver vi parterapi til jer, der er i et stærkt forhold – og gerne vil være det i mange år endnu. Lave priser, unge terapeuter og 100% fokus på de ting, der fylder hos jer.
+
+----
+
+Seokeywords: kæresteterapi, parterapi, parterapi unge, parterapi københavn, sex terapi københavn
+
+----
+
+Seoimage:
+
+- mette-svane-avilius-1.jpg
 
 ----
 

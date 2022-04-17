@@ -158,7 +158,7 @@ $(document).ready(function(){
       url: "/callform",
       data: $form.serialize()
     }).done(function( msg ) {
-      $form.html("<h6 class='ta-c'>Stærkt! Tusind tak. Du vil blive ringet op i løbet af det valgte tidsrum. Vi tales ved!</h6>");
+      $form.html("<h6 class='ta-c'>Tusind tak. Du vil blive ringet op i løbet af det valgte tidsrum. Vi glæder os til at tale med dig.</h6>");
     });
   });
 
@@ -247,6 +247,7 @@ $(document).ready(function(){
 
 //  SCROLLREVEALS
 
-ScrollReveal().reveal('.reveal', { delay: 250, origin: 'bottom', distance: '50px', duration: 500 });
-ScrollReveal().reveal('.reveal-2', { delay: 450, origin: 'bottom', distance: '50px', duration: 500 });
-ScrollReveal().reveal('.reveal-fade', { delay: 250, duration: 500 });
+ScrollReveal().reveal('.reveal', { delay: 200, origin: 'bottom', distance: '50px', duration: 500 });
+ScrollReveal().reveal('.reveal-2', { delay: 400, origin: 'bottom', distance: '50px', duration: 500 });
+ScrollReveal().reveal('.reveal-3', { delay: 700, origin: 'bottom', distance: '50px', duration: 500 });
+ScrollReveal().reveal('.reveal-slow', { delay: 2000, duration: 3000 });

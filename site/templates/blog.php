@@ -1,4 +1,5 @@
 <?php snippet('header') ?>
+<?php snippet('cta') ?>
 <?php snippet('nav') ?>
 <main class="bg-brown">
 
@@ -98,9 +99,9 @@ if ($post->theme() == "baddfc") {
         </h4>
           <h4 class="body light ta-c s-small">
           Vi sidder klar med råd og vejledning til, hvordan du kan få det&nbsp;bedre.</h4>
-          <button class="btn ta-c m-c mono small mt-1 pl-1 pr-1 c-purple bg-lpurple book-button">✉️&nbsp;Skriv til os</button>
+          <button class="book-button c-purple h-60 br-10 br-30 m-c m-10 mt-1 bg-lpurple ta-c mono small s-smaller pl-1 pr-1">Skriv til os</button>
           </div>
-          <h3 class="smallest mono mt-15"><a class="underline call-button">Jeg vil gerne ringes op</a></h3>
+          <h3 class="smallest mono mt-15"><a class="underline call-button">Jeg vil hellere ringes op</a></h3>
         </div>
 
         <?php snippet('call') ?>
@@ -149,31 +150,22 @@ if ($post->theme() == "baddfc") {
   </section>
 </article>
 
-<hr class="bg-black o-50 w-full mt-3 m-c s-mt-1">
-
-<article class="bg-brown pb-4 w-full m-c mt-4 flex flex-sb va-c m-two-up s-two-up s-mt-2 s-pb-2">
-  <div class="w-33 m-c image-fill reveal">
-    <a href="../individuelle-samtaler" title="Individuelle samtaler" class="text-hover">
-      <?php foreach (page('team')->children()->listed()->not('team/jonas-schosler')->shuffle()->limit(1) as $member): ?>
-          <?php if ($portrait = $member->portrait()->toFile()): ?>
-            <?php echo $portrait->webp('m-c br-10 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
-          <?php endif ?>
-      <?php endforeach ?>
-      
-        <h3 class="body ta-c mt-10 s-small"><span class="text-hover">Individuelle samtaler</span></h3>
-      
-      </a>
+<article class="w-100 bg-brown bt-grey">
+  <section class="h-66 s-card-33 w-full w-1400 m-c va-c flex flex-wrap">
+  <div class="w-100 m-c pt-4 pb-4 s-p-1 s-pt-2 s-pb-2">
+  <p class="body regular ta-c mb-15 s-small">
+    Er Avilius det rigtige for dig?
+  </p>
+    <p class="body light ta-c s-small mb-1">
+    Skriv til os og fortæl, hvordan det går <span class="s-remove"><br></span>– så finder vi ud af det&nbsp;sammen.</p>
+    <div class="w-100 m-c ta-c">
+    <button class="book-button c-purple h-60 br-10 br-30 m-c m-10 bg-lpurple ta-c mono small s-smaller pl-1 pr-1">Skriv til os</button> <button class="call-button c-purple h-60 br-10 br-30 m-c m-10 s-m-0 bg-white ta-c mono small s-smaller pl-1 pr-1">Book et opkald ☎️</button>
   </div>
-
-  <div class="w-33 m-c image-fill reveal">
-    <a href="../grupper" title="Gruppeforløb" class="text-hover">
-            <img src="../media/groups-test-pic.jpg" class="m-c br-10 br-30">
-      
-        <h3 class="body ta-c mt-10 s-small"><span class="text-hover">Gruppeforløb</span></h3>
-      
-      </a>
   </div>
+</section>
+  <?php snippet('call') ?>
 </article>
+
 
 </main>
 <?php snippet('newform') ?>

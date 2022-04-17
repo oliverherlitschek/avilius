@@ -924,7 +924,7 @@ a .o-50:hover, button .o-50:hover {
 	width: auto;
     display: block;
     outline: hidden;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 .sticker {
 	height: 80px;

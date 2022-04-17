@@ -1,10 +1,11 @@
 <?php snippet('header') ?>
-<?php snippet('price-ticker') ?>
+<?php snippet('cta') ?>
 <?php snippet('nav') ?>
+
 <main class="bg-lgrey">
 <article class="w-100 bg-brown card-80 s-card-60">
   <div class="slideshow-hero">
-    <?php foreach ($page->heroslide()->toStructure() as $slide): ?>
+    <?php foreach ($page->heroslide()->toStructure()->shuffle() as $slide): ?>
     <div class="w-100">
       <?php if ($photo = $slide->herophoto()->toFile()): ?>
           <div class="flex w-100 card-80 s-card-60 bg-cc bg-c flex p-1 s-p-15" style="background-image: url(<?= $photo->backgroundImage() ?>);">
@@ -25,14 +26,14 @@
 <article class="w-100 pt-4 s-pt-2 s-pb-2">
   <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
   <div class="w-33 s-w-100">
-  <h3 class="subheadline c-purple light va-x m-heading s-subheading">Sådan kommer du i&nbsp;gang.</h3>
+  <h3 class="subheadline c-purple light va-x m-heading s-subheading">Kom let i&nbsp;gang.</h3>
   </div>
   <div class="w-66 mb-4 m-mb-2 s-w-100">
-  <p class="body light s-small">I Avilius hjælper vi med alle de ting, som er xyz xyz xyz xyz.</p>
+  <p class="body light s-small">Det kan være enormt grænseoverskridende at starte til terapi, og det første skridt er uden tvivl det sværeste. Derfor har vi gjort det så let som muligt at komme hurtigt i&nbsp;gang.</p>
   <div class="bb-black mt-1">
   <?php foreach ($page->howto()->toStructure() as $value): ?>
       <input type="checkbox" id="<?= $value->howtoname()->slug() ?>" hidden />
-      <div class="accordion ac-large">
+      <div class="accordion ac-large reveal">
     <label for="<?= $value->howtoname()->slug() ?>" class="tab tab-button tab-large bt-black va-c flex flex-sb pl-15 pr-15">
       <h3 class="c-purple body s-small">
         <?= $value->howtoname() ?>
@@ -57,10 +58,10 @@
 <article class="w-100 h-80 bg-blue">
   <a href="../team" title="Team" class="text-hover">
     <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
-      <div class="w-half m-w-third s-w-100 image-fill">
+      <div class="w-half m-w-third s-w-100 image-fill reveal">
         <?php echo $portrait->webp('m-c br-3 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
       </div>
-      <div class="w-third flex-end m-w-half s-w-100 s-mt-1">
+      <div class="w-third flex-end m-w-half s-w-100 s-mt-1 reveal-2">
       <p class="mono smaller uc pb-15 s-smallest">Team</p>
   <h5 class="subheadline va-x m-heading s-subheading"><?= $page->teamsplashheadline() ?></h5>
       <p class="body mb-1 s-small">
@@ -73,12 +74,12 @@
 
 <article class="w-100 m-c pt-4 pb-4 flex flex-sb m-pt-2 m-pb-2 s-p-0 bb-grey bg-lgrey">
   <section class="w-100 w-1400 m-c va-c slideshow-testimonials c-purple">
-    <?php foreach(page('team')->children()->listed()->limit(8)->shuffle() as $therapist): ?>
+    <?php foreach(page('team')->children()->listed()->limit(12) as $therapist): ?>
       <?php if ($therapist->testimonials()->isNotEmpty()): ?>
         <div class="m-c w-100 flex va-c">
           <div class="w-50 m-w-66 m-c mt-4 mb-4">
           <p class="uc mono smaller s-smallest mb-15">Tidligere klient hos <a href="<?= $therapist->url(); ?>" target="_blank" title="<?= $therapist->title(); ?>"><?= $therapist->firstname(); ?></a>:</p>
-          <?php foreach($therapist->testimonials()->toStructure()->shuffle()->limit(1) as $text): ?>
+          <?php foreach($therapist->testimonials()->toStructure()->limit(1) as $text): ?>
             <p class="body m-c s-small"><?= $text->quote()->widont(); ?></p>
           <?php endforeach ?>
         </div>
@@ -94,7 +95,7 @@
       <h3 class="heading c-purple light va-x m-subheading">Der er mange gode grunde til at gå i&nbsp;terapi.</h3>
     </div>
     <div class="w-half mb-2 s-w-100">
-      <p class="body light s-small">Vi er et produkt af et system, der ikke er synderligt fokuserede på vores trivsel. Så må man tage sagen i egen hånd. Her er nogle ting, man kan tale om med en terapeut.</p>
+      <p class="body light s-small">Det kan være svært at vide, hvornår man skal opsøge terapi. Her er nogle af de almindelige oplevelser, vi ofte arbejder med i&nbsp;terapirummet.</p>
     </div>
   </div>
       <div class="mt-3 pb-2">
@@ -113,10 +114,10 @@
 <article class="w-100 h-80 bg-purple">
   <a href="" title="Book et besøg" class="book-button text-hover">
     <section class="w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
-      <div class="w-half m-w-third s-w-100 image-fill">
+      <div class="w-half m-w-third s-w-100 image-fill reveal">
         <?php echo $portrait->webp('m-c br-3 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
       </div>
-      <div class="w-third flex-end m-w-half s-w-100 s-mt-1 c-white">
+      <div class="w-third flex-end m-w-half s-w-100 s-mt-1 c-white reveal-2">
       <p class="mono smaller uc pb-15 s-smallest">Trygge rammer</p>
   <h5 class="subheadline va-x m-heading s-subheading"><?= $page->roomsplashheadline() ?></h5>
       <p class="body mb-1 s-small">
@@ -131,13 +132,12 @@
   <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap s-reverse">
     <div class="w-33 m-w-half s-w-100 mb-2">
       <p class="mono smaller uc pb-15 s-smallest">Transparente priser</p>
-      <h5 class="subheadline c-purple va-x m-heading s-subheading">SU-venlig terapi.</h5>
+      <h5 class="subheadline c-purple va-x m-heading s-subheading">Her havner dine penge.</h5>
       <p class="body mb-1 s-small">
-      Det er vigtigt at vide, hvor SU'en havner. </p>
-
+      399,- er mange penge på et stramt SU-budget. Derfor vil vi gerne vise, præcis hvad vi bruger dem på.</p>
     <div class="bb-black mt-1">
       <input type="checkbox" id="wages" hidden />
-      <div class="accordion ac-large">
+      <div class="accordion ac-large reveal">
     <label for="wages" class="tab tab-button tab-large bt-black va-c flex flex-sb pl-10 pr-10">
       <h3 class="c-purple body s-small">
         <span style="color:#C1DCF9;">&#11044;</span>&nbsp;
@@ -157,7 +157,7 @@
   </div>
   <div class="">
       <input type="checkbox" id="administration" hidden />
-      <div class="accordion ac-large">
+      <div class="accordion ac-large reveal">
     <label for="administration" class="tab tab-button tab-large va-c flex flex-sb pl-10 pr-10">
       <h3 class="c-purple body s-small">
         <span style="color:#D0DDA2;">&#11044;</span>&nbsp;
@@ -177,7 +177,7 @@
   </div>
   <div class="">
       <input type="checkbox" id="supervision" hidden />
-      <div class="accordion ac-large">
+      <div class="accordion ac-large reveal">
     <label for="supervision" class="tab tab-button tab-large bt-black va-c flex flex-sb pl-10 pr-10">
       <h3 class="c-purple body s-small">
         <span style="color:#FFFFDD;">&#11044;</span>&nbsp;
@@ -197,7 +197,7 @@
   </div>
   <div class="bb-black">
       <input type="checkbox" id="revenue" hidden />
-      <div class="accordion ac-large">
+      <div class="accordion ac-large reveal">
     <label for="revenue" class="tab tab-button tab-large bt-black va-c flex flex-sb pl-10 pr-10">
       <h3 class="c-purple body s-small">
         <span style="color:white;">&#11044;</span>&nbsp;
@@ -219,16 +219,16 @@
 
     <div class="mb-4 m-mb-2 s-w-100">
       <div id="breakdown" class="flex flex-wrap m-c">
-        <section id="wages" class="br-3 flex va-c">
+        <section id="wages" class="br-3 flex va-c reveal">
           <p class="ta-c small"><span class="mono smallest">210 kr.</span><br>Løn til din terapeut</p>
         </section>
-        <section id="markup" class="br-3 flex va-c">
+        <section id="markup" class="br-3 flex va-c reveal">
           <p class="ta-c small"><span class="mono smallest">Overskud</span></p>
         </section>
-        <section id="supervision" class="br-3 flex va-c">
+        <section id="supervision" class="br-3 flex va-c reveal-2">
           <p class="ta-c small"><span class="mono smallest">80 kr.</span><br>Supervision</p>
         </section>
-        <section id="administration" class="br-3 flex va-c">
+        <section id="administration" class="br-3 flex va-c reveal-3">
           <p class="ta-c small"><span class="mono smallest">100 kr.</span><br>Administration</p>
         </section>
     </div>
@@ -239,7 +239,7 @@
 <?php if ($portrait = $page->groupsplashphoto()->toFile()): ?>
 <article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
   <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pt-1 s-pb-2 c-white flex flex-wrap flex-sb">
-    <div class="w-33 m-w-half flex-end s-w-100">
+    <div class="w-33 m-w-half flex-end s-w-100 reveal">
       <a href="../grupper" title="Gruppeterapi">
       <p class="mono smaller uc pb-15 s-smallest">Gruppeterapi</p>
       <h5 class="subheadline va-x m-heading s-subheading"><?= $page->groupsplashheadline() ?></h5>
@@ -252,7 +252,7 @@
 <?php endif ?>
 
 
-<article class="w-100 bg-brown">
+<article class="w-100 bg-lgrey">
   <section class="h-66 s-card-33 w-full w-1400 m-c va-c flex flex-wrap">
   <div class="w-100 m-c pt-4 pb-4 s-p-1 s-pt-2 s-pb-2">
   <p class="body regular ta-c mb-15 s-small">

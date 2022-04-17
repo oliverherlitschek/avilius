@@ -7,33 +7,55 @@ options:
 tabs:
   content:
     fields:
-      cover:
-          label: Cover
-          type: files
-          multiple: false
-          width: 1/2
+      maininfolabel:
+        label: Main info
+        type: headline
       headline:
-          label: Headline
-          type: text
-          width: 1/2
+        label: Headline
+        type: text
       tagline:
-          label: Tagline
-          type: text
+        label: Tagline
+        type: text
+        width: 1/3
+      cover:
+        label: Cover
+        type: files
+        multiple: false
+        width: 1/3
+      description:
+        label: Description
+        type: textarea
+        width: 1/3
+      line-a:
+        type: line
+      methodcover:
+        label: Method photo
+        type: files
+        multiple: false
+        width: 1/3
       methodheadline:
-          label: Method headline
-          type: text
+        label: Method headline
+        type: text
+        width: 1/3
       methoddescription:
-          label: Method description
-          type: textarea
+        label: Method description
+        type: textarea
+        width: 1/3
+      line-b:
+        type: line
       testimonials:
         type: structure
         fields:
           quote:
             label: Quote
             type: text
+      line-c:
+        type: line
       foryou:
         label: Reasons to start couples therapy
         type: tags
+      line-d:
+        type: line
       price:
         label: Price
         type: text
@@ -46,14 +68,33 @@ tabs:
         label: Length
         type: text
         width: 1/3
-    course:
+      course:
         label: Course
         type: text
         width: 1/2
-    coursedetails:
+      coursedetails:
         label: Course details
         type: textarea
         width: 1/2
+      line-e:
+        type: line
+      individuelsplashphoto:
+        label: Photo
+        type: files
+        multiple: false
+        width: 1/4
+      individuelsplashheadline:
+        type: text
+        label: Headline
+        width: 1/4
+      individuelsplashdescription:
+        type: textarea
+        label: Description
+        width: 1/4
+      individuelsplashcta:
+        type: text
+        label: CTA
+        width: 1/4
   meta:
     type: fields
     fields:

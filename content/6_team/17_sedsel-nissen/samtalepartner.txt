@@ -1,0 +1,129 @@
+Title: Sedsel Nissen
+
+----
+
+Firstname: Sedsel
+
+----
+
+Email: sedsel@avilius.dk
+
+----
+
+Capacity: false
+
+----
+
+Price: 399 kr. – inkl. gratis forsamtale
+
+----
+
+Pricedetails: En individuel session i Avilius koster 399 kr. per session. Den første samtale er gratis, så du helt uforpligtende kan mærke efter, om du har lyst til at starte i et forløb.
+
+----
+
+Length: 60 minutter
+
+----
+
+Course: Så længe du vil!
+
+----
+
+Coursedetails: Alle forløb er forskellige. Nogle har behov for 5-10 opklarende samtaler, mens andre bruger deres terapeutiske rum ligesom et fitnesscenter – et sted, man kan tage hen en gang i mellem og styrke sit mentale helbred.
+
+----
+
+Video:
+
+- sedsel-nissen.mp4
+
+----
+
+Portrait:
+
+- sedsel-nissen-avilius-1.jpg
+
+----
+
+Secondportrait:
+
+- sedsel-nissen-avilius-3.jpg
+
+----
+
+Thirdportrait:
+
+- sedsel-main-portrait.webp
+
+----
+
+Experience: Identitet, Eksistentielle tanker, Relationer, Selvværd, Tankemønstre, Bekymringer
+
+----
+
+Testimonials:
+
+- 
+  quote: |
+    Jeg har været meget glad for mine samtaler med Sedsel. Hun har været en stor støtte for mig i den her periode jeg har været igennem. Hun har været god til at spørge ind til de rigtige ting og lytte på de rigtige tidspunkter. Også når jeg selv kom til samtalen uden rigtig at vide hvad der var i vejen, fik hun sporet sig ind på og spurgt til de rigtige ting, så jeg forstod hvad der egentlig gik og trykkede mig.
+    
+    Hun er god til at få skrevet ting ned på tavlen, hvilket har hjulpet mig meget med, at kunne forstå/overskue min situation bedre. Sedsel du har været en kæmpe hjælp, så tak for dig!
+  author: Tidligere klient
+- 
+  quote: >
+    Jeg har været virkelig glad for mit
+    forløb med Sedsel, og jeg har fået
+    rigtig meget ud af det. Både ting, jeg
+    håbede på at få ud af det før jeg
+    startede, men jeg har også fundet ud af
+    mange ting, jeg er blevet overrasket
+    over sammen med Sedsel. Jeg synes
+    generelt Sedsel er virkelig dygtig og et
+    rart menneske, der har givet plads til
+    alle de følelser, jeg selv har været
+    bange for hvordan ville blive modtaget
+    af andre.
+  author: Tidligere klient
+- 
+  quote: >
+    Jeg har virkelig haft en god oplevelse
+    med at starte til terapi i Avilius hos
+    Sedsel. Jeg ville til hver en tid varmt
+    anbefale hende til andre. Sedsel skabte
+    et meget tillidsfuldt og trygt rum, og
+    jeg gik altid derfra med en følelse af,
+    at jeg virkelig havde fået noget ud af
+    det. Tusind tak for det ☺️
+  author: Tidligere klient
+- 
+  quote: >
+    Ekstremt trygt rum, har været meget
+    glad for at gå her.
+  author: Tidligere klient
+
+----
+
+Description: Mit store ønske er at hjælpe med at finde ro og hvile i sig selv såvel som sin tilværelse. Derfor ønsker jeg at skabe et ikke-dømmende rum, hvor der er plads til at udforske dine behov og ønsker nærmere. Jeg tror nemlig på, at man kan have behov for at dele sine tanker frit med en anden, så man kan blive klogere på sig selv og sin tilværelse.
+
+----
+
+Seotitle: Snak med Sedsel 💬
+
+----
+
+Seodescription: Mit store ønske er at hjælpe med at finde ro og hvile i sig selv såvel som sin tilværelse.
+
+----
+
+Seokeywords: ro, hvile, tanker, behov
+
+----
+
+Seoimage:
+
+- sedsel-second.jpg
+
+----
+
+Lastbooked: 5

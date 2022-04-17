@@ -49,12 +49,12 @@ tabs:
               width: 1/2
               multiple: false
           portrait:
-              label: Main portrait
+              label: Portrait for Team page
               type: files
               width: 1/2
               multiple: false
           secondportrait:
-              label: Second portrait
+              label: Main hero portrait
               type: files
               width: 1/2
               multiple: false
@@ -72,7 +72,7 @@ tabs:
               fields:
                 quote:
                   label: Quote
-                  type: text
+                  type: textarea
                   before: '"'
                   after: '"'
                 author:

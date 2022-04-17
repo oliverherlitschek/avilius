@@ -3,10 +3,13 @@
 <?php snippet('nav') ?>
 <main class="bg-lgrey">
   <?php if ($cover = $page->cover()->toFile()): ?>
-<article class="w-100 card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->backgroundImage() ?>);">
-  <h1 class="subheadline c-white flex-end s-heading">
-    <?= $page->title() ?>
+<article class="w-100 bg-brown card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->backgroundImage() ?>);">
+  <h1 class="subheadline-scale c-white flex-end s-heading reveal">
+    <?= $page->headline() ?>
   </h1>
+  <p class="smaller w-third ta-r mono c-white flex-end s-remove reveal-2">
+    <?= $page->description() ?>
+  </p>
 </article>
 <?php endif ?>
 
@@ -19,7 +22,7 @@
 <article class="w-100 pt-4 s-pt-2 s-pb-2">
 <section class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
     <div class="w-33 m-w-33 s-w-100">
-      <h3 class="heading c-purple light va-x m-subheading"><?= $page->comparisonheadline()->widont() ?></h3>
+      <h3 class="heading c-purple light va-x m-subheading"><?= $page->comparisonheadline() ?></h3>
     </div>
     <div class="w-half mb-2 s-w-100">
       <p class="body light s-small"><?= $page->comparisontext()->widont() ?></p>
@@ -33,7 +36,7 @@
     <div class="w-50 body s-small"><a href="../individuelle-samtaler" target="_blank" title="Individuel terapi" class="underline">Individuel</a> terapi er...</div><div class="w-50 body s-small">Gruppeterapi er...</div>
   </div>
   <?php foreach ($page->comparisons()->toStructure() as $comparison): ?>
-  <div class="tab tab-medium s-tab-small bb-black flex flex-sb va-c m-tab-large">
+  <div class="tab tab-medium s-tab-small bb-black flex flex-sb va-c m-tab-large reveal">
     <div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0"><?= $comparison->individual() ?></div><div class="w-50 mono small s-smaller pl-15 m-mt-1 s-m-0 m-mb-1 s-pl-0"><?= $comparison->group() ?></div>
   </div>
   <?php endforeach ?>
@@ -43,13 +46,13 @@
 <?php foreach (page('grupper')->children()->listed()->limit(1) as $group): ?>
 <article class="w-100 h-80 bg-blue">
   <a href="<?= $group->url() ?>" title="<?= $group->title() ?>" class="text-hover">
-    <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
-      <div class="w-half m-w-third s-w-100 image-fill">
-          <?php if ($portrait = $group->cover()->toFile()): ?>
-            <?php echo $portrait->webp('m-c br-3 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
+    <section class="w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb">
+      <div class="w-33 s-w-100 image-fill as-c reveal">
+          <?php if ($cover = $group->cover()->toFile()): ?>
+            <?php echo $cover->webp('m-c br-3 br-30', $cover->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
-  </div>
-      <div class="w-third flex-end m-w-half s-w-100 s-mt-1">
+      </div>
+      <div class="w-half flex-end m-w-66 s-w-100 s-mt-1 s-mb-2 as-c reveal-2">
       <p class="mono smaller uc pb-15 s-smallest"><?php if ($group->dates()->isEmpty()): ?>
         Næste hold<span class="s-remove">start</span>: Venteliste
       <?php else: ?>
@@ -61,8 +64,9 @@
       <p class="body mb-1 s-small">
       <?= $group->intro()->widont() ?></p>
       <p class="dash mb-1 s-small">Læs mere&nbsp;&nbsp;&RightArrow;</p>
+    </div>
     </section>
-  </a>
+    </a>
 </article>
 <?php endforeach ?>
 
@@ -87,7 +91,7 @@
       <h3 class="heading c-purple light va-x m-subheading">Vores grupper</h3>
     </div>
     <div class="w-half mb-2 s-w-100">
-      <p class="body light s-small">Vi udvikler gruppeforløb baseret på de temaer, vi oplever som gennemgående i individuel terapi. På den måde sikrer vi, at vi laver relevant og effektiv gruppeterapi.</p>
+      <p class="body light s-small">Vi udvikler gruppeforløb baseret på de temaer, vi oplever som gennemgående i individuel terapi. På den måde sikrer vi, at de er lige så effektive og&nbsp;relevante.</p>
     </div>
   </section>
 </article>
@@ -123,7 +127,7 @@
       <?php foreach (page('grupper')->children()->listed() as $group): ?>
         <input type="checkbox" id="<?= $group->title()->slug() ?>" hidden />
         <a href="<?= $group->url() ?>" title="<?= $group->title() ?>">
-        <div class="tab-button tab-large bt-grey flex flex-sb pl-15 pr-15 s-p-0">
+        <div class="tab-button tab-large bt-grey flex flex-sb pl-15 pr-15 s-p-0 reveal">
             <h3 class="c-purple tab-button body s-small as-c"><span class="dash"><?= $group->title() ?>&nbsp;&nbsp;&RightArrow;</span></h3>
             <p class="c-purple mono smaller uc as-c">
               <?php if ($group->dates()->isEmpty()): ?>
@@ -146,7 +150,7 @@
 <?php if ($portrait = $page->individuelsplashphoto()->toFile()): ?>
 <article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
   <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pt-1 s-pb-2 c-white flex flex-wrap flex-sb">
-    <div class="w-33 m-w-half flex-end s-w-100">
+    <div class="w-33 m-w-half flex-end s-w-100 reveal">
       <a href="../individuelle-samtaler" title="Individuel terapi">
       <p class="mono smaller uc pb-15 s-smallest">Individuel terapi</p>
       <h5 class="subheadline va-x m-heading s-subheading"><?= $page->individuelsplashheadline() ?></h5>

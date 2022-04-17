@@ -4,8 +4,7 @@ Title: Avilius
 
 Individuelphoto:
 
-- >
-  rachad-koleilat-avilius-samtaleterapi.jpg
+- avilius-individuel-terapi.jpg
 
 ----
 
@@ -13,11 +12,13 @@ Individuelprice: 399
 
 ----
 
-Individueldescription: Én time, der kun handler om dig – i selskab med en kommende psykolog.
+Individueldescription: Til dig, der har brug for nogen at tale med – en hel time i selskab med en kommende psykolog.
 
 ----
 
-Gruppephoto: 
+Gruppephoto:
+
+- avilius-gruppeterapi.jpg
 
 ----
 
@@ -25,11 +26,13 @@ Gruppeprice: 299
 
 ----
 
-Gruppedescription: Vi er mere ens, end vi lige går og tror. Gruppeterapi om fx. selvværd og angsttanker.
+Gruppedescription: Til dig, der føler dig alene i livet – gruppeforløb om vores generations største udfordringer.
 
 ----
 
-Kaerestephoto: 
+Kaerestephoto:
+
+- avilius-kaeresteterapi.jpg
 
 ----
 
@@ -37,46 +40,45 @@ Kaeresteprice: 899
 
 ----
 
-Kaerestedescription: Parterapi lyder for kedeligt. Til jer med et godt forhold, I gerne vil gøre endnu bedre!
+Kaerestedescription: Til jer, der har fundet kærligheden – og gerne vil passe på den i mange år endnu.
 
 ----
 
-Individuelsplashheadline: Det hele handler om dig.
+Individuelsplashheadline: Få det der fylder til at fylde mindre.
 
 ----
 
-Individuelsplashdescription: Vi startede med en simpel idé: 1 times samtaleterapi til en god pris. Det synes vi stadig er en god idé.
+Individuelsplashdescription: Hos os kan du tale om lige det, der fylder – uanset hvor stort eller småt, det måtte være. Første samtale er gratis.
 
 ----
 
-Individuelsplashcta: Udforsk individuel terapi
+Individuelsplashcta: Find en samtalepartner
 
 ----
 
 Teamsplashphoto:
 
-- >
-  juliane-hemmingsen-avilius-1-team_webp.jpg
+- gustav-hultquist-team.jpg
 
 ----
 
-Teamsplashheadline: De bedste af de bedste.
+Teamsplashheadline: Når livet er hårdt, er vi med dig.
 
 ----
 
-Teamsplashdescription: Vi er 21 unge psykologistuderende – så vi er cirka samme sted i livet, som du selv er.
+Teamsplashdescription: Vi er et hold af psykologistuderende på en fælles mission: at gøre det sjovere og nemmere at være ung i dag.
 
 ----
 
-Teamsplashcta: Sig hej
+Teamsplashcta: Mød os
 
 ----
 
-Gruppesplashheadline: Livet er en holdsport.
+Gruppesplashheadline: Livet skal deles.
 
 ----
 
-Gruppesplashdescription: Vi lever i et ekstremt individualiseret samfund – men oplever tit de samme udfordringer i livet. Vores grupper tager udgangspunkt i vores generations problematikker.
+Gruppesplashdescription: At dele sine oplevelser med andre er terapeutisk i sig selv. I grupperne tager vi udgangspunkt i vores generations mest udbredte problematikker.
 
 ----
 
@@ -84,17 +86,15 @@ Gruppesplashcta: Alle grupper
 
 ----
 
-Kaerestesplashphoto:
-
-- avilius-kaeresteterapi-1.jpg
+Kaerestesplashphoto: 
 
 ----
 
-Kaerestesplashheadline: Det handler om jer.
+Kaerestesplashheadline: Dig og mig og vi to.
 
 ----
 
-Kaerestesplashdescription: Beskrivelse af kæresteterapi
+Kaerestesplashdescription: Al kærlighed skal tages seriøst – også den unge. Vi har udviklet moderne parterapi til jer, der tror på hinanden.
 
 ----
 
@@ -102,21 +102,21 @@ Kaerestesplashcta: Find tosomheden
 
 ----
 
-Seotitle: Avilius — samtaleterapi til unge
+Seotitle: Avilius — SU-venlig samtaleterap
 
 ----
 
-Seodescription: SU-venlige samtaler med en kommende psykolog om din mentale trivsel — både i grupper og helt for dig selv. Første samtale er altid gratis.
+Seodescription: Tal med en kommende psykolog om hvordan du har det — i en gruppe eller helt for dig selv. Første samtale er altid gratis.
 
 ----
 
-Seokeywords: terapi, psykolog københavn, ung terapi, skoletræt, præstationsangst, studiestress, terapi københavn
+Seokeywords: terapi, psykolog københavn, ung terapi, skoletræt, præstationsangst, studiestress, terapi københavn, dårligt selvværd
 
 ----
 
 Seoimage:
 
-- sedsel-main-portrait.jpg
+- f1000009.jpg
 
 ----
 

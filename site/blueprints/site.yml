@@ -30,16 +30,6 @@ tabs:
               text:
                 type: text
                 default: '"Citat" — Kunstner, Titel(eller årstal)'
-          testimonials:
-            type: structure
-            label: Testimonials
-            fields:
-              quote:
-                label: Quote
-                type: text
-              author:
-                label: Who's it from?
-                type: textarea
       - width: 1/2
         sections:
           pages:

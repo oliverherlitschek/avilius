@@ -1,0 +1,141 @@
+Title: Emil Andresen
+
+----
+
+Firstname: Emil
+
+----
+
+Email: emil@avilius.dk
+
+----
+
+Capacity: false
+
+----
+
+Price: 
+
+----
+
+Pricedetails: 
+
+----
+
+Length: 
+
+----
+
+Course: 
+
+----
+
+Coursedetails: 
+
+----
+
+Video:
+
+- emil.mp4
+
+----
+
+Portrait:
+
+- emil-andresen-avilius-3.jpg
+
+----
+
+Secondportrait:
+
+- emil-andresen-avilius-1.jpg
+
+----
+
+Thirdportrait:
+
+- emil-andresen-avilius-2.jpg
+
+----
+
+Experience: Overtænkning, Tankemylder, Angsttanker, Bekymringer, Relationer, Identitet, Tankemønstre, Selvværd, Motivation
+
+----
+
+Testimonials:
+
+- 
+  quote: >
+    Helt overordnet er jeg meget tilfreds
+    med forløbet. Jeg har set en stor
+    udvikling, og det har i den grad været
+    med baggrund i de samtaler, som jeg har
+    haft med Emil hos Avilius. Der har
+    været en fin struktur gennem forløbet,
+    forstået på den måde, at de pointer,
+    jeg kom med i første samtale, blev jeg
+    holdt op på løbende.
+  author: Tidligere klient
+- 
+  quote: >
+    Jeg havde en meget positiv oplevelse,
+    hvor jeg følte, at Emil var god til at
+    opfange de problemer, som jeg døjede
+    med. Specielt hans arbejdede med at
+    komme med udfordringer var en stor
+    hjælp. Herudover var han også særligt
+    god til jævnligt at følge op på de
+    forskellige problematikker, som vi havde
+    oppe at vende.
+  author: Tidligere klient
+- 
+  quote: >
+    Indstillingen og terapeuten var til stor
+    hjælp!
+  author: Tidligere klient
+- 
+  quote: >
+    Virkelig rar oplevelse; det var som en
+    times samtale med en ven, der er
+    urealistisk god til at lytte.
+  author: Tidligere klient
+- 
+  quote: |
+    Min oplevelse er, at det er vigtigt at blive 'holdt op' på nogle af de ting, man ankom med, og få italesat den udvikling, man gennemgår, sådan at man er klar over hvor der er fremskridt, og hvor man kan gøre mere.
+    
+    Fint at blive udfordret på nogle af de opfattelser og tilgange man selv har. Må der for min skyld også gerne være endnu mere af - altså at blive udfordret på det, man bringer på bordet til samtalerne. Men overordnet set har det været meget positivt, hele forløbet.
+    
+    Så tak for et rigtigt godt forløb og sparring gennem et helt år :-)
+  author: Tidligere klient
+
+----
+
+Description:
+
+Følelser, tanker og forventninger kan være overvældende oplevelser, der til tider kan være svære at håndtere og navigere i. Følelser af utilstrækkelighed, usikkerhed og tvivl om, hvem man egentlig er og hvem man skal blive, kan være svære at bære rundt på alene. Er jeg en god nok studerende, en god nok ven eller kæreste – hvem er jeg overhovedet?
+
+Disse spørgsmål og problematikker kan vi, i samarbejde, forsøge at løse, så du kan indfri dig selv og de mål som netop du ønsker at opnå.
+
+For mig er det altbetydende at skabe en tryghedsfuld, forstående og ikke-dømmende relation, da jeg mener, at dette er fundamentet for positiv udvikling og udforskning af selvet. Heri, kan jeg tilbyde en empatisk, udforskende og forstående tilgang, hvor du anses som eksperten i dit eget liv.
+
+----
+
+Seotitle: Mød Emil – samtalepartner i Avilius
+
+----
+
+Seodescription: Følelser, tanker og forventninger kan være overvældende oplevelser, der til tider kan være svære at håndtere og navigere i. Sammen udforsker vi dem, så du kan indfri dig selv og de mål som du ønsker at opnå.
+
+----
+
+Seokeywords: usikkerhed, utilstrækkelighed, angsttanker, ung terapi, billig terapi, selvværd
+
+----
+
+Seoimage:
+
+- emil-andresen-avilius-1.jpg
+
+----
+
+Lastbooked: 8

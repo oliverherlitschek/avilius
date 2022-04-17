@@ -4,17 +4,21 @@ Title: Selvværd
 
 Cover:
 
-- selvvaerd-avilius-2.jpg
+- rachad-emilie-avilius-selvvaerd-14.jpg
 
 ----
 
-Intro: Kender du fornemmelsen af ikke at være god nok? Selvværd er ikke en konstant størrelse, man enten har eller ikke har, det er snarere et kontinuum, alle mennesker befinder sig på. Målet er ikke aldrig at have selvkritik, men at kunne håndtere den, når den opstår.
+Intro: Selvværdet er vores mentale immunforsvar, og ligesom vores fysiske kan vi træne det stærkere. I gruppen udveksler vi oplevelser og lærer om forskellige værktøjer til at styrke det sunde selvbillede.
 
 ----
 
 Portrait:
 
-- selvvaerd-avilius-2.jpg
+- rachad-emilie-avilius-selvvaerd-2.jpg
+
+----
+
+Description: Den knugende fornemmelse i brystet af ikke at være tilstrækkelig. En kritisk indre indre stemme, der banker dig i hovedet hver gang du siger, gør eller tænker noget? Her i gruppen kender vi de følelser alt for godt.
 
 ----
 
@@ -22,19 +26,7 @@ Length: 6 uger (to timer om ugen)
 
 ----
 
-Price: Per gang: 333
-
-----
-
-Email: rachad@avilius.dk
-
-----
-
-Conditions: 2.000,- i alt. Betales på én gang eller over flere omgange.
-
-----
-
-Description: Ligesom vi kan træne og nære vores fysiske immunforsvar, kan vi også styrke og nære vores mentale immunforsvar – selvværdet. Og det er en svær størrelse! Hvad er det? Hvorfor har vi det? Og hvordan kan vi optimere det? De spørgsmål udforsker vi her. Jagten på et selvværd kræver, at vi ændrer vores fundamentale tankemønstre, og derfor kan man godt ende med at slå sig selv i hovedet undervejs. Her kommer egenomsorg kommer ind i billedet. For både proces og mål skal føles behageligt, og derfor betyder det også at det er okay ikke at være okay.
+Price: 333
 
 ----
 
@@ -57,7 +49,16 @@ Foryou:
 
 Therapistcover:
 
-- selvvaerd-avilius-1.jpg
+- rachad-emilie-avilius-selvvaerd-10.jpg
+
+----
+
+Therapistintro:
+
+I vores personlige liv og i arbejdet med klienter fandt vi begge hurtigt ud af, at vi alle har et dybt ønske om at føle os værdifulde, tilstrækkelige, sikre og gode nok. Et ønske der ofte viser sig i frygten for alt det modsatte – nemlig frygten for at være utilstrækkelighed, usikker, uelsket.
+Det kræver mod at stå ved sin sårbarhed. Vi har begge selv gået vejen og arbejdet med vores selvværd, for derigennem at opdage, at en af de største gaver, vi kan give os selv er at stå ved os selv. Denne erkendelse har vi et kæmpe ønske om at dele med andre. Vores ønske er at hjælpe dig med at skabe et fundament i dig selv, hvormed du er klar til at møde verden med alle dens mirakler og udfordringer.
+Rent fagligt har vi forskellig erfaring med os i bagagen, udover det terapeutiske arbejde hos Avilius, er dette blandt andet fra psykiatri, undervisning i mental sundhed, rådgivning og meget mere.
+(link: https://avilius.dk/team/emilie-stolle text: Mød Emilie)  (link: https://avilius.dk/team/rachad-koleilat text: Mød Rachad)
 
 ----
 
@@ -65,63 +66,83 @@ Therapist: Emilie og Rachad
 
 ----
 
-Therapistintro:
-
-Vi hedder Emilie og Rachad, er kommende psykologer og leder selvværdsgruppen i Avilius.
-Sammen vil vi undersøge hvordan vi kan drage omsorg overfor os selv, og samtidig hvad der kan stå i vejen for denne proces. Vi skal diskutere betydningen af selvværd for at forstå os selv, vores relationer og verden omkring os. Vi skal arbejde med værktøjer som tilknytning, bevidsthed, forsvar, motivation, ærlighed og frem for alt egenomsorg. Desuden er grænsesætning et vigtigt tema, der går igen, hvor vi arbejder med at registrere, forstå og agere efter vores egne behov.
-Selvværdet kommer ikke medfødt, men er præget af livets mange erfaringer. De erfaringer udforsker og arbejder vi med for at forstå, hvorfor vi tænker om os selv som vi gør. Vi hjælper og støtter hinanden i dette arbejde, og vi vil derfor indgå på lige fod med gruppens øvrige deltagere. 
-(link: https://avilius.dk/team/emilie-stolle text: Mød Emilie)  (link: https://avilius.dk/team/rachad-koleilat text: Mød Rachad)
-
-----
-
 Testimonials:
 
 - 
-  quote: >
-    Det har været et spændende forløb,
-    hvor jeg har fået redskaber og
-    værktøjer samt brugbar viden, som jeg
-    kan bruge til at arbejde med mig selv og
-    blive bedre til at tackle svære tanker,
-    følelser og mønstre.
+  quote: 'Helt igennem positiv oplevelse, som oversteg mine forventninger. Jeg har taget meget læring med mig, som jeg ikke havde før forløbet. Især de konkrete praktiske tips, samlet med teorien og at vi vendte konkrete problemer vi allesammen havde. <3'
   author: 'Tidligere deltager i (link: https://avilius.dk/grupper/selvvaerd text: Selvværd)'
 - 
   quote: >
-    Setuppet var mega fedt – mere en
-    dialog blandt ligesindede end et
-    foredrag. Alle var på og deltog aktivt
-    med tanker, følelser og synspunkter.
+    For det første kunne jeg virkelig godt
+    lide, hvordan det var en balance mellem
+    snak og at lære mere teoretisk viden.
+    Det giver en masse gode værktøjer og
+    tanker til fremover i forhold til hvis
+    det bare havde været at snakke.
+    Derudover var frekvensen af møderne
+    rigtig god. En uge er lige præcis nok
+    til at man kan nå at reflektere og
+    lægge mærke til ting. Generelt føler
+    jeg mig virkelig godt klædt på til
+    fremover med gode ting at tænke over og
+    gode, håndgribelige værktøjer at have
+    med mig. Jeg var også vild med
+    størrelsen på gruppen. Ret perfekt.
   author: 'Tidligere deltager i (link: https://avilius.dk/grupper/selvvaerd text: Selvværd)'
 - 
   quote: >
-    Det har hele vejen igennem været sådan
-    en god, rar, lærerig oplevelse, hvor
-    jeg er blevet opmærksom på mange ting
-    om mig selv, jeg ikke var klar over.
+    Hos Avilius har jeg følt mig grebet i
+    et meget trygt rum, som har gjort det
+    muligt for mig at dykke ned i mig selv
+    på en helt ny måde. Med uformelle og
+    rare omgivelser har jeg følt mig totalt
+    sikker i at dele min historie, og jeg er
+    hver gang blevet mødt med omsorg og
+    medfølelse. Jeg kan kun sige rare ting
+    om min oplevelse!
+  author: 'Tidligere deltager i (link: https://avilius.dk/grupper/selvvaerd text: Selvværd)'
+- 
+  quote: "Rigtig givende forløb med trygge og rare rammer, hvor der er plads til alle lige der, hvor vi var på dagen. Utrolig lærerigt og virkelig godt formidlet på en måde, der er forståeligt for alle. God balance mellem at lære og lytte - og selv at skulle prøve at anvende det i ens eget liv. Både fedt med at tage eksempler op i gruppen, men også at få 'lektier' til næste gang, så vi også fik tid til at reflektere mere over nogle ting."
   author: 'Tidligere deltager i (link: https://avilius.dk/grupper/selvvaerd text: Selvværd)'
 - 
   quote: >
-    Emilie og Rachad, I gjorde det så godt!
-    Det var så rart, at I selv delte ud af
-    personlige historier/erfaringer – man
-    følte sig tryg/set/i øjenhøjde.
-  author: 'Tidligere deltager i (link: https://avilius.dk/grupper/selvvaerd text: Selvværd)'
+    Gruppelederne har formået ar skabe et
+    trygt, uformelt og afslappet rum, hvor
+    man uden tøven kunne dele sin historie.
+    De har fået mig til at føle mig set,
+    og jeg oplever, at jeg er blevet hjulpet
+    og hørt, hver gang jeg har ytret mig.
+    Tiden er løbet fra os et par gange, men
+    det har ikke gjort mig noget :)
+- 
+  quote: >
+    Avilius er et sted, hvor man for meget
+    få penge får en meget professionel
+    behandling under trygge rammer. Jeg vil
+    også nævne, at man får ekstremt meget
+    ud af det, ligegyldigt hvor man mener,
+    man ligger på selvværdsskalaen.
+- 
+  quote: >
+    Jeg tror virkelig, at mange unge vil
+    have gavn af sådan et forløb. Især i
+    lyset af vores samfund, men også bare
+    for at lære sig selv bedre at kende.
+    Det er utrolig givende at være i en
+    gruppe, da jeg har lært meget af bare
+    at lytte til andres tanker og
+    refleksioner.
+- 
+  quote: >
+    Jeg var vild med de forskellige
+    perspektiver og redskaber, som jeg fik
+    igennem forløbet. fx. billedet om vores
+    slot og de lukkede rum, mig og ikke-mig,
+    egenomsorg og grænser.
 
 ----
 
-Dates:
-
-- 
-  introdate: 14. februar
-  introtime: 16:30 — 18:30
-  remainingdates: |
-    14. februar kl. 16:30 — 18:30
-    21. februar kl. 16:30 — 18:30
-    28. februar kl. 16:30 — 18:30
-    7. marts kl. 16:30 — 18:30
-    14. marts kl. 16:30 — 18:30
-    21. marts kl. 16:30 — 18:30
-  time: 18 — 20
+Dates: 
 
 ----
 
@@ -131,61 +152,57 @@ Spots: Ledige pladser
 
 Programdescription:
 
-Vi har lavet et gruppeforløb, hvor du som ung kan lære om og arbejde med dit selvværd. I gruppen vil du møde andre unge, der kæmper med lignende problematikker, og du vil blive udstyret med en bred vifte af konkrete værktøjer.
+At gå i træning for sit selvværd er en stor udfordring. Det kræver, at vi finder helt ind til os selv og ændrer nogle af de allerældste og mest fundamentale tankemønstre – og det er hårdt! Derfor har vi struktureret forløbet med en blanding af praktiske øvelser og konkrete værktøjer, der både udvikler og beskytter dig på rejsen.
 
-Gennem undervisning, øvelser og diskussioner vil vi klæde dig på til at skabe en bedre relation med dig selv, give dig de rette værktøjer, og styrke dit mentale immunforsvar – selvværdet! Hver kursusgang starter med en tjek-in runde, hvor vi støtter og hjælper hinanden med øvelserne. Gruppen er deltagerdrevet og bygger på vores fælles snakke. 
+I gruppen vil du møde andre unge, der kæmper med lignende problematikker.
 
-Gruppen løber over seks uger med sessioner af to timers varighed.
+Hver kursusgang starter med et check-in, hvor vi støtter og hjælper hinanden med øvelserne. Gruppen er deltagerdrevet og bygger på vores fælles snakke. 
 
-Her i oversigten kan du få et indblik i forløbets indhold.
+Her i oversigten kan du få et indblik i nogle af de emner, vi skal runde i gruppen.
 
 ----
 
 Program:
 
 - 
-  number: "1"
-  headline: Selvværdets og selvkritikkens fødsel
+  headline: Intro til selvværd og selvkritik
   description: |
-    Vi starter forløbet ud med at gå på opdagelse i de fundamentale områder af selvværdet. Selvværd kan imidlertid være en flydende størrelse, derfor udforsker vi sammen følgende spørgsmål i gruppens første to kursusgange:
+    Vi starter forløbet med at gå på opdagelse i de fundamentale områder af selvværdet. I de første to sessioner skal vi gennem følgende spørgsmål:
     
-    1. Hvad er forskellen på selvværd og selvtillid?
-    2. Hvorfor har vi overhovedet et selvværd?
-    3. Og hvor kommer selvkritikken ind?
-    Gennem en række metaforer og øvelser får vi dannet et grundlag for arbejdet med selvværd og egenomsorg.
-    Blandt andet laver vi første gang et selvværdstjek, hvor vi ser på otte områder af vores liv.
+    Hvad er forskellen på selvværd og selvtillid?
+    Hvorfor har vi overhovedet et selvværd?
+    Hvad er selvkritik?
+    
+    Gennem metaforer og øvelser danner vi et fælles grundlag for det kommende arbejde med selvværd og egenomsorg. Blandt andet laver vi et selvværdscheck, der fokuserer på otte forskellige områder af vores liv.
+  number: "1"
 - 
-  number: "2"
-  headline: Selvværdet og selvkritikkens fødsel 2
-  description: >
-    Selvværdets og selvkritikkens fødsel
-    er så centralt et emne, at vi har valgt
-    at dele det op i to. Denne gang
-    fortsætter, hvor vi slap sidst, med at
-    få afdækket de centrale områder af
-    selvværdet. Vi deler erfaringer for at
-    blive klogere på, hvad der kan stå i
-    vejen for at stærkt selvværd.
-- 
-  number: "3"
-  headline: 'Værktøjer: Bevidsthed, forsvar og egenomsorg'
+  headline: Bevidsthed og forsvar
   description: >
     Når vi bliver født, er det essentielt
-    at tilpasse os vores familie og samfund,
-    og det er her at selvkritikken opstår
-    – for at sikre vores sociale
-    overlevelse. Derfor kan det være svært
-    at ændre vores selvkritik, da den har
-    fulgt os i store dele af vores liv.
-    Denne gang undersøger vi derfor,
-    hvordan vi bliver bevidste om vores
-    selvkritik og dermed kan begynde at
-    arbejde med den. I dette arbejde bliver
-    selvomsorg centralt som et alternativ
-    til selvkritik.
+    at vi passer ind i ikke kun familien,
+    men hele samfundet. Her opstår
+    selvkritikken – et værktøj til at
+    sikre vores sociale overlevelse.
+    Selvkritikken er altså så fundamental
+    i vores tankemønstre, at den er enormt
+    svær at ændre. For at begynde
+    ændringen skal vi først blive bevidste
+    om vores selvkritik. Herefter begynder
+    vi at arbejde med den.
+  number: "2"
 - 
-  number: "4"
-  headline: 'Værktøjer: Grænsesætning og ærlighed 🙅‍♀️'
+  headline: Egenomsorg 🧘
+  description: >
+    Selvkritikken skal vi med tiden lære at
+    erstatte med egenomsorg. Vi skal arbejde
+    med alle fordommene omkring
+    selvkærlighed og finde frem til de
+    konkrete måder, vi kan gå fra den
+    destruktive selvkritik til den
+    produktive omsorg for jeg’et.
+  number: "3"
+- 
+  headline: Grænsesætning og ærlighed
   description: >
     En del af selvværdsarbejdet handler om
     at kunne mærke vores grænser. Det
@@ -201,9 +218,9 @@ Program:
     mærke egne grænser, bliver
     erfaringsudvekslingen i gruppen en
     vigtig del af denne gang.
+  number: "4"
 - 
-  number: "5"
-  headline: 'Værktøjer: Motivation og egenomsorg'
+  headline: Motivation
   description: >
     Det kan være hårdt at arbejde med
     selvværd – så det er vigtigt at vi
@@ -214,23 +231,63 @@ Program:
     tallerkner, må vi også tage vores
     mentale opvask. Derfor arbejder vi denne
     gang med værktøjer, som kan opretholde
-    og højne vores motivation. Egenomsorg
-    er ligeledes et virksomt værktøj, når
-    det kommer til vores motivation for at
-    arbejde med os selv. Derfor fokuserer vi
-    denne gang på at tage nogle af
-    fordommene ud af egenomsorg.
+    og højne vores motivation.
+  number: "5"
 - 
-  number: "6"
-  headline: >
-    Det videre arbejde med selvværd og
-    egenomsorg
+  headline: Fremtiden
   description: |
-    Denne sidste gang følger vi op på de foregående gange, og taler om hvordan vi kan fortsætte med at højne vores selvværd. Hvordan kan vi sikre, at vi sætter tid af til os selv? Hvilke områder skal vi være opmærksomme på fremadrettet? Vi genbesøger desuden vores selvværdstjek for at se, hvor vi har rykket os.
+    På forløbets sidste gang følger vi op på de foregående gange og taler om, hvordan vi kan fortsætte med at højne vores selvværd. Hvordan kan vi sikre, at vi sætter tid af til os selv? Hvilke områder skal vi være opmærksomme på fremadrettet? Vi genbesøger desuden vores selvværdscheck for at se, hvor vi har rykket os.
     
     Arbejdet med selvværd er kontinuerligt, så denne gang taler vi ligeledes om, hvordan vi kan fastholde motivationen for at fortsætte vores med at møde os selv med egenomsorg.
-    
-    Lyder forløbet interessant for dig? Kontakt gruppelederne via emailknappen øverst på siden.
+  number: "6"
+
+----
+
+Info:
+
+- 
+  infoheadline: Pris
+  infoanswer: '333,- per gang'
+  infotext: >
+    Det er vigtigt, at selvudvikling ikke
+    vælter økonomien. Du kan vælge at
+    betale hele beløbet inden forløbets
+    start eller per gang :)
+- 
+  infoheadline: Længde
+  infoanswer: 2 timer per gang
+  infotext: ""
+- 
+  infoheadline: Forløb
+  infoanswer: 6 uger
+  infotext: ""
+- 
+  infoheadline: Antal deltagere
+  infoanswer: 3 – 5
+  infotext: >
+    Selvværd er et sårbart emne, der kan
+    være svært at dele. Vi arbejder med
+    små grupper, så vi kan lære hinanden
+    bedre at kende.
+- 
+  infoheadline: Adresse
+  infoanswer: Vesterbrogade 35, 1620 København V
+  infotext: ""
+- 
+  infoheadline: Status
+  infoanswer: Venteliste
+  infotext: >
+    Der er endnu ikke aftalt startdato på
+    næste hold. Vi samler løbende
+    deltagere ind på en venteliste og
+    starter et nyt hold, når der er nok
+    tilmeldte.
+
+----
+
+Ctaphoto:
+
+- rachad-emilie-avilius-selvvaerd-5.jpg
 
 ----
 
@@ -238,7 +295,7 @@ Seotitle: Selvværd – et gruppeforløb fra Avilius
 
 ----
 
-Seodescription: Føler du, at dine tanker om dig selv sætter en stopper for alt det sjove her i ungdomslivet? Læs mere om vores gruppeterapiforløb, der lærer dig at håndtere dit dårlige selvværd.
+Seodescription: Et godt selvværd er som psykens immunforsvar – vi kan træne det stærkere! I vores nye gruppeforløb om selvværd udveksler vi oplevelser og lærer om forskellige værktøjer til at styrke det sunde selvbillede.
 
 ----
 
@@ -246,7 +303,17 @@ Seokeywords: selvværd, lavt selvværd, lav selvtillid, selvtillid terapi, selvt
 
 ----
 
-Seoimage: 
+Seoimage:
+
+- rachad-emilie-avilius-selvvaerd-10.jpg
+
+----
+
+Email: rachad@avilius.dk
+
+----
+
+Conditions: 2.000,- i alt. Betales på én gang eller over flere omgange.
 
 ----
 

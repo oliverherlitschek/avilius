@@ -10,11 +10,27 @@ Email: jonas@avilius.dk
 
 ----
 
-Lastbooked: 5
+Capacity: true
 
 ----
 
-Capacity: 1
+Price: 
+
+----
+
+Pricedetails: 
+
+----
+
+Length: 
+
+----
+
+Course: 
+
+----
+
+Coursedetails: 
 
 ----
 
@@ -26,19 +42,19 @@ Video:
 
 Portrait:
 
-- jonas-schoesler-avilius-3.jpg
+- jonas-schoesler-avilius-1.jpg
 
 ----
 
 Secondportrait:
 
-- jonas-schoesler-avilius-1.jpg
+- jonas-schoesler-avilius-3.jpg
 
 ----
 
 Thirdportrait:
 
-- jonas-schoesler-avilius-2.jpg
+- jonas-schoesler-avilius-5.jpg
 
 ----
 
@@ -51,17 +67,67 @@ Testimonials:
 - 
   quote: >
     Det har været super dejligt at have en
-    tredje part, jeg kunne gå til for at
-    snakke om alt imellem himmel og jord.
-  author: Tidligere klient, 27 år
+    tredje part jeg kunne gå til og snakke
+    om alt imellem himmel og jord. Jeg
+    mangler dog ofte retoriske evner til at
+    kunne forklare præcist hvordan jeg har
+    det, hvilke har begrænset min
+    udfoldelse. Det kunne være fedt, hvis
+    der var nogle værktøjer, som kunne
+    understøtte mig med dette. Ellers har
+    det været super godt, og vil helt klar
+    anbefale jer til andre, der står i
+    lignende omstændigheder.
+  author: Tidligere klient
 - 
   quote: >
     Mit forløb med Jonas har gjort en
-    verden til forskel. Han har hjulpet mig
+    verden til forskel, han har hjulpet mig
     i mange aspekter af mit liv. Det har
     været den bedste og vigtigste
-    beslutning for mig.
-  author: Tidligere klient, 25 år
+    beslutning for mig at starte hos
+    Avilius.
+  author: Tidligere klient
+- 
+  quote: 'Jonas var min femte terapeut - det var et frisk pust at snakke med et ungt menneske der gjorde sig umage og som var “ligesindet”. Han fik mig til at udfordre de negative tanker jeg havde og fik mig til at tro på at jeg er god nok. Jeg har været rigtig glad for at komme der, og regner også med at vende tilbage, når jeg får brug for en at tale med/støtte mig til.'
+  author: Tidligere klient
+- 
+  quote: >
+    Jeg kan ikke sætte en finger på
+    Avilius. Jeg har særligt været
+    begejstret for den fleksibilitet og
+    lethed, der har været, modsat de
+    psykologpraksiser, jeg er kommet i
+    tidligere. Relationen mellem terapeut og
+    patient føles tryg og uden hierarki.
+  author: Tidligere klient
+- 
+  quote: |
+    Jeg vidste ikke helt, hvad jeg skulle forvente fra den her slags samtaleterapi, da det var min første gang. Forløbet gav mig åndsrum til at tale om ting, jeg ellers ikke vidste, hvem jeg skulle tale med det om.
+    
+    Det har været en kæmpe støtte at en gang imellem kunne snakke med Jonas om større og mindre ting. Det har givet mig mere overskud og en idé om at samtaleterapi er noget for mig.
+    
+    Jonas var meget god til at lytte og føre samtalen videre. Der var en god mængde input fra hans side. Er også glad for den positive attitude, Jonas haft gennem forløbet, selv de dage jeg var lidt sen på tiden.
+  author: Tidligere klient
+- 
+  quote: >
+    Mit forløb hos Avilius startede på et
+    tidspunkt i mit liv, hvor jeg havde
+    mistet retning og var i tvivl om jeg
+    kunne finde en ny. Mine samtaler med
+    Jonas har været udfordrende,
+    interessante, lærerige, udviklende og
+    endda sjove. Det er uden sammenligning
+    den bedste investering jeg har lavet i
+    mit velbefindende meget længe. Så tak
+    for det :-)
+  author: Tidligere klient
+- 
+  quote: |
+    Jeg har været meget tilfreds med mit forløb hos jer! Jonas har været utroligt kompetent og hver gang mødt mig i øjenhøjde. Det har virkelig været fantastisk at blive mødt af en person som skabte et trygt rum fra første gang og udviste tillid og medfølelse ved hver samtale. Samtidigt er jeg blevet udfordret på min selvopfattelse og jeg har fået et nyt syn på selvomsorg.
+    
+    Tak til jer og tak til den den plads Avilius giver unge studerende som mig, hvor pengepungen måske ikke rækker så langt men behovet for terapi stadig er gældende.
+  author: Tidligere klient
 
 ----
 
@@ -77,18 +143,22 @@ Jeg leder også gruppeforløbet (link: https://avilius.dk/grupper/det-meningsful
 
 ----
 
-Seotitle: Klar på en snak med Jonas? 🧠
+Seotitle: Mød Jonas – samtalepartner i Avilius
 
 ----
 
-Seodescription: Jeg har brugt en del tid på at studere og udforske i praksis, hvilke betingelser, der ofte er nødvendige, før vi oplever velvære, motivation og vækst.
+Seodescription: Du vil opleve mig som nysgerrig, lyttende, omsorgsfuld, men også udfordrende. Jeg kan hjælpe dig til at finde nogle ståsteder i livet, som kan være med til at give retning og robusthed.
 
 ----
 
-Seokeywords: velvære, motivation, arbejde, vækst, studie
+Seokeywords: retningsløshed, meningen med livet, lavt selvværd, mere selvstændig, ung terapi, billig terapi
 
 ----
 
 Seoimage:
 
-- jonas-second.jpg
+- jonas-schoesler-avilius-3.jpg
+
+----
+
+Lastbooked: 5

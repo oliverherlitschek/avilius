@@ -10,11 +10,27 @@ Email: signe@avilius.dk
 
 ----
 
-Lastbooked: 6
+Capacity: true
 
 ----
 
-Capacity: 1
+Price: 399 kr. – inkl. gratis forsamtale
+
+----
+
+Pricedetails: En individuel session i Avilius koster 399 kr. per session. Den første samtale er gratis, så du helt uforpligtende kan mærke efter, om du har lyst til at starte i et forløb.
+
+----
+
+Length: 60 minutter
+
+----
+
+Course: Så længe du vil!
+
+----
+
+Coursedetails: Alle forløb er forskellige. Nogle har behov for 5-10 opklarende samtaler, mens andre bruger deres terapeutiske rum ligesom et fitnesscenter – et sted, man kan tage hen en gang i mellem og styrke sit mentale helbred.
 
 ----
 
@@ -26,7 +42,7 @@ Video:
 
 Portrait:
 
-- signe-lyngholm-avilius-4.jpg
+- signe-lyngholm-avilius-2.jpg
 
 ----
 
@@ -36,7 +52,9 @@ Secondportrait:
 
 ----
 
-Thirdportrait: 
+Thirdportrait:
+
+- signe-lyngholm-avilius-4.jpg
 
 ----
 
@@ -44,7 +62,15 @@ Experience: Tvivl, Grænsesætning, Kærlighed, Relationer, Eksistentielle tanke
 
 ----
 
-Testimonials: 
+Testimonials:
+
+- 
+  quote: >
+    Signe var professionel og lyttede til
+    hvad jeg sagde. Hun kom med nye måder
+    at tænke på mine tanker på, og jeg
+    kunne godt lide de øvelser vi lavede.
+  author: Tidligere klient
 
 ----
 
@@ -60,18 +86,22 @@ I en samtale med mig vil du blive mødt som det menneske, du er - med nærvær o
 
 ----
 
-Seotitle: Mød Signe — en af vores nye terapeuter
+Seotitle: Mød Signe – samtalepartner i Avilius
 
 ----
 
-Seodescription: I en samtale med mig vil du blive mødt som det menneske, du er - med nærvær og nysgerrighed.
+Seodescription: I en samtale med mig vil du blive mødt som det menneske, du er – med nærvær og nysgerrighed. Det, du har lyst til at dele, er gyldigt og vigtigt; uanset hvad det drejer sig om
 
 ----
 
-Seokeywords: problematiske relationer, eksistentielle tanker, grænsesætning, tvivl, kærlighed
+Seokeywords: problematiske relationer, eksistentielle tanker, grænsesætning, tvivl, kærlighed, sorg, ung terapi, billig terapi
 
 ----
 
 Seoimage:
 
 - signe-lyngholm-avilius-3.jpg
+
+----
+
+Lastbooked: 6

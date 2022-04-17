@@ -6,23 +6,23 @@
 <?php if ($cover = $page->portrait()->toFile()): ?>
 <article class="w-full m-c flex flex-sb s-flex-wrap mt-1 pb-2 s-pb-1">
   <section class="w-half s-w-100 card-80 m-card-60 s-card-80">
-    <div class="w-100 br-3 bg-cc bg-c card-80 m-card-60 s-card-80" style="background-image: url(<?= $cover->backgroundImage() ?>);"></div>
+    <div class="w-100 br-3 bg-cc bg-c card-80 m-card-60 s-card-80 reveal" style="background-image: url(<?= $cover->backgroundImage() ?>);"></div>
   </section>
   <section class="w-half s-w-100 card-80 m-card-60 s-h-0 flex flex-wrap flex-sb s-mt-1"><div class="flex-end">
-    <p class="smaller uc mono flex-end">
+    <p class="smaller uc mono flex-end reveal-3">
       <span class="blink c-dgreen">●</span>&nbsp;<?= $page->spots() ?>
     </p>
-    <h1 class="subheadline-scale s-heading">
+    <h1 class="subheadline-scale s-heading reveal-2">
       <?= $page->title() ?>
     </h1>
-    <p class="smaller uc mono flex-end mt-15">
+    <p class="smaller uc mono flex-end mt-1 reveal-3">
       Næste hold<span class="s-remove">start</span>: 
 
-        <?php foreach ($page->dates()->toStructure()->limit(1) as $startdate): ?>
-          <?= $startdate->introdate() ?><span class="s-remove"> kl. <?= $startdate->introtime() ?></span>
-        <?php endforeach ?>
-    </p>
-  </div>
+      <?php if ($page->startdate()->isNotEmpty()): ?>
+        <?= $page->startdate() ?>
+      <?php else: ?>
+        Venteliste
+      <?php endif ?>
   </section>
 </article>
 <?php endif ?>
@@ -34,7 +34,7 @@
       <h3 class="heading c-purple light va-x m-subheading">Til dig, der&hellip;</h3>
     </div>
     <div class="w-half mb-2 s-w-100">
-      <p class="body light s-small"><?= $page->description() ?></p>
+      <p class="body light s-small"><?= $page->description()->widont() ?></p>
     </div>
   </div>
 <article class="w-100 s-pb-2">
@@ -50,7 +50,7 @@
       </div>
       <div class="w-full m-c mt-1 pb-2 l-remove">
            <?php foreach ($page->foryou()->toStructure()->shuffle() as $category): ?>
-            <div class="d-ib smaller mono tag-pill p-5 pl-15 pr-15 bg-white c-purple mb-10 mr-10">
+            <div class="d-ib smaller mono tag-pill p-5 pl-15 pr-15 bg-white c-purple mb-10 mr-10 reveal">
                 &hellip;<?= $category->if() ?>
               </div>
           <?php endforeach ?>
@@ -67,7 +67,7 @@
   <div class="bb-grey mt-2">
   <?php foreach ($page->program()->toStructure() as $session): ?>
       <input type="checkbox" id="<?= $session->headline()->slug() ?>" hidden />
-      <div class="accordion ac-large">
+      <div class="accordion ac-large reveal">
     <label for="<?= $session->headline()->slug() ?>" class="tab tab-button tab-large bt-grey va-c flex flex-sb pl-15 pr-15">
       <h3 class="c-purple body s-small">
         <?= $session->headline() ?>
@@ -80,26 +80,26 @@
       </svg>
     </label>
       <div class="c-purple pl-15 pr-15 pb-1 s-small">
-        <?= $session->description()->toHtml() ?>
+        <?= $session->description()->nl2br()->toHtml() ?>
       </div>
     </div>
     <?php endforeach ?>
   </div></div>
 </div>
 
-<article class="w-100 h-80 bg-blue">
-    <section class="w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb s-reverse">
-      <div class="w-33 s-w-100 image-fill as-c">
-          <?php if ($portrait = $page->therapistcover()->toFile()): ?>
-            <?php echo $portrait->webp('m-c br-3', $portrait->alt(), [1920, 1140, 640, 320]); ?>
-          <?php endif ?>
-      </div>
-      <div class="w-half flex-end m-w-66 s-w-100 s-mt-1 s-mb-2 as-c">
+<article class="w-100 h-80 bg-purple">
+    <section class="w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-white flex flex-wrap flex-sb s-reverse">
+      <div class="w-half flex-end m-w-66 s-w-100 s-mt-1 s-mb-2 as-c reveal">
       <p class="mono smaller uc pb-15 s-smallest">Gruppeleder(e)</p>
   <h5 class="subheadline va-x m-heading s-subheading"><?= $page->therapist() ?></h5>
       <p class="body s-small">
       <?= $page->therapistintro()->kirbytextinline()->nl2br()->widont() ?></p>
     </div>
+      <div class="w-33 s-w-100 image-fill as-c reveal-2">
+          <?php if ($portrait = $page->therapistcover()->toFile()): ?>
+            <?php echo $portrait->webp('m-c br-3', $portrait->alt(), [1920, 1140, 640, 320]); ?>
+          <?php endif ?>
+      </div>
     </section>
 </article>
 
@@ -118,17 +118,17 @@
 </article>
 <?php endif ?>
 
-<article class="w-100 pt-4 s-pt-2 s-pb-2 bt-grey bb-grey">
+<article class="w-100 pt-4 s-pt-2 s-pb-2 bg-blue">
   <section class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
     <div class="w-33 m-w-33 s-w-100">
-      <h3 class="subheadline c-purple light va-x m-heading s-subheading">Det med småt.</h3>
+      <h3 class="subheadline c-purple light va-x m-heading s-subheading">Praktisk info</h3>
     </div>
     <div class="w-66 mb-4 m-mb-2 s-w-100">
-    <div class="bb-grey">
+    <div class="bb-black">
       <?php foreach ($page->info()->toStructure() as $info): ?>
         <input type="checkbox" id="<?= $info->infoheadline()->slug() ?>" hidden />
         <div class="accordion ac-large">
-      <label for="<?= $info->infoheadline()->slug() ?>" class="<?php if ($info->infotext()->isNotEmpty()): ?>tab-button<?php endif ?> tab-large bt-grey flex flex-sb pl-15 pr-15 s-p-0">
+      <label for="<?= $info->infoheadline()->slug() ?>" class="<?php if ($info->infotext()->isNotEmpty()): ?>tab-button<?php endif ?> tab-large bt-black flex flex-sb pl-15 pr-15 s-p-0">
         <h3 class="c-purple body s-smaller s-mono s-uc as-c">
           <?= $info->infoheadline() ?><?php if ($info->infotext()->isNotEmpty()): ?><span class="question bg-white smallest c-purple ml-15 p-5 pl-10 pr-10 tag-pill">?</span><?php endif ?>
         </h3>
@@ -138,7 +138,7 @@
       </label>
       <?php if ($info->infotext()->isNotEmpty()): ?>
       <div class="c-purple pl-15 pr-15 s-p-0 pb-1 s-pb-1 s-small">
-          <?= $info->infotext()->kirbytext() ?>
+          <?= $info->infotext()->kirbytext()->nl2br() ?>
         </div>
         <?php endif ?>
       </div>
@@ -148,18 +148,18 @@
   </section>
 </article>
 
-<article class="w-100 pt-4 s-pt-2 bg-purple c-white">
+<article class="w-100 pt-4 s-pt-2 c-purple">
   <div class="w-full w-1400 m-c flex flex-sb s-flex-wrap">
   <div class="w-50 s-w-100">
   <h3 class="subheadline light va-x m-heading s-subheading">Trygge rammer.</h3>
   </div>
   <div class="w-50 s-w-100">
-  <p class="body light s-small">Grupperne foregår i vores hyggelige lejlighed på Vesterbro. Vi arbejder ikke så godt i et helt sterilt og klinisk miljø, så vi har forsøgt at gøre det lidt hjemligt.</p>
+  <p class="body light s-small">Gruppen foregår i vores hyggelige praksis – en stor og rummelig lejlighed i hjertet af Vesterbro. Sådan arbejder vi&nbsp;bedst.</p>
   </div>
 </div>
 </article>
 
-<article class="w-100 pb-2 pt-2 m-pb-2 s-pt-1 bg-purple">
+<article class="w-100 pb-2 pt-2 m-pb-2 s-pt-1 bb-grey">
   <section class="track flex pl-1 s-pl-15">
     <?php foreach (page('hvorfor')->space()->toFiles() as $photo): ?>
     <div class="pr-1 s-pr-15 h-full">
@@ -171,17 +171,17 @@
 
 <article class="w-100 pt-3 pb-4 s-pt-2 s-pb-2 bb-grey">
   <section class="w-full w-1400 m-c flex s-flex-wrap flex-sb s-reverse">  
-    <div class="w-33 m-w-66 s-w-100 as-c pt-4 pb-4 s-p-1 s-pt-2 s-pb-2 s-ta-c">
+    <div class="w-33 m-w-66 s-w-100 as-c pt-4 pb-4 s-p-1 s-pt-2 s-pb-2 s-ta-c reveal">
       <p class="body regular mb-15 s-small">
         Er <?= $page->title() ?> det rigtige forløb for dig?</p>
-      <p class="body s-small mb-1">Kontakt os her – så vender vi tilbage hurtigst&nbsp;muligt.</p>
+      <p class="body s-small mb-1">Skriv dig op eller hør mere ved at skrive til os eller booke et opkald.</p>
       <div class="">
         <button class="book-button c-purple h-60 br-10 br-30 m-c mr-15 bg-lpurple mono small s-smaller pl-1 pr-1 mb-15">Skriv til os</button>
         <button class="call-button c-purple h-60 br-10 br-30 m-c s-m-0 bg-white mono small s-smaller pl-1 pr-1">Book et opkald ☎️</button>
   </div>
   </div>
-  <div class="w-33 as-c s-w-100 mb-2 image-fill">
-          <?php if ($portrait = $page->thirdportrait()->toFile()): ?>
+  <div class="w-33 as-c s-w-100 mb-2 image-fill reveal-2">
+          <?php if ($portrait = $page->ctaphoto()->toFile()): ?>
             <?php echo $portrait->webp('m-c br-3', $portrait->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
       </div>

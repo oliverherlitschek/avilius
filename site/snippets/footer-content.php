@@ -1,11 +1,11 @@
 <footer class="w-100 bg-purple c-white">
   	<section class="w-full w-1400 m-c pt-4 pb-2 flex flex-sb s-flex-wrap s-pt-2">
-		<div class="w-third flex flex-wrap flex-sb s-w-100">
+		<div class="w-third flex flex-wrap flex-sb s-w-100 reveal">
   			<p class="mono smaller uc mb-1 s-mt-1 s-smallest w-100">
 			Nyheder
 			</p>
        		<p class="small w-100">
-        		Vi sender ikke så mange mails — så når vi gør, er de fulde af gode nyheder.<br><br>
+        		Vi sender ikke så mange mails — så når vi gør, er de fyldt med gode nyheder.<br><br>
         		</p>
             		<div id="mc_embed_signup" class="bb-white mb-1 w-100">
 				<form action="https://avilius.us5.list-manage.com/subscribe/post?u=82552aeb0bb322e320ebeddd9&amp;id=b3ef3fd41f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate flex flex-sb mt-1" target="_blank" novalidate>
@@ -23,7 +23,7 @@
 			</div>
     		</div>
     		<div class="w-half flex flex-wrap flex-sb s-w-100">
-    			<div class="w-half s-w-100">
+    			<div class="w-half s-w-100 reveal-2">
 				<p class="mono smaller uc mb-1 s-mt-1 s-smallest">
 				Ydelser
 				</p>
@@ -51,6 +51,14 @@
 					</span>
 					</p>
 				</a>
+				<a href="/psykologer" title="Psykologhjælp">
+
+					<p>
+					<span class="text-hover">
+					Psykologhjælp
+					</span>
+					</p>
+				</a>
 				<a href="https://inc.avilius.dk" title="Avilius Inc." target="_blank">
 					<p>
 					<span class="text-hover">
@@ -58,16 +66,8 @@
 					</span>
 					</p>
 				</a>
-				<a href="https://open.spotify.com/show/1XIBT1EZRPdObDx3bQmnvZ?si=1bbad978b4834737" title="Avilius Talks på Spotify" target="_blank">
-
-					<p>
-					<span class="text-hover">
-					Avilius Talks
-					</span>
-					</p>
-				</a>
 			</div>
-			<div class="w-half">
+			<div class="w-half reveal-3">
 				<p class="mono smaller uc mb-1 s-mt-1 s-smallest">
 				Lær mere
 				</p>
@@ -95,11 +95,11 @@
 					</span>
 					</p>
 				</a>
-				<a href="/faq" title="FAQ">
+				<a href="https://open.spotify.com/show/1XIBT1EZRPdObDx3bQmnvZ?si=1bbad978b4834737" title="Avilius Talks på Spotify" target="_blank">
 
 					<p>
 					<span class="text-hover">
-					FAQ
+					Avilius Talks
 					</span>
 					</p>
 				</a>
@@ -114,7 +114,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="w-full w-1400 m-c flex flex-sb pb-2 mono smaller uc m-flex-wrap s-smallest">
+	<section class="w-full w-1400 m-c flex flex-sb pb-2 mono smaller uc m-flex-wrap s-smallest reveal">
 		<div>
 			<a href="https://goo.gl/maps/x3hbESf3KqudedoN7" title="Avilius på Google Maps" target="_blank">
 				Avilius ApS · Vesterbrogade 35, 1. tv. · 1620 København V

@@ -9,8 +9,8 @@
                     </g>
                 </svg>
             </div>
-          <h3 class="heading w-100 mb-10 s-body">Skriv til os</h3>
-  <p class="body w-100 mb-1 s-small">Nu er det din tur! Uanset om du er klar til at starte i et forløb, har spørgsmål eller bare gerne vil vide mere — send os en besked, så vender vi tilbage i løbet af et par dage.</p>
+          <h3 class="heading w-100 mb-10 s-body">Det første skridt er det sværeste.</h3>
+  <p class="body w-100 mb-1 s-small">Uanset om du er klar til at starte i terapi, har spørgsmål eller bare gerne vil vide lidt mere om os – skriv til os her, så vender vi tilbage i løbet af et par dage.</p>
   
                 <?php  
                 

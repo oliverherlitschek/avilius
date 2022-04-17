@@ -1,0 +1,89 @@
+Title: Malthe Jepsen
+
+----
+
+Firstname: Malthe
+
+----
+
+Email: malthe@avilius.dk
+
+----
+
+Capacity: true
+
+----
+
+Price: 399 kr. – inkl. gratis forsamtale
+
+----
+
+Pricedetails: En individuel session i Avilius koster 399 kr. per session. Den første samtale er gratis, så du helt uforpligtende kan mærke efter, om du har lyst til at starte i et forløb.
+
+----
+
+Length: 60 minutter
+
+----
+
+Course: Så længe du vil!
+
+----
+
+Coursedetails: Alle forløb er forskellige. Nogle har behov for 5-10 opklarende samtaler, mens andre bruger deres terapeutiske rum ligesom et fitnesscenter – et sted, man kan tage hen en gang i mellem og styrke sit mentale helbred.
+
+----
+
+Video: 
+
+----
+
+Portrait:
+
+- malthe-jepsen-avilius-5.jpg
+
+----
+
+Secondportrait:
+
+- malthe-jepsen-avilius-7.jpg
+
+----
+
+Thirdportrait:
+
+- malthe-jepsen-avilius-6.jpg
+
+----
+
+Experience: Ensomhed, Usikkerhed, Seksualitet, Relationer, Hjertesorg, Parforhold, Familieproblematikker, Vrede
+
+----
+
+Testimonials: 
+
+----
+
+Description: For mig handler samtalen om at udforske den verden, du lever i og alt det vigtige i dit liv. Både det gode og det, der gør ondt. Jeg tror nemlig på, at det kan føre til en dybere forståelse af, hvem man er. Det kræver af mig, at jeg er i stand til at skabe et trygt rum, hvor det er muligt at være i de følelser, som vi alt for ofte gemmer væk. Det vil sige, at målet med samtalen er, at jeg forstår det, du fortæller mig, at vi afdækker nye aspekter af den udfordring, du står overfor, og at det i sidste ende fører til en brugbar forandring i dit liv.
+
+----
+
+Seotitle: Mød Cecilie - en af vores nye terapeuter
+
+----
+
+Seodescription: For mig handler samtalen om at udforske den verden, du lever i. Både det gode og det, der gør ondt. Jeg tror nemlig på, at det kan føre til en dybere forståelse af, hvem du er.
+
+----
+
+Seokeywords: seksualitet problemer, bedre selvværd, ensom, ung terapi, billig terapi, vrede kontrol, bliver meget vred
+
+----
+
+Seoimage:
+
+- malthe-jepsen-avilius-7.jpg
+
+----
+
+Lastbooked: 5

@@ -14,11 +14,11 @@ Capacity: true
 
 ----
 
-Price: 900
+Price: 800
 
 ----
 
-Pricedetails: Detaljer
+Pricedetails: Er du studerende, tilbyder vi 100 kr. i studierabat per samtale. Kræver fremvisning af gyldigt studiekort.
 
 ----
 
@@ -30,73 +30,72 @@ Course: Så længe du vil!
 
 ----
 
-Coursedetails: Udfyld tekst
+Coursedetails: Det er meget forskelligt, hvor mange gange, man går i terapi. For nogle er 10 samtaler nok, mens andre foretrækker længere forløb. Sammen lægger vi en plan for, hvad der er muligt og mest gavnligt for dig.
 
 ----
 
-Video: 
+Method:
+
+Til den første samtale udforsker vi sammen dine udfordringer og hvad du gerne vil opnå med terapien. På den måde tilpasser jeg samtaleforløbet specifikt til din situation og ønsker om forandring.
+
+Mine forløb er funderet i åbenhed, tryghed og tillid og mit valg af metoder er skræddersyet til dig og dine behov.
+
+----
+
+Video:
+
+- ninna.mp4
 
 ----
 
 Portrait:
 
-- trine-kissmeyer-avilius-5.jpg
+- ninna-thuris-avilius-3.jpg
 
 ----
 
 Secondportrait:
 
-- trine-kissmeyer-avilius-3.jpg
+- ninna-thuris-avilius-1.jpg
 
 ----
 
 Thirdportrait:
 
-- trine-kissmeyer-avilius-1.jpg
+- ninna-thuris-avilius-2.jpg
 
 ----
 
-Experience: Erfaring, Anden erfaring
+Experience: Angst, Stress, Arbejde, Forsømmelse, Coaching, Konflikthåndtering, Depression, Sorg, Helbred, Pårørende af syge/døde, Selvskade, Seksuelt misbrug, Trivsel, Vrede, Spiseforstyrrelser, Familieproblematikker, Seksualitet
 
 ----
 
-Testimonials:
-
-- 
-  quote: >
-    Mit forløb hos Ninna lorem ipsum dolor
-    sit amet crucia est vitae moriam.
-  author: Tidligere klient, 30
-- 
-  quote: >
-    Endnu en skøn men lang testimonial mi
-    at mauris auctor pretium ut in nisi.
-    Aliquam tristique viverra odio, eu
-    interdum tortor vestibulum a. Duis nunc
-    sapien, varius non lobortis vulputate,
-    feugiat in risus. Praesent dui justo,
-    sollicitudin ac enim et, ultrices
-    egestas arcu. Cras efficitur vitae nibh
-    vitae aliquam. Pellentesque non diam sit
-    amet orci ornare dictum id non metus.
-  author: Tidligere klient, 21
+Testimonials: 
 
 ----
 
-Description: Ninnas beskrivelse her
+Description:
+
+Hej, mit navn er Ninna og jeg er 30 år. Jeg er uddannet psykolog fra Københavns Universitet og har en bred erfaring indenfor psykologiens verden.
+
+Står du overfor en udfordring, som du har brug for hjælp til at håndtere? Så udforsker vi sammen hvad der ligger bag og arbejder i terapien med dine tanker, følelser og adfærd.
+
+Jeg arbejder med mange forskellige greb og redskaber, i takt med at vi bliver klogere på hvad der virker for dig.
 
 ----
 
-Seotitle: 
+Seotitle: Mød Ninna – din nye psykolog
 
 ----
 
-Seodescription: 
+Seodescription: Står du overfor en udfordring, som du har brug for hjælp til at håndtere? Så udforsker vi sammen hvad der ligger bag og arbejder i terapien med dine tanker, følelser og adfærd. Jeg arbejder med mange forskellige greb og redskaber, i takt med at vi bliver klogere på hvad der virker for dig.
 
 ----
 
-Seokeywords: 
+Seokeywords: psykolog københavn, psykolog uden venteliste, privat psykolog, billig psykolog, ung psykolog
 
 ----
 
-Seoimage: 
+Seoimage:
+
+- ninna-thuris-avilius-1.jpg

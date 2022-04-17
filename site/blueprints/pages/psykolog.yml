@@ -42,6 +42,9 @@ tabs:
               label: Course details
               type: textarea
               width: 1/2
+          method:
+              label: Method
+              type: textarea
           video:
               label: Video
               type: files
@@ -49,12 +52,12 @@ tabs:
               width: 1/2
               multiple: false
           portrait:
-              label: Main portrait
+              label: Portrait for Psychologists page
               type: files
               width: 1/2
               multiple: false
           secondportrait:
-              label: Second portrait
+              label: Main hero portrait
               type: files
               width: 1/2
               multiple: false

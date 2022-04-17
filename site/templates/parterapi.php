@@ -3,10 +3,13 @@
 <?php snippet('nav') ?>
 <main class="bg-lgrey">
   <?php if ($cover = $page->cover()->toFile()): ?>
-<article class="w-100 card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->backgroundImage() ?>);">
-  <h1 class="subheadline-scale c-white flex-end s-heading">
+<article class="w-100 bg-brown card-80 s-card-60 flex flex-sb p-1 bg-cc bg-c s-p-15" style="background-image:url(<?= $cover->backgroundImage() ?>);">
+  <h1 class="subheadline-scale c-white flex-end s-heading reveal">
     <?= $page->headline() ?>
   </h1>
+  <p class="smaller w-third ta-r mono c-white flex-end s-remove reveal-2">
+    <?= $page->description() ?>
+  </p>
 </article>
 <?php endif ?>
 
@@ -22,7 +25,7 @@
       <h3 class="heading c-purple light va-x m-subheading">Der er mange gode grunde til at gå i&nbsp;parterapi.</h3>
     </div>
     <div class="w-half mb-2 s-w-100">
-      <p class="body light s-small">Parterapi er en kæmpe kliché – man forestiller sig det fortabte forhold bestående af to mennesker, der ikke har noget fælles "vi". Man forestiller sig, at kun ulykkelige mennesker kan gå i parterapi. Man forestiller sig, at det ikke fungerer.</p>
+      <p class="body light s-small">Nogle kalder det parterapi. Vi kalder det kæresteterapi. Det lyder mere håbefuldt. Hos Avilius arbejder vi forebyggende med jeres problemer, så I kan bygge en endnu bedre og sundere fremtid sammen.</p>
     </div>
   </div>
       <div class="mt-3 pb-2">
@@ -54,12 +57,12 @@
 
 <article class="w-100 h-80 bg-purple">
     <section class="w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-white flex flex-wrap flex-sb s-reverse">
-      <div class="w-33 s-w-100 image-fill as-c">
-          <?php if ($cover = $page->cover()->toFile()): ?>
+      <div class="w-33 s-w-100 image-fill as-c reveal">
+          <?php if ($cover = $page->methodcover()->toFile()): ?>
             <?php echo $cover->webp('m-c br-3', $cover->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
       </div>
-      <div class="w-half flex-end m-w-66 s-w-100 s-mt-1 s-mb-2 as-c">
+      <div class="w-half flex-end m-w-66 s-w-100 s-mt-1 s-mb-2 as-c reveal-2">
       <p class="mono smaller uc pb-15 s-smallest">Metode</p>
   <h5 class="subheadline va-x m-heading s-subheading"><?= $page->methodheadline() ?></h5>
       <p class="body s-small">
@@ -74,7 +77,7 @@
   <h3 class="subheadline light va-x m-heading s-subheading">Trygge rammer.</h3>
   </div>
   <div class="w-50 s-w-100">
-  <p class="body light s-small">Grupperne foregår i vores hyggelige lejlighed på Vesterbro. Vi arbejder ikke så godt i et helt sterilt og klinisk miljø, så vi har forsøgt at gøre det lidt hjemligt.</p>
+  <p class="body light s-small">Sessionerne med dig og din partner foregår hjemme i vores hyggelige praksis – en stor og rummelig lejlighed i hjertet af Vesterbro. Sådan arbejder vi&nbsp;bedst.</p>
   </div>
 </div>
 </article>
@@ -140,7 +143,7 @@
         </h3>
       </label>
         <div class="c-purple pl-15 pr-15 s-p-0 pb-1 s-pb-1 s-small">
-          <?= $page->pricedetails()->kirbytext() ?>
+          <?= $page->coursedetails()->kirbytext() ?>
         </div>
       </div>
     </div>
@@ -163,24 +166,26 @@
 </div>
 </article>
 
-<article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(/media/Avilius-Parterapi-Test-pic.jpg);">
+<?php if ($portrait = $page->individuelsplashphoto()->toFile()): ?>
+<article class="w-100 h-80 bg-purple bg-cc bg-c s-card-60" style="background-image: url(<?= $portrait->backgroundImage() ?>);">
   <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pt-1 s-pb-2 c-white flex flex-wrap flex-sb">
-    <div class="w-33 m-w-half flex-end s-w-100">
+    <div class="w-33 m-w-half flex-end s-w-100 reveal">
       <a href="../individuelle-samtaler" title="Individuel terapi">
       <p class="mono smaller uc pb-15 s-smallest">Individuel terapi</p>
-      <h5 class="subheadline va-x m-heading s-subheading">Er din partner modvillig?</h5>
+      <h5 class="subheadline va-x m-heading s-subheading"><?= $page->individuelsplashheadline() ?></h5>
       <p class="body mb-1 s-small">
-      Dit behov er ikke nødvendigvis også din partners behov. Vi laver individuel terapi om stort og småt – også de allernæreste&nbsp;relationer.</p>
-      <p class="dash s-small">Individuel terapi&nbsp;&nbsp;&RightArrow;</p>
+      <?= $page->individuelsplashdescription()->widont() ?></p>
+      <p class="dash s-small"><?= $page->individuelsplashcta() ?>&nbsp;&nbsp;&RightArrow;</p>
     </a>
   </section>
 </article>
+<?php endif ?>
 
 <article class="w-100">
   <section class="h-66 s-card-33 w-full w-1400 m-c va-c flex flex-wrap">
   <div class="w-100 m-c pt-4 pb-4 s-p-1 s-pt-2 s-pb-2">
   <p class="body regular ta-c mb-15 s-small">
-    Det er så yndigt at følges ad.
+    Det første skridt er det sværeste.
   </p>
     <p class="body light ta-c s-small mb-1">
     Er I klar til at udforske parforholdet sammen?</p>

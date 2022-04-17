@@ -58,21 +58,10 @@ tabs:
         width: 1/4
       line-b:
         type: line
-      testimonials:
-        type: structure
-        fields:
-          quote:
-            label: Quote
-            type: text
-          author:
-            label: Who's it from?
-            type: textarea
-      line-c:
-        type: line
       foryou:
         label: Reasons to start therapy
         type: tags
-      line-d:
+      line-c:
         type: line
       roomsplash:
         type: headline

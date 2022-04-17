@@ -4,10 +4,9 @@ Title: Team
 
 Description:
 
-### Hej! Vi studerer alle psykologi på Københavns Universitet. Vi har derfor en god teoretisk forståelse af den menneskelige psyke, men er stadig under uddannelse. Vigtigst af alt, så er vi eksperter på, hvad det vil sige at være ung. 
+### I Avilius er der to ting, der binder os sammen. Den ene er, at vi allesammen læser psykologi på enten KU eller SDU. Derfor har vi en god teoretisk forståelse for den menneskelige psyke.
 
-
-### Vores mission er at forebygge mistrivsel, og det starter med, at vi tager tingene i opløbet. Derfor er vi åbensindede og nysgerrige efter at forstå dine behov, så vi kan hjælpe dig bedst muligt.
+### Den anden er, at vi allesammen er unge. Vi oplever derfor de samme udfordringer og ved præcis, hvordan det er at være ung i dag. Et ret godt udgangspunkt, hvis vi selv skal sige det.
 
 ----
 
@@ -15,17 +14,17 @@ Seotitle: Mød din nye samtalepartner
 
 ----
 
-Seodescription: Vi er et hold af kommende psykologer med kriblen efter at hjælpe unge. Vi fokuserer på at fange psykiske problemer i opløbet - som fx stress, før det bliver til depression. Hos os kan du tale om alt. Kom og sig hej!
+Seodescription: Vi er et hold af kommende psykologer på en mission om at hjælpe unge som os selv gennem individuel terapi, gruppeforløb og kæresteterapi.
 
 ----
 
-Seokeywords: terapeuter, psyke, Københavns Universitet, mistrivsel
+Seokeywords: terapeuter, psyke, Københavns Universitet, mistrivsel, psykologer, samtalepartner, psykologistuderende, billig terapi
 
 ----
 
 Seoimage:
 
-- michelle-second.jpg
+- avilius-team.jpg
 
 ----
 

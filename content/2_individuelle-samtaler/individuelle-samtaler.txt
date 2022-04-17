@@ -6,32 +6,40 @@ Heroslide:
 
 - 
   herophoto:
-    - avilius-tvivl.jpg
-  herotitle: Tankemylder i hovedet?
+    - avilius-fomo.jpg
+  herotitle: FOMO.
 - 
   herophoto:
-    - avilius-stress.jpg
-  herotitle: Stresset?
+    - avilius-relationer.jpg
+  herotitle: Svære relationer.
 - 
   herophoto:
-    - avilius-kaerlighed.jpg
-  herotitle: Ondt i hjertet?
+    - avilius-ondt-i-hjertet.jpg
+  herotitle: Ondt i hjertet.
+- 
+  herophoto:
+    - avilius-praestationspres.jpg
+  herotitle: Indre og ydre forventninger.
+- 
+  herophoto:
+    - avilius-hverdag.jpg
+  herotitle: Hamsterhjulet.
+- 
+  herophoto:
+    - avilius-fremtid.jpg
+  herotitle: Frygten for fremtiden.
 - 
   herophoto:
     - avilius-tankemylder.jpg
-  herotitle: Ekstra sårbar?
+  herotitle: Søvnløse nætter.
 - 
   herophoto:
-    - avilius-ensomhed.jpg
-  herotitle: Vred på verden?
-- 
-  herophoto:
-    - avilius-retningsloeshed.jpg
-  herotitle: Bekymret for planeten?
+    - avilius-seksualitet.jpg
+  herotitle: Utilpas i kroppen.
 
 ----
 
-Tagline: Vi vi gerne hjælpe.
+Tagline: Vi kender til det hele – og vil rigtigt gerne hjælpe.
 
 ----
 
@@ -39,31 +47,119 @@ Howto:
 
 - 
   howtoname: '1.  Skriv til os'
-  howtodescription: 'Skriv til os via <a href="" class="book-button underline" title="Skriv til os">formularen</a>. Så vender vi tilbage indenfor et par dage med nogle tider, der passer dig. Måske har du på forhånd gjort dig tanker om, hvem du gerne vil snakke med – hvis ikke, kan vi hjælpe dig med at finde et godt match. Lær os bedre at kende <a href="../team" class="underline" title="Team" target="_blank">her</a>.'
+  howtodescription: 'Lær os bedre at kende ved at besøge <a href="../team" class="underline" title="Team" target="_blank">vores profiler</a>. Her kan du booke en tid direkte. Er du i tvivl, så skriv til os via <a href="" class="book-button underline" title="Skriv til os">formularen</a>. Så vender vi tilbage indenfor et par dage med et godt match.'
 - 
-  howtoname: '2.  Vi mødes til din gratis forsamtale'
-  howtodescription: 'Vi lærer hinanden at kende og sporer os ind på, hvad du har lyst til at bruge forløbet til og hvad din målsætning er. Det kan være, at du allerede ved det – og hvis ikke, finder vi ud af det sammen.<br><br>Forsamtalen varer én time og foregår i vores lokale på <a href="https://goo.gl/maps/p1CovkiFJoBvUKZJ6"  class="underline" title="Avilius på Google Maps" target="_blank">Vesterbrogade 35</a>. Bor du ikke i byen, tilbyder vi også onlineforløb.'
+  howtoname: '2.  Kom til gratis forsamtale'
+  howtodescription: 'Til forsamtalen lærer vi hinanden at kende og sporer os ind på, hvad du har lyst til at bruge forløbet til. Det kan være, at du allerede ved det – og hvis ikke, finder vi ud af det sammen.<br><br>Forsamtalen varer én time og foregår i vores lokale på <a href="https://goo.gl/maps/p1CovkiFJoBvUKZJ6"  class="underline" title="Avilius på Google Maps" target="_blank">Vesterbrogade 35</a>. Bor du ikke i byen, tilbyder vi også onlineforløb.'
 - 
-  howtoname: 3. Vi planlægger dit forløb sammen
-  howtodescription: 'Sammen aftaler vi dit videre forløb, så det passer til dig og din hverdag. Vi hjælper dig med at nå din målsætning — om det er ugentligt, månedligt eller ved behov er helt op til dig.<br><br>Vi glæder os til at møde dig!'
+  howtoname: 3. Planlæg et forløb
+  howtodescription: 'Sammen aftaler vi dit videre forløb, så vi kan arbejde mod din målsætning på en måde, der passer ind i din hverdag — om det er ugentligt, månedligt eller ved behov er helt op til dig.<br><br>Vi glæder os til at møde dig!'
 
 ----
 
 Teamsplashphoto:
 
-- signe-lyngholm-avilius-4-team.jpg
+- signe-lyngholm-avilius-team.jpg
 
 ----
 
-Teamsplashheadline: 21 af de bedste.
+Teamsplashheadline: Mere end et studiejob.
 
 ----
 
-Teamsplashdescription: Vi er en gruppe psykologistuderende på én mission – at få mistrivslen blandt vores generation på ret kurs.
+Teamsplashdescription: Vi er et hold af psykologistuderende på en fælles mission: at gøre det sjovere og nemmere at være ung i dag.
 
 ----
 
 Teamsplashcta: Mød holdet
+
+----
+
+Foryou: Ensomhed, Tristhed, Mindreværd, Lavt selvværd, Minoritetsstress, Seksualitet, Hjertesorg, Lisvkriser, Tomhed, Skam, Tankemylder, Egenomsorg, Usikkerhed, Identitetskrise, Fremmedgørelse, Grænsesætning, Perfektioniske, Barndomstraumer, Rastløshed, Eksamensangst, Sorg
+
+----
+
+Roomsplashphoto:
+
+- avilius-space-2.jpg
+
+----
+
+Roomsplashheadline: Velkommen hjem.
+
+----
+
+Roomsplashdescription: Vi arbejder bedst i hyggelige og hjemlige omgivelser. Derfor har vi indrettet vores praksis i en stor og rummelig lejlighed i midten af byen.
+
+----
+
+Roomsplashcta: Book et besøg
+
+----
+
+Wages:
+
+Som samtalepartner i Avilius får man 140 kr. per session – også ved første samtale, som er gratis for dig som klient.
+
+I starten af 2022 fik vi økonomisk råderum til også at kunne tilbyde vores samtalepartnere betaling for 30 minutters forberedelse inden en session.
+
+Hver samtalepartner får derfor i alt 210 kr. per session.
+
+----
+
+Administration:
+
+Der er overraskende mange kedelige uforudsete udgifter ved at lave terapi IRL. Det er dyrt at bo på Vesterbro, så den største udgift er husleje.
+
+Dernæst kommer forsikringer og daglige driftsudgifter som internet, kaffe, rengøring, el, vand og varme.
+
+----
+
+Supervision:
+
+Gode råd er dyre. Én gang om ugen får vi besøg af erfarne eksterne psykologer, der hjælper os med sværere cases, nye problemstillinger og generel udvikling af vores kompetencer, så vi kan blive endnu dygtigere. Det kalder supervision.
+
+Vi sætter en ære i at tilsidesætte en stor del af budgettet til at få kvalificeret sparring – og det koster cirka 80 kroner per session.
+
+----
+
+Revenue: På en god måned tjener vi et lille overskud på de individuelle sessioner. Overskuddet giver os mulighed for at tilbyde reducerede priser på vores ydelser til minoritetsgrupper og institutioner,  der har brug for vores kompetencer. Det kan du læse meget mere om(link: https://www.avilius.dk/hvorfor/ text:  her).
+
+----
+
+Groupsplashphoto:
+
+- avilius-grupper.jpg
+
+----
+
+Groupsplashheadline: Mere til holdsport?
+
+----
+
+Groupsplashdescription: Studier viser, at gruppeterapi er endnu mere effektivt end individuel terapi. Vores grupper baserer sig på vores generations mest almene udfordringer.
+
+----
+
+Groupsplashcta: Kom med
+
+----
+
+Seotitle: SU-venlig terapi til unge, af unge
+
+----
+
+Seodescription: Vi er et hold af unge psykologistuderende, der tilbyder samtaleterapi til andre unge i København. Første samtale er altid gratis.
+
+----
+
+Seokeywords: individuel terapi, samtaleterapi, psykolog københavn, terapi københavn, terapi til unge
+
+----
+
+Seoimage:
+
+- trine-kissmeyer-avilius-3.jpg
 
 ----
 
@@ -104,77 +200,3 @@ Testimonials:
     mine omgivelser på. Forløbet har uden
     tvivl ændret mit liv.
   author: 'Tidligere klient om (link: ../team/tamara-hansen text: Tamara)'
-
-----
-
-Foryou: Ensomhed, Tristhed, Mindreværd, Lavt selvværd, Minoritetsstress, Seksualitet, Hjertesorg, Lisvkriser, Tomhed, Skam, Tankemylder, Egenomsorg, Usikkerhed, Identitetskrise, Fremmedgørelse, Grænsesætning, Perfektioniske, Barndomstraumer, Rastløshed, Eksamensangst, Sorg
-
-----
-
-Roomsplashphoto:
-
-- avilius-space-2.jpg
-
-----
-
-Roomsplashheadline: Kom indenfor.
-
-----
-
-Roomsplashdescription: Hos Avilius er du ikke en klient, men et menneske. Vi arbejder bedst i trygge, hjemlige omgivelser.
-
-----
-
-Roomsplashcta: Book et besøg
-
-----
-
-Wages: Over halvdelen af prisen per session går til din terapeut. Som terapeut i Avilius tjener man en timeløn på 140 kr. plus 70 kr. for 30 minutters forberedelse.
-
-----
-
-Administration: Alle de (overraskende mange!) udgifter forbundet ved terapien. Det er primært husleje, forsikringer og andre kedelige praktiske ting.
-
-----
-
-Supervision: For at sikre en høj faglig standard, har vi tilknyttet de bedste psykologer og terapeuter til at supervisere os. Det betyder, at de en gang om ugen kommer og hjælper os med sværere cases, generelle problemstillinger og udvikling af vores kompetencer.
-
-----
-
-Revenue: Afhængig af de andre udgifter er der ofte en lille smule overskud i hver samtale. Overskuddet bruger vi til at tilbyde vores ydelser til f.eks. udsatte minoritetsgrupper, skoler og andre institutioner. Læs mere om det her.
-
-----
-
-Groupsplashphoto:
-
-- avilius-ensomhed.jpg
-
-----
-
-Groupsplashheadline: Er du mere til holdsport?
-
-----
-
-Groupsplashdescription: Vi mener, at gruppeterapi er fremtiden for vores generation, så vi har udviklet gruppeforløb om de ting, vi gerne vil tale om.
-
-----
-
-Groupsplashcta: Mød dit nye hold
-
-----
-
-Seotitle: Individuel samtaleterapi
-
-----
-
-Seodescription: Det er så vigtigt, at du har det godt. Avilius tilbyder SU-venlige samtaler om dig og din mentale sundhed.
-
-----
-
-Seokeywords: 
-
-----
-
-Seoimage:
-
-- jonas-second.jpg

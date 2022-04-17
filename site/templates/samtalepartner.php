@@ -6,13 +6,13 @@
 <?php if ($cover = $page->secondportrait()->toFile()): ?>
 <article class="w-full m-c flex flex-sb s-flex-wrap mt-1 pb-2 s-pb-1">
   <section class="w-half s-w-100 card-80 m-card-60 s-card-80">
-    <div class="w-100 br-3 bg-cc bg-c card-80 m-card-60 s-card-80" style="background-image: url(<?= $cover->backgroundImage() ?>);"></div>
+    <div class="w-100 br-3 bg-cc bg-c card-80 m-card-60 s-card-80 reveal" style="background-image: url(<?= $cover->backgroundImage() ?>);"></div>
   </section>
   <section class="w-half s-w-100 card-80 m-card-60 s-h-0 flex flex-wrap flex-sb s-mt-1"><div class="flex-end">
-    <h1 class="subheadline-scale s-heading">
+    <h1 class="subheadline-scale s-heading reveal-2">
       <?= $page->title() ?>
     </h1>
-     <p class="smaller uc mono flex-end mt-15">
+     <p class="smaller uc mono flex-end mt-15 reveal-3">
     <?php if ($page->capacity()->toBool() == true): ?>
       <span class="blink">●</span>&nbsp;Ledige forløb
     <?php else: ?>
@@ -31,14 +31,14 @@
   <h3 class="subheadline c-purple light va-x m-heading s-subheading">Mød <?= $page->firstname() ?></h3>
   </div>
   <div class="w-66 mb-4 m-mb-2 s-w-100">
-  <p class="body light s-small"><?= $page->description() ?></p>
+  <p class="body light s-small"><?= $page->description()->kirbytext()->nl2br() ?></p>
 </div>
 </div>
 </article>
 
 <?php if ($page->video()->isNotEmpty()): ?>
 <article class="w-100 p-1 pt-4 pb-4 m-pt-2 m-pb-2 s-p-0 bt-grey bb-grey">
-  <section class="w-100 w-1400 m-w-full s-w-100 m-c">
+  <section class="w-100 w-1400 m-w-full s-w-100 m-c reveal">
     <?php if ($film = $page->video()->toFile()): ?>
       <div class="mute-video underline mb-15 ta-r mr-15 c-white s-small">&nbsp;<?= $page->firstname() ?></div>
       <video class="video-portrait w-100" id="vid" height="100%" width="100%" autoplay loop playsinline>
@@ -87,7 +87,7 @@ $(".mute-video").click(function () {
       </div>
       <div class="w-full m-c mt-1 pb-2 l-remove">
           <?php foreach ($page->experience()->split() as $category): ?>
-            <div class="d-ib small mono tag-pill p-5 pl-15 pr-15 bg-white c-purple mb-10 mr-10">
+            <div class="d-ib small mono tag-pill p-5 pl-15 pr-15 bg-white c-purple mb-10 mr-10 reveal">
                 <?= $category ?>
               </div>
           <?php endforeach ?>
@@ -95,19 +95,22 @@ $(".mute-video").click(function () {
 </article>
 
 <article class="w-100 h-80 bg-blue">
+  <a href="../individuelle-samtaler" title="Om Avilius" class="text-hover">
     <section class=" w-full w-1400 h-80 m-c pt-4 pb-3 s-pb-1 s-pt-1 c-purple flex flex-wrap flex-sb s-reverse">
-      <div class="w-third flex-end m-w-half s-w-100 s-mt-1">
-      <p class="mono smaller uc pb-15 s-smallest">Pris:</p>
-  <h5 class="subheadline va-x m-heading s-subheading">399 kroner.</h5>
+      <div class="w-third flex-end m-w-half s-w-100 s-mt-1 reveal">
+      <p class="mono smaller uc pb-15 s-smallest">SU-venlig terapi</p>
+  <h5 class="subheadline va-x m-heading s-subheading">399 kroner. Første samtale er&nbsp;gratis.</h5>
       <p class="body s-small">
-      Over halvdelen af prisen går direkte til <?= $page->firstname() ?>. Resten går til tiltag, der forebygger mistrivsel blandt andre unge.</p>
+      Når du går i terapi i Avilius, støtter du missionen om det gode ungdomsliv. Over halvdelen af prisen går direkte til <?= $page->firstname() ?>. Resten går til forebyggende tiltag til vores generations stigende mistrivsel.</p><br>
+      <p class="dash mb-1 s-small">Individuel terapi&nbsp;&nbsp;&RightArrow;</p>
     </div>
-      <div class="w-half m-w-third s-w-100 image-fill">
+      <div class="w-half m-w-third s-w-100 image-fill reveal-2">
           <?php if ($portrait = $page->thirdportrait()->toFile()): ?>
-            <?php echo $portrait->webp('m-c br-3', $portrait->alt(), [1920, 1140, 640, 320]); ?>
+            <?php echo $portrait->webp('m-c br-3 br-30', $portrait->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
       </div>
     </section>
+  </a>
 </article>
 
 <?php if ($page->testimonials()->isNotEmpty()): ?>
@@ -117,7 +120,7 @@ $(".mute-video").click(function () {
         <div class="m-c w-100 flex va-c">
           <div class="w-50 m-w-66 m-c mt-4 mb-4">
           <p class="uc mono smaller s-smallest mb-15"><?= $testimonial->author()->widont(); ?> hos <?= $page->firstname(); ?>:</p>
-            <p class="body m-c s-small"><?= $testimonial->quote()->widont(); ?></p>
+            <p class="body m-c s-small"><?= $testimonial->quote()->widont()->nl2br(); ?></p>
           </div>
         </div>
     <?php endforeach ?>
@@ -131,7 +134,7 @@ $(".mute-video").click(function () {
   <h3 class="subheadline c-purple light va-x m-heading s-subheading">Trygge rammer.</h3>
   </div>
   <div class="w-50 s-w-100">
-  <p class="body light s-small">Sessioner med <?= $page->firstname() ?> foregår i vores hyggelige lejlighed på Vesterbro. Vi arbejder ikke så godt i et helt sterilt og klinisk miljø, så vi har forsøgt at gøre det lidt hjemligt.</p>
+  <p class="body light s-small">Vi arbejder bedst i hyggelige og hjemlige omgivelser. Dine samtaler med <?= $page->firstname() ?> foregår i vores praksis – en stor og rummelig lejlighed i hjertet af Vesterbro.</p>
   </div>
 </div>
 </article>
@@ -197,7 +200,7 @@ $(".mute-video").click(function () {
         </h3>
       </label>
         <div class="c-purple pl-15 pr-15 s-p-0 pb-1 s-pb-1 s-small">
-          <?= $page->pricedetails()->kirbytext() ?>
+          <?= $page->coursedetails()->kirbytext() ?>
         </div>
       </div>
     </div>
@@ -210,7 +213,7 @@ $(".mute-video").click(function () {
           Adresse
         </h3>
         <h3 class="c-purple body s-small as-c">
-          <a href="https://goo.gl/maps/x3hbESf3KqudedoN7" title="Avilius på Google Maps" target="_blank">Vesterbrogade 35<span class="s-remove">, København</span></a>&nbsp;&nbsp;&RightArrow;
+          <a href="https://goo.gl/maps/x3hbESf3KqudedoN7" title="Avilius på Google Maps" target="_blank"><span class="dash">Vesterbrogade 35<span class="s-remove">, København</span>&nbsp;&nbsp;&RightArrow;</a></span>
         </h3>
         </label>
       </div>
@@ -222,17 +225,17 @@ $(".mute-video").click(function () {
 
 <article class="w-100 pt-3 pb-4 s-pt-2 s-pb-2 bb-grey">
   <section class="w-full w-1400 m-c flex s-flex-wrap flex-sb s-reverse">  
-    <div class="w-33 m-w-66 s-w-100 as-c pt-4 pb-4 s-p-1 s-pt-2 s-pb-2 s-ta-c">
+    <div class="w-33 m-w-66 s-w-100 as-c pt-4 pb-4 s-p-1 s-pt-2 s-pb-2 s-ta-c reveal">
       <p class="body regular mb-15 s-small">
         Klar på en uforpligtende snak med&nbsp;<?= $page->firstname() ?>?</p>
-      <p class="body s-small mb-1">Kontakt os her! Så vender vi tilbage hurtigst&nbsp;muligt.</p>
+      <p class="body s-small mb-1">Du er lige her. På vejen mod at få det bedre. Kontakt os her, så vender vi tilbage hurtigst&nbsp;muligt.</p>
       <div class="">
         <button class="book-button c-purple h-60 br-10 br-30 m-c mr-15 bg-lpurple mono small s-smaller pl-1 pr-1 mb-15">Skriv til os</button>
         <button class="call-button c-purple h-60 br-10 br-30 m-c s-m-0 bg-white mono small s-smaller pl-1 pr-1">Book et opkald ☎️</button>
   </div>
   </div>
-  <div class="w-33 as-c s-w-100 mb-2 image-fill">
-          <?php if ($portrait = $page->thirdportrait()->toFile()): ?>
+  <div class="w-33 as-c s-w-100 mb-2 image-fill reveal-2">
+          <?php if ($portrait = $page->portrait()->toFile()): ?>
             <?php echo $portrait->webp('m-c br-3', $portrait->alt(), [1920, 1140, 640, 320]); ?>
           <?php endif ?>
       </div>

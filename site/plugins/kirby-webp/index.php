@@ -56,7 +56,7 @@ Kirby::plugin('mrfd/webp', [
     'options' => [
         'autoconvert' => false,
         'convert' => [
-            'options' => [],
+            'options' => ['encoding' => 'auto', 'quality' => 95],
         ],
     ]
 ]);

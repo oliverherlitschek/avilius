@@ -10,11 +10,27 @@ Email: michelle@avilius.dk
 
 ----
 
-Lastbooked: 4
+Capacity: false
 
 ----
 
-Capacity: 0
+Price: 399 kr. – inkl. gratis forsamtale
+
+----
+
+Pricedetails: En individuel session i Avilius koster 399 kr. per session. Den første samtale er gratis, så du helt uforpligtende kan mærke efter, om du har lyst til at starte i et forløb.
+
+----
+
+Length: 60 minutter
+
+----
+
+Course: Så længe du vil!
+
+----
+
+Coursedetails: Alle forløb er forskellige. Nogle har behov for 5-10 opklarende samtaler, mens andre bruger deres terapeutiske rum ligesom et fitnesscenter – et sted, man kan tage hen en gang i mellem og styrke sit mentale helbred.
 
 ----
 
@@ -124,3 +140,7 @@ Seokeywords: medmenneskelighed, rummelighed, behov, værdier
 Seoimage:
 
 - michelle-second.jpg
+
+----
+
+Lastbooked: 4

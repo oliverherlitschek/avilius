@@ -18,7 +18,7 @@ Price: 399 kr. – inkl. gratis forsamtale
 
 ----
 
-Pricedetails: En individuel session i Avilius koster 399 kr. – men første samtale er gratis. På den måde kan vi sikre os, at du er tilfreds med alting, inden vi for alvor går i gang med dit forløb.
+Pricedetails: En individuel session i Avilius koster 399 kr. per session. Den første samtale er gratis, så du helt uforpligtende kan mærke efter, om du har lyst til at starte i et forløb.
 
 ----
 
@@ -30,7 +30,7 @@ Course: Så længe du vil!
 
 ----
 
-Coursedetails: Alle forløb er forskellige. Nogle har behov for et par enkelte opklarende samtaler, mens andre bruger deres terapeutiske rum ligesom et fitnesscenter – et sted, man kan tage hen en gang i mellem og styrke sit mentale helbred.
+Coursedetails: Alle forløb er forskellige. Nogle har behov for 5-10 opklarende samtaler, mens andre bruger deres terapeutiske rum ligesom et fitnesscenter – et sted, man kan tage hen en gang i mellem og styrke sit mentale helbred.
 
 ----
 
@@ -42,7 +42,7 @@ Video:
 
 Portrait:
 
-- cecilie-larsen-avilius-3.jpg
+- cecilie-larsen-avilius-9.jpg
 
 ----
 
@@ -54,7 +54,7 @@ Secondportrait:
 
 Thirdportrait:
 
-- cecilie-larsen-avilius-8.jpg
+- cecilie-larsen-avilius-4.jpg
 
 ----
 
@@ -69,6 +69,27 @@ Testimonials:
     Intet dårligt at sige om Cecilie. Mit
     forløb var over al forventning.
   author: Tidligere klient
+- 
+  quote: |
+    Jeg har kun gode ting at sige om mit forløb med Cecilie. Jeg fik en støtte og mulighed for at snakke om de ting, som jeg synes, jeg ikke kunne fortælle andre.
+    
+    Det var en kæmpe hjælp for mig, at have en der lyttede til mig uden at dømme mig i en periode, hvor jeg havde det rigtig svært. Til slut i forløbet fik jeg også konkrete værktøjer, som jeg kan bruge efterfølgende, samt et åbent tilbud om at vende tilbage, hvis der bliver behov for det.
+  author: Tidligere klient
+- 
+  quote: >
+    Det har været et meget trygt rum at
+    træde ind i uge efter uge. Terapien har
+    sat mine refleksioner i perspektiv og
+    lært mig at forstå, hvor jeg gerne vil
+    hen, og hvorfor jeg tænker som jeg gør
+    uden at dømme mig.
+  author: Tidligere klient
+- 
+  quote: |
+    Jeg har følt mig meget set og hørt gennem mit forløb med Cecilie. Hun har været god til at stille de rigtige spørgsmål og derved også få mig selv til at se anderledes på situationer. Jeg har fået værktøjer som har været brugbare ude i virkelige situationer.
+    
+    Vil nok mere anbefale Avilius frem for specifikt Cecilie, da jeg tænker at man kommer med forskellige problematikker.
+  author: Tidligere klient
 
 ----
 
@@ -82,19 +103,21 @@ At være ung indebærer, at tingene ikke altid går, som vi forventer eller håb
 
 ----
 
-Seotitle: Mød Cecilie - en af vores nye terapeuter
+Seotitle: Mød Cecilie – samtalepartner i Avilius
 
 ----
 
-Seodescription: Jeg ønsker, at du skal kunne genkende dig selv hele vejen igennem, så vi sammen kan finde ud af, hvad der har værdi for dig.
+Seodescription: At være ung indebærer, at tingene ikke altid går, som vi forventer eller håber. Jeg er selv midt i ungdommens rutsjebanetur og vil med afsæt i en nysgerrig og empatisk tilgang hjælpe dig med at finde de svar, der kan få dig tilbage på sporet igen.
 
 ----
 
-Seokeywords: ung, sparring, empatisk, retning
+Seokeywords: ung terapi, ensomhed, perfektionisme, præstationspres, billig terapi
 
 ----
 
-Seoimage: 
+Seoimage:
+
+- cecilie-larsen-avilius-10.jpg
 
 ----
 

@@ -101,26 +101,10 @@ tabs:
         label: Other information
         type: headline
       dates:
-        label: Dates
-        type: structure
+        label: Startdate
+        type: text
         width: 1/2
-        fields:
-          introdate:
-            label: Start date of next group
-            type: text
-            placeholder: 24. maj 2028
-            width: 1/2
-          introtime:
-            label: Start time of next group
-            type: text
-            placeholder: 18 — 20
-            default: 18 — 20
-            width: 1/2
-          remainingdates:
-            label: All dates of group
-            type: textarea
-            placeholder: Separate dates by line break
-
+        placeholder: '2. februar 2022'
       spots:
         label: Spots
         type: radio
@@ -161,6 +145,16 @@ tabs:
             infotext:
               label: Text
               type: textarea
+      ctaphoto:
+        label: Image for bottom CTA area
+        type: files
+        multiple: false
+        width: 1/2
+        layout: cards
+        size: tiny
+        image:
+          ratio: 16/9
+          cover: true
   meta:
     type: fields
     fields:
